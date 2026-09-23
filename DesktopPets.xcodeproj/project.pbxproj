@@ -1,0 +1,92 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+
+/* Begin PBXBuildFile section */
+        B00000000000000000000001 = {isa = PBXBuildFile; fileRef = F00000000000000000000001; };
+        B00000000000000000000002 = {isa = PBXBuildFile; fileRef = F00000000000000000000002; };
+        B00000000000000000000003 = {isa = PBXBuildFile; fileRef = F00000000000000000000003; };
+        B00000000000000000000004 = {isa = PBXBuildFile; fileRef = F00000000000000000000004; };
+        B00000000000000000000005 = {isa = PBXBuildFile; fileRef = F00000000000000000000005; };
+        B00000000000000000000006 = {isa = PBXBuildFile; fileRef = F00000000000000000000006; };
+        B00000000000000000000007 = {isa = PBXBuildFile; fileRef = F00000000000000000000007; };
+        B00000000000000000000008 = {isa = PBXBuildFile; fileRef = F00000000000000000000008; };
+        B00000000000000000000009 = {isa = PBXBuildFile; fileRef = F00000000000000000000009; };
+        B0000000000000000000000A = {isa = PBXBuildFile; fileRef = F0000000000000000000000D; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+        D00000000000000000000001 = {isa = PBXContainerItemProxy; containerPortal = P00000000000000000000001; proxyType = 1; remoteGlobalIDString = A00000000000000000000001; remoteInfo = DesktopPets; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+        F00000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Behavior.swift; sourceTree = "<group>"; };
+        F00000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopPetsApp.swift; sourceTree = "<group>"; };
+        F00000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerView.swift; sourceTree = "<group>"; };
+        F00000000000000000000004 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+        F00000000000000000000005 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
+        F00000000000000000000006 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformPreferences.swift; sourceTree = "<group>"; };
+        F00000000000000000000007 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+        F00000000000000000000008 = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+        F00000000000000000000009 = {isa = PBXFileReference; lastKnownFileType = text.markdown; path = THIRD_PARTY_NOTICES.md; sourceTree = "<group>"; };
+        F0000000000000000000000A = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        F0000000000000000000000B = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesktopPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        F0000000000000000000000C = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesktopPetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        F0000000000000000000000D = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        E00000000000000000000001 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        E00000000000000000000002 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        G00000000000000000000001 = {isa = PBXGroup; children = (G00000000000000000000002, G00000000000000000000003, G00000000000000000000004, F00000000000000000000008, F00000000000000000000009, G00000000000000000000005); sourceTree = "<group>"; };
+        G00000000000000000000002 = {isa = PBXGroup; children = (F00000000000000000000001, F00000000000000000000002, F00000000000000000000003, F00000000000000000000004, F00000000000000000000005, F00000000000000000000006); name = DesktopPets; path = Sources/DesktopPets; sourceTree = "<group>"; };
+        G00000000000000000000003 = {isa = PBXGroup; children = (F00000000000000000000007); name = DesktopPetsTests; path = Tests/DesktopPetsTests; sourceTree = "<group>"; };
+        G00000000000000000000004 = {isa = PBXGroup; children = (F0000000000000000000000A, F0000000000000000000000D); name = Config; path = Config; sourceTree = "<group>"; };
+        G00000000000000000000005 = {isa = PBXGroup; children = (F0000000000000000000000B, F0000000000000000000000C); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        A00000000000000000000001 = {isa = PBXNativeTarget; buildConfigurationList = L00000000000000000000002; buildPhases = (S00000000000000000000001, E00000000000000000000001, R00000000000000000000001); buildRules = (); dependencies = (); name = DesktopPets; productName = DesktopPets; productReference = F0000000000000000000000B; productType = "com.apple.product-type.application"; };
+        A00000000000000000000002 = {isa = PBXNativeTarget; buildConfigurationList = L00000000000000000000003; buildPhases = (S00000000000000000000002, E00000000000000000000002); buildRules = (); dependencies = (D00000000000000000000002); name = DesktopPetsTests; productName = DesktopPetsTests; productReference = F0000000000000000000000C; productType = "com.apple.product-type.bundle.unit-test"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        P00000000000000000000001 = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 2660; TargetAttributes = {A00000000000000000000001 = {CreatedOnToolsVersion = 26.6; }; A00000000000000000000002 = {CreatedOnToolsVersion = 26.6; TestTargetID = A00000000000000000000001; }; }; }; buildConfigurationList = L00000000000000000000001; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = G00000000000000000000001; productRefGroup = G00000000000000000000005; projectDirPath = ""; projectRoot = ""; targets = (A00000000000000000000001, A00000000000000000000002); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        R00000000000000000000001 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (B00000000000000000000008, B00000000000000000000009, B0000000000000000000000A); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        S00000000000000000000001 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B00000000000000000000001, B00000000000000000000002, B00000000000000000000003, B00000000000000000000004, B00000000000000000000005, B00000000000000000000006); runOnlyForDeploymentPostprocessing = 0; };
+        S00000000000000000000002 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B00000000000000000000007); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+        D00000000000000000000002 = {isa = PBXTargetDependency; target = A00000000000000000000001; targetProxy = D00000000000000000000001; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+        C00000000000000000000001 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Debug; };
+        C00000000000000000000002 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Release; };
+        C00000000000000000000003 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; ENABLE_TESTABILITY = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Config/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = dev.dylanxu.DesktopPets; PRODUCT_MODULE_NAME = DesktopPets; PRODUCT_NAME = DesktopPets; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_VERSION = 5.0; }; name = Debug; };
+        C00000000000000000000004 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Config/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = dev.dylanxu.DesktopPets; PRODUCT_MODULE_NAME = DesktopPets; PRODUCT_NAME = DesktopPets; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_VERSION = 5.0; }; name = Release; };
+        C00000000000000000000005 = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = dev.dylanxu.DesktopPetsTests; PRODUCT_NAME = DesktopPetsTests; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesktopPets.app/Contents/MacOS/DesktopPets"; }; name = Debug; };
+        C00000000000000000000006 = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = dev.dylanxu.DesktopPetsTests; PRODUCT_NAME = DesktopPetsTests; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesktopPets.app/Contents/MacOS/DesktopPets"; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        L00000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (C00000000000000000000001, C00000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+        L00000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (C00000000000000000000003, C00000000000000000000004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+        L00000000000000000000003 = {isa = XCConfigurationList; buildConfigurations = (C00000000000000000000005, C00000000000000000000006); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+/* End XCConfigurationList section */
+    };
+    rootObject = P00000000000000000000001;
+}

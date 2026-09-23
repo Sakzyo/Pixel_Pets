@@ -1,0 +1,17 @@
+Horse artwork: Onfe
+https://onfe.itch.io/horse-sprite-with-rider-asset-pack
+
+Onfe's published custom permission, checked 2026-09-24:
+Personal and commercial project use and sprite edits are permitted with credit.
+The author also clarifies in the page's comments that GIFs may be shared in
+project repositories; the original downloadable sprite sheets may not.
+This project includes GIF animations, not the original asset-pack sheets.
+
+GIF adaptations: Chris Kent, for VS Code Pets
+https://github.com/thechriskent
+Source: https://github.com/tonybaloney/vscode-pets
+Commit: 2c91214beb922288cca1938cddb607abc5f806b7
+
+GIF bytes are unchanged. Each *_stand_8fps.gif is also bundled under the
+corresponding *_lie_8fps.gif filename for a natural standing-rest pose.
+See Assets/manifest.json for the original URL and checksum of every file.

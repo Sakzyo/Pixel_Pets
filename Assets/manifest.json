@@ -1,0 +1,1687 @@
+{
+  "referenceExtension": "https://github.com/nguyenv119/pets/tree/da09dab583ef8b8bb83f160eaa81ebef228ee270",
+  "upstreamSprites": "https://github.com/tonybaloney/vscode-pets/tree/2c91214beb922288cca1938cddb607abc5f806b7",
+  "catalogVariants": 35,
+  "files": [
+    {
+      "path": "Assets/chicken/brown_idle_8fps.gif",
+      "sha256": "7670c8d6fe6a950164ef4bedbe1dba34a3acb6898e821ba325665e108de86639",
+      "source": "Artwork/chicken.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/chicken/brown_lie_8fps.gif",
+      "sha256": "63ca5cc536665e4a717dd0d023ce5b9019287f05dfaf4a0c3f1d230acfc2b61e",
+      "source": "Artwork/chicken.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/chicken/brown_run_8fps.gif",
+      "sha256": "3d332864919c5435ad593514d9c89571a827ff82b5edd5e8e4f480f7a53afe1c",
+      "source": "Artwork/chicken.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/chicken/brown_swipe_8fps.gif",
+      "sha256": "fe5aa7c0275e1d95bb75856377ed8e959d08c3753fa1185608f001b80b5b4572",
+      "source": "Artwork/chicken.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/chicken/brown_walk_8fps.gif",
+      "sha256": "4f3cf28ac68aaf1bee0b9c0eb16054cd8f780a7c867e223db6605629270dc066",
+      "source": "Artwork/chicken.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/chicken/brown_with_ball_8fps.gif",
+      "sha256": "dd34f4fc9114e26216859debb83981401136e9e273e2c882ea7705f31b16ab83",
+      "source": "Artwork/chicken.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/chicken/white_idle_8fps.gif",
+      "sha256": "bba344c55e320cc81e0e7e01c772243212f82f008fd65a99dd81657dce89730b",
+      "source": "Artwork/chicken.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/chicken/white_lie_8fps.gif",
+      "sha256": "a92ce5ddd1644ba1f6f329414bbf4b76d990367e82c292f2aa9cb2cb14861b8b",
+      "source": "Artwork/chicken.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/chicken/white_run_8fps.gif",
+      "sha256": "3840dd59f20fadf98fc9ebdeca69e0cb9faa857db649e25bfe179d121e777fe1",
+      "source": "Artwork/chicken.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/chicken/white_swipe_8fps.gif",
+      "sha256": "d6a9b8ba230eb84014eb02b782f4626e1bcef8be8f606d2bd248a190578623e1",
+      "source": "Artwork/chicken.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/chicken/white_walk_8fps.gif",
+      "sha256": "b84f044c4cbdc1812928a944d09a9263cd57618e2ecad1e140e0d0b09515b9ea",
+      "source": "Artwork/chicken.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/chicken/white_with_ball_8fps.gif",
+      "sha256": "ec939d75363c92e781fe80c20cd520c5c135045fcddc087c4444bc61288b573d",
+      "source": "Artwork/chicken.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cockatiel/brown_idle_8fps.gif",
+      "sha256": "e8313b1ad3919df2a4c9479a1251683294fa07ba95c14047a949604fc539066a",
+      "source": "Artwork/cockatiel.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cockatiel/brown_lie_8fps.gif",
+      "sha256": "f6348fed1d048840c047922c940ccbce7da8db7bbb8f1bd118049103ef366f84",
+      "source": "Artwork/cockatiel.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cockatiel/brown_run_8fps.gif",
+      "sha256": "366f4dac508be27da805108d07953785e6ec2d9469d7f73721f2df0415f52887",
+      "source": "Artwork/cockatiel.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cockatiel/brown_swipe_8fps.gif",
+      "sha256": "2d33bcbefc3c0893948af77d7a1c4ee8fcf354cdb982a5a9bb3becdd61b96c1d",
+      "source": "Artwork/cockatiel.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cockatiel/brown_walk_8fps.gif",
+      "sha256": "be5bb98f2565f5e3d5c68485a42611ad23f3111d640f1d1e0653f5cd2bdf9b37",
+      "source": "Artwork/cockatiel.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cockatiel/brown_with_ball_8fps.gif",
+      "sha256": "9e8dad09046d59a9b3dcc568c0eeec64f43e9ed1024f2fab0465f95ff1bf0cc5",
+      "source": "Artwork/cockatiel.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cockatiel/gray_idle_8fps.gif",
+      "sha256": "9a5e84927692d995e7def55ec8f53d2ba6d5fd5379a30c7de3910f474b646021",
+      "source": "Artwork/cockatiel.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cockatiel/gray_lie_8fps.gif",
+      "sha256": "5f2d348e179a68e3f567bcf238b3d76b30f44308463e93ffb46aa12467971acc",
+      "source": "Artwork/cockatiel.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cockatiel/gray_run_8fps.gif",
+      "sha256": "68d17558d091ca2fa71c989d3cd8898c0bbc1b86c1dfed424169accdb7246150",
+      "source": "Artwork/cockatiel.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cockatiel/gray_swipe_8fps.gif",
+      "sha256": "eaaa63289c92f403c55c3ed09d8a23cca819c024b1bea0c69668ea8c2bee3b22",
+      "source": "Artwork/cockatiel.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cockatiel/gray_walk_8fps.gif",
+      "sha256": "1df33b2e41fbbd1d246bea68052ee0816a7e4a7b7c34c79bdd874f9815abd059",
+      "source": "Artwork/cockatiel.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cockatiel/gray_with_ball_8fps.gif",
+      "sha256": "b2e9e67d6d80d51dec236c4319fb6be3877e2f4251b15a6bc4ddebc3337cda14",
+      "source": "Artwork/cockatiel.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/crab/red_idle_8fps.gif",
+      "sha256": "c68aeb6cbb30ebfae99b0138778669ef4c46daec7fd80dc7a1cf53c25fe102f6",
+      "source": "Artwork/crab.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/crab/red_lie_8fps.gif",
+      "sha256": "d8a236129e5177813d7a288eb42369ff49ca4fa6441305d7bcafb16a5cb8c091",
+      "source": "Artwork/crab.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/crab/red_run_8fps.gif",
+      "sha256": "5d2ebde852883bb5e381583fd0cdc796a2475e403bdd231534f8899335516d84",
+      "source": "Artwork/crab.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/crab/red_swipe_8fps.gif",
+      "sha256": "fb3ec03bf63ad8cbbbca662d9729b1ae05744090ae104074b1d1a7b0fc57dec4",
+      "source": "Artwork/crab.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/crab/red_walk_8fps.gif",
+      "sha256": "681deb5c159ad0a4141951ef59b4137d21b873cc13cc82b3ec5d5faed6ed3292",
+      "source": "Artwork/crab.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/crab/red_with_ball_8fps.gif",
+      "sha256": "7a8a876265dc01f774a14d06a9a3fa61414d219bcafcc78322e248793754900c",
+      "source": "Artwork/crab.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/dog/akita_idle_8fps.gif",
+      "sha256": "8a2fbd794b8341e165b238724b8a44dda22ac423313c9fb807652f099bb6d76a",
+      "source": "Artwork/akita.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/dog/akita_lie_8fps.gif",
+      "sha256": "18803888bf1dbf1aeaa3f944d4a7f4ec56be4862fa38731702d28200a5172ce0",
+      "source": "Artwork/akita.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/dog/akita_run_8fps.gif",
+      "sha256": "8ca924571a60db491001a17ba8b02306d2add3f054b7f7e4288a31fd5cad214c",
+      "source": "Artwork/akita.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/dog/akita_swipe_8fps.gif",
+      "sha256": "d0ef49c705111fcde4371c373cf8d1e1bb74f51dc3a89a7dd3f8b26b367c47b2",
+      "source": "Artwork/akita.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/dog/akita_walk_8fps.gif",
+      "sha256": "9abf445dcba78634d646c9074b5dd1659fc564aee7b1fa9ccbd6518a6cf6a1a0",
+      "source": "Artwork/akita.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/dog/akita_with_ball_8fps.gif",
+      "sha256": "871574482d33fe0ad7a54d2787f8a776201d6e3196780e909d6fe3fbbbffb76b",
+      "source": "Artwork/akita.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/dog/black_idle_8fps.gif",
+      "sha256": "d39bd1c64e329a156f710f16a29a8b3b05f835679049a9391f5e2f27b86c9133",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/black_idle_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/black_lie_8fps.gif",
+      "sha256": "8fd7107187401c987bec5431c5d57bfe63c995fce4492e91e31306179cbd462b",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/black_lie_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/black_run_8fps.gif",
+      "sha256": "6c2fd14a461a4a69dc0ef03fa1841e0f2c11b689566a71557ae13cabfe2c2846",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/black_run_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/black_swipe_8fps.gif",
+      "sha256": "04f9435fa9fd415fae10ff56f78c7070c71a20ae473614be86c1f25498888a1b",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/black_swipe_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/black_walk_8fps.gif",
+      "sha256": "b699c139db9b42f97495c0389b109431b9642010d181445bd514054c0da578f3",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/black_walk_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/black_with_ball_8fps.gif",
+      "sha256": "d9f0481f027ee671639cccdf8fe4e56d74d2ae94650723369dbe206e5560bc60",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/black_with_ball_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/brown_idle_8fps.gif",
+      "sha256": "1d4d9d8c6f087099391c2be6e944f5928f050313fdb3df700e45cb877e939fc9",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/brown_idle_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/brown_lie_8fps.gif",
+      "sha256": "f3922d684fe0d7958a149fba9b4b500f0f666cf183b35e1112ea7c8ee82d63fa",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/brown_lie_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/brown_run_8fps.gif",
+      "sha256": "79e516dce91ed77fe5416f4760fd0477b9cfd996dd12ffb708e2421e471821cc",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/brown_run_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/brown_swipe_8fps.gif",
+      "sha256": "1fec172407b254cfa7524044e69d3f072f547ad957c0da8d8f3046b16f4691a6",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/brown_swipe_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/brown_walk_8fps.gif",
+      "sha256": "58e5964ca5bcc84741262165f1b51089a632b00a96d8854a975af65f5d2eee7f",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/brown_walk_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/brown_with_ball_8fps.gif",
+      "sha256": "9a7139240c85b7cccc1dfc330dd664cad3e2eb7c212e48c361a886de196ad2df",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/brown_with_ball_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/red_idle_8fps.gif",
+      "sha256": "e969a203c272c700ae1a36fbed14008a77bc4de481e53afba96d6f711663dbe9",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/red_idle_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/red_lie_8fps.gif",
+      "sha256": "3479ed676b63b5920b8bbe2dba708f38513cd4461b036a2e8c10dc78fe7ae2ed",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/red_lie_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/red_run_8fps.gif",
+      "sha256": "5ea8acc000bc52c9ed20a3064db1179b0b678109e7ac38e6e2d42480180ec70a",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/red_run_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/red_swipe_8fps.gif",
+      "sha256": "38628f37d044501afb14bc3059a399bcd5afebe54d272f6ed6cff8c69c8509c7",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/red_swipe_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/red_walk_8fps.gif",
+      "sha256": "629e5d7dcf1962af01ee8813e4cb1c949462ea1ad1667e4e32b5e624df11bdd2",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/red_walk_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/red_with_ball_8fps.gif",
+      "sha256": "f52106a12d310932d752232f7599920db572a05567c3ede814790077536dc326",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/red_with_ball_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/white_idle_8fps.gif",
+      "sha256": "130abbca341ffc9ec108703a96a1ef4e768bb67ada230a3f18cdf82626b7fca6",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/white_idle_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/white_lie_8fps.gif",
+      "sha256": "5a7b8f3acbcdc60e0d62168e29530b49667f84051fef697510448fe632969b54",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/white_lie_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/white_run_8fps.gif",
+      "sha256": "7b62e8f5c80904360b4eb4435e1527cdf856cef56348f7809138c9a386b77bd3",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/white_run_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/white_swipe_8fps.gif",
+      "sha256": "7c722a4362172f63466647e03a2dabef7f1d9923adeba0ea298dd1e24708c2f0",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/white_swipe_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/white_walk_8fps.gif",
+      "sha256": "5d5693eb8d4dfe48718cfced954c183e2a197e55321792c533be02f09bb756cb",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/white_walk_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/dog/white_with_ball_8fps.gif",
+      "sha256": "0261ed285de815ce8b0f5693d4561529877583b9dc95bd93eda67153c1a02fd6",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/white_with_ball_8fps.gif",
+      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
+      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
+      "modifications": "None; original GIF bytes copied verbatim"
+    },
+    {
+      "path": "Assets/forest_sprite/blue_idle_8fps.gif",
+      "sha256": "87415062bf6aedb8eb7aa53e37c9670ca1b073d2d73bef23fe377019fabd173a",
+      "source": "Artwork/forest_sprite.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/forest_sprite/blue_lie_8fps.gif",
+      "sha256": "dfd499fe2861ad73a209033181d7b9b07355e878b11612069b0906480d9a92a0",
+      "source": "Artwork/forest_sprite.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/forest_sprite/blue_run_8fps.gif",
+      "sha256": "e6b57c8cc3097c5ed2e3307a5aae83c48d3df07e53b56e7f0f58aabe4ce36dc1",
+      "source": "Artwork/forest_sprite.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/forest_sprite/blue_swipe_8fps.gif",
+      "sha256": "1b5164655dd4837fd23395483164aee845633c4fb33feb6979faf780d2a0ff01",
+      "source": "Artwork/forest_sprite.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/forest_sprite/blue_walk_8fps.gif",
+      "sha256": "64aff1c4a2490cc23eca9c93ed174cd5c314173ee99acabbaddbd727bedff092",
+      "source": "Artwork/forest_sprite.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/forest_sprite/blue_with_ball_8fps.gif",
+      "sha256": "c9400e7e1787556dca01e81b14fb02744c467f87066bff2e2e1feecfa3548d49",
+      "source": "Artwork/forest_sprite.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/fox/red_idle_8fps.gif",
+      "sha256": "408f70885cc2d5085c46f0f45bf94df3ff6a68ea7a778d429a69e0a37c9406a5",
+      "source": "Artwork/fox.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/fox/red_lie_8fps.gif",
+      "sha256": "94ebf65293a423c28ed00e2ec060045d7b955c7bad579366c627038f7e07612a",
+      "source": "Artwork/fox.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/fox/red_run_8fps.gif",
+      "sha256": "f168587022c94fc04dbe8abea5c0275126b662cde1d853bd1a76006babefbf2d",
+      "source": "Artwork/fox.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/fox/red_swipe_8fps.gif",
+      "sha256": "00b279c76ca5e4d3218ce9e5b95f6ffa269e1b06acb0946643ae1fc26a101b77",
+      "source": "Artwork/fox.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/fox/red_walk_8fps.gif",
+      "sha256": "0daf582e673275586409ec07a16de41a48979cd344762ed8aa7734b1bd02e54a",
+      "source": "Artwork/fox.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/fox/red_with_ball_8fps.gif",
+      "sha256": "b8c1a7006fbde05afba25e94e4f4f676ed76f89f3cd2d57ecbd6d58c16f0aa0e",
+      "source": "Artwork/fox.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/fox/white_idle_8fps.gif",
+      "sha256": "be1fff21a57c4d065a572ca647ac7821f305773972d2ca05967a706d1969f889",
+      "source": "Artwork/fox.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/fox/white_lie_8fps.gif",
+      "sha256": "9cb525c6b1fbf8f14d7e800a66395bb679b8ffc69c1327818bc66d161c3f483a",
+      "source": "Artwork/fox.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/fox/white_run_8fps.gif",
+      "sha256": "0e80f3c8e0b6b7957aca4fc6666421e97b86d7fecd0cef736ed10a5eb99aff1c",
+      "source": "Artwork/fox.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/fox/white_swipe_8fps.gif",
+      "sha256": "04c590b4bb9c0b8621353beb1f69b8b691f3f8cd7ae222cf07540e4108db946d",
+      "source": "Artwork/fox.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/fox/white_walk_8fps.gif",
+      "sha256": "4215ebc2bea4bf97d9fff605b4b871b75cc49b9eb615428286c653c7f93e0401",
+      "source": "Artwork/fox.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/fox/white_with_ball_8fps.gif",
+      "sha256": "0f0d437c3c7b2f52f00f44f310d9421fd2899e8abee6709470088311f13cfa1e",
+      "source": "Artwork/fox.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/horse/black_idle_8fps.gif",
+      "sha256": "a61c96de58229c9a20e476c9f659c7c1aba6e15d83328b563202458d03249586",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/black_idle_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/black_lie_8fps.gif",
+      "sha256": "0064ebacae2d9900e9b1d2fd945a0f177ab5b4c7add9408a20282822122c6194",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/black_stand_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/black_run_8fps.gif",
+      "sha256": "0979bc891b7e5e2bd090a35a07fb944cb70d6d24529a400a2808d87d0cfe0ca3",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/black_run_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/black_swipe_8fps.gif",
+      "sha256": "a358fdd0219b1520f59bd453526962cef650b05a1f669ad3f12edb399c459aef",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/black_swipe_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/black_walk_8fps.gif",
+      "sha256": "e64d8e7ce18d57156e4f698a3c2143d6f07bcd520c9cdd03484a27aa444b7703",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/black_walk_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/black_with_ball_8fps.gif",
+      "sha256": "a47650f42d188404554d84bd56d5fce688dc89b05e0fe3e951fee5ba6879f292",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/black_with_ball_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/brown_idle_8fps.gif",
+      "sha256": "01d98e9f4a99aae95074bfd2bee603574d282a46f299c79e17e77c9e92c13069",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/brown_idle_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/brown_lie_8fps.gif",
+      "sha256": "cbee71c83588603386b6d7609828aaa3de905184965a92a7220ba7ad7771893a",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/brown_stand_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/brown_run_8fps.gif",
+      "sha256": "06a939edce8486802b60b2c6d4522160f6ce0e3bae9c687ba965892413175d1e",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/brown_run_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/brown_swipe_8fps.gif",
+      "sha256": "87861bd9c26bcab9694f763330d8ec4f6ba3cd95253774fc936cad2894579935",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/brown_swipe_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/brown_walk_8fps.gif",
+      "sha256": "724237f151fbce7f00771d32deb245a80ed600b2ba725ac0998f2cb62199fa66",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/brown_walk_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/brown_with_ball_8fps.gif",
+      "sha256": "c25d457988571d548c283eb4c03747cb589beefbde22291557e5be47e6a4bac6",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/brown_with_ball_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/magical_idle_8fps.gif",
+      "sha256": "d9997226e7d26582477fe25c74d7210819f27b2e12a2786925c8290b7cc97374",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/magical_idle_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/magical_lie_8fps.gif",
+      "sha256": "94998995ef9944daed691e5ca3e565190aa39ebc4edffdd9e42685a5a7c0a0a8",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/magical_stand_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/magical_run_8fps.gif",
+      "sha256": "e9432065ed80a56c37aecd66803cbdc7a66c981776112e536179df919787035a",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/magical_run_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/magical_swipe_8fps.gif",
+      "sha256": "be220675c126efe2f909b27ea77ef4c7590cee1de5496f77c7ee0a0a3fd726a2",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/magical_swipe_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/magical_walk_8fps.gif",
+      "sha256": "d1b9d105d811c2ac669c02a6be6a051ab981ec03155fa6983f4bc990c2fa7f4f",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/magical_walk_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/magical_with_ball_8fps.gif",
+      "sha256": "781e7c862b039f8915037fd79943d95c8ea4e7a6b71309ee581c44dce39369d4",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/magical_with_ball_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_beige_idle_8fps.gif",
+      "sha256": "955b0bc11c0714f3584d7930f1bd25b47317ab3e7cd4ccc290ebd65c40037311",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_beige_idle_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_beige_lie_8fps.gif",
+      "sha256": "86323e3b11e57442cd9470cc8ce3fbaa7dbce491b6fa47d847401ddb6f0bec53",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_beige_stand_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_beige_run_8fps.gif",
+      "sha256": "e472139fdad4e0e8e8d7fd6c8fd3ceb1cff4b5e2f48388fdb9ad3b5a57966215",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_beige_run_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_beige_swipe_8fps.gif",
+      "sha256": "d8ce9d5c1792fc90453a7822d0ead5b5314aa09b9af19834e991bfe8ae90d657",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_beige_swipe_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_beige_walk_8fps.gif",
+      "sha256": "e13c0ccd1969d0f75ae5e47dd167a922baa4f49294ae7d6f27646d387a293388",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_beige_walk_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_beige_with_ball_8fps.gif",
+      "sha256": "85819afa366f1abe479f6b32b05c1e18bd6ae881f85f241f34c8964ec67ab65b",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_beige_with_ball_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_black_idle_8fps.gif",
+      "sha256": "be126517fd8972aaca771ff303354ba8ce434796b523fcfe67a9a1c08d4887f5",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_black_idle_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_black_lie_8fps.gif",
+      "sha256": "3bd60dbce6d763e07cf2ee44b0472b441c93f419a9cfe6b653f38ce517a6788c",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_black_stand_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_black_run_8fps.gif",
+      "sha256": "53b2fb2d1610964c4329dc434b38b952c23a1ab07f704065212518b21551048f",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_black_run_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_black_swipe_8fps.gif",
+      "sha256": "96779d1885c9069bbcda644a39f692742d14294fd9fb5db25d28cc09d2db5b03",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_black_swipe_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_black_walk_8fps.gif",
+      "sha256": "312d7d6f167e7f53dbe0932d12f00d30bd7a7911872e61abc90d527d07365338",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_black_walk_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_black_with_ball_8fps.gif",
+      "sha256": "01d9b38bb23a0b07de6fcc8127ea540bf09939132d2e630e3098a94f6fdfbe9e",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_black_with_ball_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_brown_idle_8fps.gif",
+      "sha256": "b0e9b5389a5b387aae95269f48421c34f7b750e03f0c9e20b3e93b51b6518bd4",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_brown_idle_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_brown_lie_8fps.gif",
+      "sha256": "8bca036c745c4e724cb1ead0d8ef2208fdc852d5f1305abb28234a435b11f04e",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_brown_stand_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_brown_run_8fps.gif",
+      "sha256": "bf3748d61b4d4d772c0492fdad8abcd0a44ae390e22eda9d39d42ab880d58770",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_brown_run_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_brown_swipe_8fps.gif",
+      "sha256": "8234e61304bb720b7abbda31135e8413b2782a4c5a644b96dd14065e3c85bf0b",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_brown_swipe_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_brown_walk_8fps.gif",
+      "sha256": "d59a176c52e5356b84e55512fe5bf866932cac13e03c4dc69103d153a45b4128",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_brown_walk_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/paint_brown_with_ball_8fps.gif",
+      "sha256": "47026b17b2cb619287acf6551dddea86680324a905c4adc6d5b3b8e3d3847e21",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/paint_brown_with_ball_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_beige_idle_8fps.gif",
+      "sha256": "acb13bf63f9aa4f9182738b4a6a8d9dfb5ba07f85bc9998d465ad069b8650562",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_beige_idle_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_beige_lie_8fps.gif",
+      "sha256": "f23565ae8e81ef12414b0c342a7d6464d8d68d2988a7af1e507fbbfed592384b",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_beige_stand_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_beige_run_8fps.gif",
+      "sha256": "6a4abe8ab284009eae07c5432f4f45b1874c3ef3b9d6f64c47ed06864463debc",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_beige_run_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_beige_swipe_8fps.gif",
+      "sha256": "631ab4415567d3a47ce58285eae8b945bf7b6edbb0dd2d2d0c06da8046a23364",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_beige_swipe_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_beige_walk_8fps.gif",
+      "sha256": "3282893cbc8e48322a47127a94240e8b2d13943f3a9a256b1d572777f960f2f8",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_beige_walk_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_beige_with_ball_8fps.gif",
+      "sha256": "7c3bbb983490137c1b87398ef33504d3f1108bc62df684d368b1804d8db77c2a",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_beige_with_ball_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_black_idle_8fps.gif",
+      "sha256": "667da6bd18f629557c7b1168bccd05399a8d5c224b047a993dbc5b85b7fe1e26",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_black_idle_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_black_lie_8fps.gif",
+      "sha256": "cc681d11e96e78e2c95bd7f9fbe095ffd6cd8649440322630f409142090d38fa",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_black_stand_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_black_run_8fps.gif",
+      "sha256": "cada884373a122e7e9232b180cd5c484ad6d2d8f4b582b1002503b4c09b48e5f",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_black_run_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_black_swipe_8fps.gif",
+      "sha256": "590b01df8d07630ce6e92159c316e05b7477a0cc375814f1a386e2ed9ecf91ca",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_black_swipe_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_black_walk_8fps.gif",
+      "sha256": "d7207cece9f85a3f07f9324078c60b7eeb7c4082222a55f07fb3510d3127b3c4",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_black_walk_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_black_with_ball_8fps.gif",
+      "sha256": "6e5030ff3bcc85e90422b17f0e886dcb40834164d321ebc5bc3afca78630e681",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_black_with_ball_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_brown_idle_8fps.gif",
+      "sha256": "2a88f60399e878e0d49570e2c4260e167c5d1fc060ba02794458d9b51c147d95",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_brown_idle_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_brown_lie_8fps.gif",
+      "sha256": "256f3f8e7a07814ff593171d9366025ca680d77c559cc8ea06c0784ff35a2c75",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_brown_stand_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_brown_run_8fps.gif",
+      "sha256": "cb5aab0aada9b02a848c15bb25f8589b9b0535b5ee626b0567ec15ff3cf0fa99",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_brown_run_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_brown_swipe_8fps.gif",
+      "sha256": "bb1f7ff88944f2ca8292d08cf38fcf432f558f81c3fa94ffb1fd732b722fcd28",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_brown_swipe_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_brown_walk_8fps.gif",
+      "sha256": "f70b04f7f8d6c41e04cfbe24edc465bf58e4e3dd0d9aafa3d86d3aa8f44b90ee",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_brown_walk_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/socks_brown_with_ball_8fps.gif",
+      "sha256": "d9b8d9ce7e24e8d424b2edd01d00eba3ba56e5b6b2230ab150a396e77133ac68",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/socks_brown_with_ball_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/warrior_idle_8fps.gif",
+      "sha256": "5f1fca3e66710d0aa769f305509d27a15a83ae11967ad5bf03909f5491111393",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/warrior_idle_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/warrior_lie_8fps.gif",
+      "sha256": "24404c5b47d4c879287d5be2b09e2b24ccd055115a37dd2146605e6081c26e01",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/warrior_stand_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/warrior_run_8fps.gif",
+      "sha256": "b53cac5cfd9ef7c232fbdfff4062256a2db78fb6b7aed2e183b163f57216c8ff",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/warrior_run_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/warrior_swipe_8fps.gif",
+      "sha256": "249898f7ac309e8864b30ad024117c5243a2854ff380cf06d05e051015dfe7f9",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/warrior_swipe_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/warrior_walk_8fps.gif",
+      "sha256": "86d3b4d17f838160ed7f624f3fe723b6ee6ea881c6f4ebc37f65b660a5d13bd1",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/warrior_walk_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/warrior_with_ball_8fps.gif",
+      "sha256": "882bf221f884d0a72bd154ed4fde249682a099d227869ec39a89fa53f59b20de",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/warrior_with_ball_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/white_idle_8fps.gif",
+      "sha256": "eb6ec6161a2a373d683350cc147d448207e100e63e4c5fd9c60194555c2310d7",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/white_idle_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/white_lie_8fps.gif",
+      "sha256": "6ed841c861d3c897e25472b609c0aca3aaae94d7c4131d281bc7d687c811de59",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/white_stand_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/white_run_8fps.gif",
+      "sha256": "239fc24cb9e2be70852219740aa1ed35fc9b361af539a445be9e6a95591c428d",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/white_run_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/white_swipe_8fps.gif",
+      "sha256": "44ca9e59c47e61b1b188d31d6321bb2902f2cf166653135de971eba4aaababf5",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/white_swipe_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/white_walk_8fps.gif",
+      "sha256": "e3621d7a2a9b4fe293d561cb88991a2b25d1fa64efbbda4a798baa7a8b04c19b",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/white_walk_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/horse/white_with_ball_8fps.gif",
+      "sha256": "260d281eee53a4c88d02ceb9142c69e50058999431542d62c423f4083ae054e5",
+      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/horse/white_with_ball_8fps.gif",
+      "creator": "Onfe; GIF adaptations by Chris Kent for VS Code Pets",
+      "license": "Onfe custom permission: personal/commercial use and edits with credit; Assets/horse/license.txt",
+      "modifications": "GIF bytes unchanged; stand animation also used for the resting state"
+    },
+    {
+      "path": "Assets/monkey/gray_idle_8fps.gif",
+      "sha256": "55fe4663b5860e2ff833fb6c2d6c208b0c05e4f1504d2b23cdf2aef306cd60f0",
+      "source": "Artwork/monkey.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/monkey/gray_lie_8fps.gif",
+      "sha256": "8662e4e6e35e94c0f8f46863561fd36998f27e27b4b88d8ce52dcfe62693427e",
+      "source": "Artwork/monkey.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/monkey/gray_run_8fps.gif",
+      "sha256": "fe460a1ad9fd628af7018a587e38da9526cfb8b82822148bfc0bbc9040b4f522",
+      "source": "Artwork/monkey.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/monkey/gray_swipe_8fps.gif",
+      "sha256": "c348c2ef3966258fd119612423391a40d7a0fc9b32eee889d7007afafa63279e",
+      "source": "Artwork/monkey.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/monkey/gray_walk_8fps.gif",
+      "sha256": "b746b114729e562557b986b274f6d575d1829a3922bb7cd6967edbd8b01be9d4",
+      "source": "Artwork/monkey.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/monkey/gray_with_ball_8fps.gif",
+      "sha256": "8038212748e217846ad03e22809be4f9ee7db84338b7b302695b69aecdd69841",
+      "source": "Artwork/monkey.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/panda/black_idle_8fps.gif",
+      "sha256": "e296b0891befc504bd7539c60ceb5e396ebbc7fd3874a3e6535a01dbfa645b72",
+      "source": "Artwork/panda.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/panda/black_lie_8fps.gif",
+      "sha256": "2b6892cc41b15aa4c9a2ffbaa6e1d032f227f9fdd23d9e47a257504a2e161ad5",
+      "source": "Artwork/panda.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/panda/black_run_8fps.gif",
+      "sha256": "a4b883c7c416a9dd5dc1b5a74fc41042ece263432feb3177d498fe73416424cd",
+      "source": "Artwork/panda.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/panda/black_swipe_8fps.gif",
+      "sha256": "47f085a0aad2f53861f49ef1ba5092934336d1787b3fbb90a3dc4828a3c74787",
+      "source": "Artwork/panda.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/panda/black_walk_8fps.gif",
+      "sha256": "89cfafdde7201deb609e8fda31dd1500519511bc3a81251d415e12bdc2f02404",
+      "source": "Artwork/panda.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/panda/black_with_ball_8fps.gif",
+      "sha256": "c237ffceeb4d013e83978f0aaaaca8a0e25e3a7fa90889524331f968cecbf6ee",
+      "source": "Artwork/panda.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/panda/brown_idle_8fps.gif",
+      "sha256": "a06d450234661d2dc340e767e08a86f7b13a5cdbd98ae5c97f27a88afcf7645b",
+      "source": "Artwork/panda.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/panda/brown_lie_8fps.gif",
+      "sha256": "cb2d07eadc1190bf3cbeabcdac9d3bbcc1c526391c95a40c83191e7a9f4529be",
+      "source": "Artwork/panda.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/panda/brown_run_8fps.gif",
+      "sha256": "b63de82de5be176059e6ce673847fdd4833aeb457020846586bc3af1c86e4cbc",
+      "source": "Artwork/panda.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/panda/brown_swipe_8fps.gif",
+      "sha256": "9f101697b44c46ec8cd447982df1a5abe469c149bfcde764379efabb45daf42c",
+      "source": "Artwork/panda.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/panda/brown_walk_8fps.gif",
+      "sha256": "65df4128f56a518adbba6dd5c5fcec86493b6e803b263a06377efb8d32faa8d2",
+      "source": "Artwork/panda.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/panda/brown_with_ball_8fps.gif",
+      "sha256": "ecd9d91139d1f6ebfd7cc9a022bc9643c4ecb33909a4421efc070831cca4fdfb",
+      "source": "Artwork/panda.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rabbit/white_idle_8fps.gif",
+      "sha256": "f1cea6460d3a8f18787235209228494569bfddcf450be1c2bded10dbdaeeddc8",
+      "source": "Artwork/rabbit.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rabbit/white_lie_8fps.gif",
+      "sha256": "a213c1dbf7f10914e63cd21b169820f4215d9a277aa3d237abbb19f208748524",
+      "source": "Artwork/rabbit.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rabbit/white_run_8fps.gif",
+      "sha256": "2f5f1353e20b693be1faf1d3e3ff65b5f2df811886c6a74760b9e594df9e9d62",
+      "source": "Artwork/rabbit.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rabbit/white_swipe_8fps.gif",
+      "sha256": "1c46deb08b4e92ae5a678fae25fad950837393c8b4e48807c65ef3946a86ebec",
+      "source": "Artwork/rabbit.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rabbit/white_walk_8fps.gif",
+      "sha256": "5da309cefece47ff99c182d6ad1634be3a8e178d094bbdc117325530471acf4c",
+      "source": "Artwork/rabbit.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rabbit/white_with_ball_8fps.gif",
+      "sha256": "9c8bfd6c25221829e57c7a3abd089ec265b48469a69f765cec48498c0b5e2a5e",
+      "source": "Artwork/rabbit.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/brown_idle_8fps.gif",
+      "sha256": "3e90d84927edf5028b0ad7353328ae32b474f91e28426c742c99445898b8fd9b",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/brown_lie_8fps.gif",
+      "sha256": "9d476974f217718d62051d0c6c4fe23130de50bc394c2aeb6567e2324993ce9c",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/brown_run_8fps.gif",
+      "sha256": "3a1bfa944c88ceb49e03f3aeb07396884ad568759fe0d515529076f2623fc7b5",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/brown_swipe_8fps.gif",
+      "sha256": "f9b6557668078cc96e5793e747917c05a496cd33f49b6fbdf6a67367ed5c7d26",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/brown_walk_8fps.gif",
+      "sha256": "aea197329836f57384dafebb6ee7608d603b4cbcdd04e8c5f6fb81f9b6c94200",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/brown_with_ball_8fps.gif",
+      "sha256": "141c4bae0d9e0ec17bcc4d35c6d57d8cb44bf5a6de42e7c8369eb1da631d9fde",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/gray_idle_8fps.gif",
+      "sha256": "6f9a88dfbd246adb26c06637b373e495e68bb1623192ef2e12abe0f8d8f6f9fc",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/gray_lie_8fps.gif",
+      "sha256": "05a48f722beceb7db06bdd966fffc463b714c05b3fcb4bafeb59525da8f9eda5",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/gray_run_8fps.gif",
+      "sha256": "14402ba4f0598b1f2d3356a99ad0734b38b32ade28d13823315c2e4e2b59ca58",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/gray_swipe_8fps.gif",
+      "sha256": "37445b312d860ed96ac13709065136a1a8cbd3cb6e90e7fd42a5fb5006e4a59b",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/gray_walk_8fps.gif",
+      "sha256": "e299cd67a1257e29a6a8d2c977c76ab4a10aff458105ba64669418d4aff1f730",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/gray_with_ball_8fps.gif",
+      "sha256": "bdc562de2541fca727ba5af3deead58676b6132fe37d721c4fb87a2ced3563c4",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/white_idle_8fps.gif",
+      "sha256": "d2fe13fc8649f37ee646c70f9b109bbfb17d02b83ff668120f3310bd28eaf973",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/white_lie_8fps.gif",
+      "sha256": "b569b59e193fb043dbdd4c4a289bcc1627a5d05157f3de9867006c873992ccf6",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/white_run_8fps.gif",
+      "sha256": "8b3ca5c346573c7d451d6482f61939d8d63cb73ecd38567010ebc7c23114c1b8",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/white_swipe_8fps.gif",
+      "sha256": "add2855edccbd1fd9fe04477a00fc8f2b8c042f079d20534ceaa489937765379",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/white_walk_8fps.gif",
+      "sha256": "78453a6649467ec4715fe44b37e094fcf7519ecdb28c9cb91a8051b79df9c856",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/rat/white_with_ball_8fps.gif",
+      "sha256": "701bb0984371f599621ea381d75fa29b6f912a16c7d69c9f3d0718cb167bdc5f",
+      "source": "Artwork/rat.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/snail/brown_idle_8fps.gif",
+      "sha256": "586ba70bc6479151f731300ea32095a38e2d0f68934989bae7740e01cca6262a",
+      "source": "Artwork/snail.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/snail/brown_lie_8fps.gif",
+      "sha256": "8214025940cfa5a90f18a47e1c37c20e1f80212d950f97b8bc33f69a73842daa",
+      "source": "Artwork/snail.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/snail/brown_run_8fps.gif",
+      "sha256": "486a04e052d70a6197ec5c76b157e665955a0d185e4fdce8912bf1fcd2de676e",
+      "source": "Artwork/snail.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/snail/brown_swipe_8fps.gif",
+      "sha256": "b64af3b84964801900382089eb40ca740a5c6d71b05ac6e97e4e750fae5452fd",
+      "source": "Artwork/snail.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/snail/brown_walk_8fps.gif",
+      "sha256": "25e225dd71b8edfac540cf85d19f6388dc1ee952f569713c6966cc04e0f8e41f",
+      "source": "Artwork/snail.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/snail/brown_with_ball_8fps.gif",
+      "sha256": "2b37d032a9d80936de0e229f2afaf1086bf1cd6d20b90579ca6b399125bbbf3e",
+      "source": "Artwork/snail.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/snake/green_idle_8fps.gif",
+      "sha256": "e1d602fd2498cc1ef6be98a24a6726657c346271d3154ca0bfd07442e3fdd23f",
+      "source": "Artwork/snake.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/snake/green_lie_8fps.gif",
+      "sha256": "1bf5b1c525aa18029e223457d51a3a68689c409309fb42e61e26be68274cf62c",
+      "source": "Artwork/snake.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/snake/green_run_8fps.gif",
+      "sha256": "5f64ce5e4c421835b3b9f017962dc721313dd073cb74826654941dafbeea08ed",
+      "source": "Artwork/snake.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/snake/green_swipe_8fps.gif",
+      "sha256": "7c9a2f286a73b82f335c1c72462984c25aad6151da451e8ebb24bd341c6a5a2d",
+      "source": "Artwork/snake.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/snake/green_walk_8fps.gif",
+      "sha256": "31a2cf454598b3a52e5f2aad05401fb2f1bde3244793314c58032c85a7713194",
+      "source": "Artwork/snake.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/snake/green_with_ball_8fps.gif",
+      "sha256": "afb4b0f4c6368349236128f17c447dbd8f07f190aec92bc89d67caf36af36351",
+      "source": "Artwork/snake.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/turtle/green_idle_8fps.gif",
+      "sha256": "5a1a3fcd3e9385be82797843ae23b87fea2b9b7e81b194a03580bf2b6a4d7b7e",
+      "source": "Artwork/turtle.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/turtle/green_lie_8fps.gif",
+      "sha256": "701f0e8a2cf43eff8aa2d31b67641f15d98d00d9d083f2193907994147535a25",
+      "source": "Artwork/turtle.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/turtle/green_run_8fps.gif",
+      "sha256": "a3cbe73d0f9810caccd04bf8f9667fd8ebbe1026d11e5a8fc64dac9c7baad125",
+      "source": "Artwork/turtle.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/turtle/green_swipe_8fps.gif",
+      "sha256": "f5790bb457294f940e84416a53c658a41aeeb5a0988814e2db42f5b3a7e3bfd8",
+      "source": "Artwork/turtle.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/turtle/green_walk_8fps.gif",
+      "sha256": "a593a0485f0c261c516a2969446bf79b0ed713c2c8d9708275bb950fe0b4e3eb",
+      "source": "Artwork/turtle.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/turtle/green_with_ball_8fps.gif",
+      "sha256": "a4c5e55ef2e3b94ab5ffc8eb22c13e7ed628a19dece9b9c0583a943e409e11cb",
+      "source": "Artwork/turtle.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/turtle/orange_idle_8fps.gif",
+      "sha256": "39de351cbe6ab05231ff4ceaecf05ded9862ec2ffb8410433a3f74a1fa5c3617",
+      "source": "Artwork/turtle.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/turtle/orange_lie_8fps.gif",
+      "sha256": "24c0ba3247705d2793cfab198befc66d407d740114e2deefbb8507967a49549f",
+      "source": "Artwork/turtle.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/turtle/orange_run_8fps.gif",
+      "sha256": "c3f1913e0fd2b512746920aa970bc9cecea4d1e85e8c77a18d411033fd89c599",
+      "source": "Artwork/turtle.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/turtle/orange_swipe_8fps.gif",
+      "sha256": "627f72774aee96da443e9d29f45d4e737450947f7050a2d3e7be251a707c5dbf",
+      "source": "Artwork/turtle.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/turtle/orange_walk_8fps.gif",
+      "sha256": "8b58bed61748d63455a1e855350df2d12d41c87f4079e62765b2e7b0202bfb39",
+      "source": "Artwork/turtle.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/turtle/orange_with_ball_8fps.gif",
+      "sha256": "27e8b4e7e1a637696d160ca5fb4101abbdd62923d74c679471e61ba3161db85d",
+      "source": "Artwork/turtle.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    }
+  ]
+}
