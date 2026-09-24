@@ -4,9 +4,10 @@ Test host: MacBook Air (Apple M4, 32 GB), macOS 26.5.2, Xcode 26.6, one built-in
 
 | Scenario | Result | Evidence or remaining check |
 | --- | --- | --- |
-| SwiftPM debug build and twelve unit tests | Passed | `./script/test.sh`: 12 passed, 0 failed, after the animal artwork update. |
-| Updated sprite assets and bundle resources | Passed | All 210 GIFs decode; generated frames are 128 px with transparent borders. Both bundles match the manifest hashes and include the app icon. Extracted artwork was visually inspected. |
-| Updated artwork in native manager and overlay | UI inspection blocked | Isolated universal app launched and loaded its test roster; the native UI tool timed out twice. Earlier manager/overlay observations below predate this artwork update. |
+| SwiftPM debug build and fifteen unit tests | Passed | `./script/test.sh`: 15 passed, 0 failed, after adding Realistic / Pixel styles. |
+| Updated sprite assets and bundle resources | Passed | All 294 GIFs decode; generated Realistic frames are 128 px and Pixel frames are 32 px, with transparent borders. Pixel GIFs use at most 15 opaque colors. Both bundles match the manifest hashes and include the app icon; all 210 existing GIFs are unchanged. All eight Pixel poses per animal were visually inspected. |
+| Style migration and persistence | Passed in automated tests | Legacy saves default to Realistic; the Pixel selection persists. Switching styles preserves pet IDs, names, order, hidden state, and original coats. All existing variants resolve to Pixel assets for every action. |
+| Style switch in native manager and overlay | UI inspection blocked | Isolated universal app launched with its test roster; the native UI tool timed out twice. Click interaction, shelter layout, and live overlay changes (including paused/asleep pets) remain unverified. Earlier manager/overlay observations below predate this update. |
 | Xcode shared scheme build and tests | Passed | Debug build; Xcode test result: 11 passed, 0 failed. |
 | Universal Release compilation | Passed | `xcodebuild` produced arm64 and x86_64 slices; Intel runtime untested. |
 | App bundle launch and visible pet | Passed | Ad hoc signed bundle launched; a transparent 72 pt pet panel displayed Rex. |

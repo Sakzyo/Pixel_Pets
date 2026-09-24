@@ -1,0 +1,869 @@
+[
+  {
+    "id": "fox",
+    "species": "fox",
+    "variants": [
+      "red"
+    ],
+    "prompt": "Use case: stylized-concept.\nAsset: original retro pixel-art red fox animation sheet for the Pixel style of a desktop-pet game.\nExactly 8 poses of the SAME fox in a clean 4-column, 2-row grid. Read left to right, top to bottom: standing idle, idle blink, walking stride A, walking stride B, running leap, greeting with lifted forepaw, sleeping curled, holding a small green ball in mouth.\nDraw genuine LOW RESOLUTION pixel art: each fox is designed on a 32 by 32 logical pixel canvas, then enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, simple expressive animal silhouette, 12 to 16 flat colors total, two-tone shading, single-pixel dark contour. Fox has pointed triangular ears, narrow muzzle, four paws, big white-tipped bushy tail, rust-orange back, cream muzzle/chest, dark socks. Connected readable anatomy, charming tiny game sprite. Every pose faces RIGHT.\nEach sprite centered in a separate square cell with substantial transparent gutters; consistent animal scale and ground baseline. Entire ears, legs and tails visible, no contact with other cells.\nGenuine alpha-transparent background. No background, scenery, grid lines, text, letters, Zs, effects, floor shadows, gradients, antialiasing, fine fur texture, realistic rendering, or blur.\nCanvas 1024x512 if possible. Must look like a carefully hand-pixeled 1990s handheld game, strongly chunkier and simpler than detailed animal illustrations.",
+    "file": "fox.png",
+    "frames": [
+      [
+        [
+          42,
+          118,
+          407,
+          396
+        ],
+        [
+          485,
+          117,
+          852,
+          396
+        ],
+        [
+          918,
+          121,
+          1296,
+          396
+        ],
+        [
+          1360,
+          122,
+          1736,
+          396
+        ],
+        [
+          24,
+          552,
+          451,
+          770
+        ],
+        [
+          506,
+          495,
+          856,
+          790
+        ],
+        [
+          977,
+          591,
+          1256,
+          790
+        ],
+        [
+          1338,
+          513,
+          1745,
+          789
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "chicken",
+    "species": "chicken",
+    "variants": [
+      "brown"
+    ],
+    "subject": "brown domestic hen with a red comb, little beak, layered wing, upright fan tail and two thin bird legs. Greeting lifted wing; sleep tucked nesting pose",
+    "prompt": "Use case: stylized-concept. Asset: original retro PIXEL style animal animation sheet for a desktop pet game.\nSubject: brown domestic hen with a red comb, little beak, layered wing, upright fan tail and two thin bird legs. Greeting lifted wing; sleep tucked nesting pose.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid. Reading left to right, top to bottom: idle, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose, holding or nuzzling a small green ball.\nDraw genuine LOW RESOLUTION pixel art: every animal is designed for a 32 by 32 logical pixel canvas and enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, simple expressive animal silhouette, 12-16 flat colors total, two-tone shading, single-pixel dark contour. Readable connected anatomy, charming little 1990s handheld game sprite, all facing RIGHT. Strongly chunky and simple.\nOne sprite per cell; at least 15% transparent gutters on every side. Consistent animal scale and baseline. Entire ears, tails and legs visible with no contact between cells.\nGenuine alpha-transparent background. No scenery, floor shadows, labels, text, Zs, effects, decorative marks, gradients, antialiasing, fine fur texture, realistic rendering, or blur. Canvas 1024x512 if possible.",
+    "file": "chicken.png",
+    "frames": [
+      [
+        [
+          62,
+          61,
+          393,
+          395
+        ],
+        [
+          495,
+          61,
+          826,
+          395
+        ],
+        [
+          934,
+          62,
+          1275,
+          397
+        ],
+        [
+          1383,
+          69,
+          1730,
+          406
+        ],
+        [
+          61,
+          512,
+          420,
+          810
+        ],
+        [
+          495,
+          477,
+          858,
+          820
+        ],
+        [
+          936,
+          575,
+          1268,
+          810
+        ],
+        [
+          1369,
+          513,
+          1720,
+          820
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "cockatiel",
+    "species": "cockatiel",
+    "variants": [
+      "gray"
+    ],
+    "subject": "gray cockatiel parrot with yellow upright crest, orange cheek, hooked beak, folded gray wings with white patch, long tapered tail and two feet. Greeting lifted wing; running a hop; sleeping head tucked",
+    "prompt": "Use case: stylized-concept. Asset: original retro PIXEL style animal animation sheet for a desktop pet game.\nSubject: gray cockatiel parrot with yellow upright crest, orange cheek, hooked beak, folded gray wings with white patch, long tapered tail and two feet. Greeting lifted wing; running a hop; sleeping head tucked.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid. Reading left to right, top to bottom: idle, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose, holding or nuzzling a small green ball.\nDraw genuine LOW RESOLUTION pixel art: every animal is designed for a 32 by 32 logical pixel canvas and enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, simple expressive animal silhouette, 12-16 flat colors total, two-tone shading, single-pixel dark contour. Readable connected anatomy, charming little 1990s handheld game sprite, all facing RIGHT. Strongly chunky and simple.\nOne sprite per cell; at least 15% transparent gutters on every side. Consistent animal scale and baseline. Entire ears, tails and legs visible with no contact between cells.\nGenuine alpha-transparent background. No scenery, floor shadows, labels, text, Zs, effects, decorative marks, gradients, antialiasing, fine fur texture, realistic rendering, or blur. Canvas 1024x512 if possible.",
+    "file": "cockatiel.png",
+    "frames": [
+      [
+        [
+          55,
+          66,
+          402,
+          402
+        ],
+        [
+          484,
+          63,
+          832,
+          402
+        ],
+        [
+          919,
+          71,
+          1287,
+          403
+        ],
+        [
+          1369,
+          71,
+          1731,
+          402
+        ],
+        [
+          42,
+          497,
+          427,
+          785
+        ],
+        [
+          501,
+          485,
+          828,
+          812
+        ],
+        [
+          925,
+          524,
+          1277,
+          800
+        ],
+        [
+          1373,
+          515,
+          1734,
+          808
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "dog",
+    "species": "dog",
+    "variants": [
+      "brown"
+    ],
+    "subject": "new original brown-and-cream floppy-eared small spaniel dog with a dark nose, friendly canine muzzle, four paws, gently curved tail and cream chest. Greeting raised paw; sleeping curled",
+    "prompt": "Use case: stylized-concept. Asset: original retro PIXEL style animal animation sheet for a desktop pet game.\nSubject: new original brown-and-cream floppy-eared small spaniel dog with a dark nose, friendly canine muzzle, four paws, gently curved tail and cream chest. Greeting raised paw; sleeping curled.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid. Reading left to right, top to bottom: idle, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose, holding or nuzzling a small green ball.\nDraw genuine LOW RESOLUTION pixel art: every animal is designed for a 32 by 32 logical pixel canvas and enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, simple expressive animal silhouette, 12-16 flat colors total, two-tone shading, single-pixel dark contour. Readable connected anatomy, charming little 1990s handheld game sprite, all facing RIGHT. Strongly chunky and simple.\nOne sprite per cell; at least 15% transparent gutters on every side. Consistent animal scale and baseline. Entire ears, tails and legs visible with no contact between cells.\nGenuine alpha-transparent background. No scenery, floor shadows, labels, text, Zs, effects, decorative marks, gradients, antialiasing, fine fur texture, realistic rendering, or blur. Canvas 1024x512 if possible.",
+    "file": "dog.png",
+    "frames": [
+      [
+        [
+          79,
+          113,
+          391,
+          384
+        ],
+        [
+          508,
+          113,
+          822,
+          384
+        ],
+        [
+          945,
+          114,
+          1277,
+          385
+        ],
+        [
+          1380,
+          114,
+          1708,
+          385
+        ],
+        [
+          70,
+          530,
+          415,
+          777
+        ],
+        [
+          524,
+          499,
+          830,
+          786
+        ],
+        [
+          952,
+          602,
+          1275,
+          774
+        ],
+        [
+          1372,
+          527,
+          1708,
+          789
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "horse",
+    "species": "horse",
+    "variants": [
+      "brown"
+    ],
+    "subject": "bay brown horse with black mane and long tail, elongated equine muzzle, upright ears, strong neck, long slender jointed legs and hooves. Clearly a HORSE, not a dog. Greeting raised foreleg; sleep natural sternal lying position, folded legs",
+    "prompt": "Use case: stylized-concept. Asset: original retro PIXEL style animal animation sheet for a desktop pet game.\nSubject: bay brown horse with black mane and long tail, elongated equine muzzle, upright ears, strong neck, long slender jointed legs and hooves. Clearly a HORSE, not a dog. Greeting raised foreleg; sleep natural sternal lying position, folded legs.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid. Reading left to right, top to bottom: idle, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose, holding or nuzzling a small green ball.\nDraw genuine LOW RESOLUTION pixel art: every animal is designed for a 32 by 32 logical pixel canvas and enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, simple expressive animal silhouette, 12-16 flat colors total, two-tone shading, single-pixel dark contour. Readable connected anatomy, charming little 1990s handheld game sprite, all facing RIGHT. Strongly chunky and simple.\nOne sprite per cell; at least 15% transparent gutters on every side. Consistent animal scale and baseline. Entire ears, tails and legs visible with no contact between cells.\nGenuine alpha-transparent background. No scenery, floor shadows, labels, text, Zs, effects, decorative marks, gradients, antialiasing, fine fur texture, realistic rendering, or blur. Canvas 1024x512 if possible.",
+    "file": "horse.png",
+    "frames": [
+      [
+        [
+          41,
+          69,
+          397,
+          390
+        ],
+        [
+          485,
+          69,
+          841,
+          390
+        ],
+        [
+          905,
+          69,
+          1284,
+          389
+        ],
+        [
+          1348,
+          69,
+          1728,
+          390
+        ],
+        [
+          28,
+          504,
+          444,
+          804
+        ],
+        [
+          482,
+          472,
+          816,
+          814
+        ],
+        [
+          914,
+          640,
+          1272,
+          814
+        ],
+        [
+          1354,
+          554,
+          1741,
+          799
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "rabbit",
+    "species": "rabbit",
+    "variants": [
+      "white"
+    ],
+    "subject": "white rabbit with long upright pink-lined ears, small pink nose, dark eye, powerful rear haunches, little front paws and fluffy little tail. Running stretched bunny hop; greeting lifted forepaw; sleeping loaf with drooped ears",
+    "prompt": "Use case: stylized-concept. Asset: original retro PIXEL style animal animation sheet for a desktop pet game.\nSubject: white rabbit with long upright pink-lined ears, small pink nose, dark eye, powerful rear haunches, little front paws and fluffy little tail. Running stretched bunny hop; greeting lifted forepaw; sleeping loaf with drooped ears.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid. Reading left to right, top to bottom: idle, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose, holding or nuzzling a small green ball.\nDraw genuine LOW RESOLUTION pixel art: every animal is designed for a 32 by 32 logical pixel canvas and enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, simple expressive animal silhouette, 12-16 flat colors total, two-tone shading, single-pixel dark contour. Readable connected anatomy, charming little 1990s handheld game sprite, all facing RIGHT. Strongly chunky and simple.\nOne sprite per cell; at least 15% transparent gutters on every side. Consistent animal scale and baseline. Entire ears, tails and legs visible with no contact between cells.\nGenuine alpha-transparent background. No scenery, floor shadows, labels, text, Zs, effects, decorative marks, gradients, antialiasing, fine fur texture, realistic rendering, or blur. Canvas 1024x512 if possible.",
+    "file": "rabbit.png",
+    "frames": [
+      [
+        [
+          86,
+          61,
+          379,
+          408
+        ],
+        [
+          518,
+          61,
+          800,
+          408
+        ],
+        [
+          952,
+          62,
+          1263,
+          408
+        ],
+        [
+          1396,
+          66,
+          1719,
+          408
+        ],
+        [
+          47,
+          524,
+          452,
+          798
+        ],
+        [
+          539,
+          472,
+          832,
+          814
+        ],
+        [
+          952,
+          662,
+          1287,
+          812
+        ],
+        [
+          1402,
+          497,
+          1708,
+          814
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "panda",
+    "species": "panda",
+    "variants": [
+      "black"
+    ],
+    "subject": "black and white panda bear with rounded black ears, distinctive black eye patches, cream-white face and body, black shoulders and stout black limbs. Greeting raised paw; sleep curled",
+    "prompt": "Use case: stylized-concept. Asset: original retro PIXEL style animal animation sheet for a desktop pet game.\nSubject: black and white panda bear with rounded black ears, distinctive black eye patches, cream-white face and body, black shoulders and stout black limbs. Greeting raised paw; sleep curled.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid. Reading left to right, top to bottom: idle, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose, holding or nuzzling a small green ball.\nDraw genuine LOW RESOLUTION pixel art: every animal is designed for a 32 by 32 logical pixel canvas and enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, simple expressive animal silhouette, 12-16 flat colors total, two-tone shading, single-pixel dark contour. Readable connected anatomy, charming little 1990s handheld game sprite, all facing RIGHT. Strongly chunky and simple.\nOne sprite per cell; at least 15% transparent gutters on every side. Consistent animal scale and baseline. Entire ears, tails and legs visible with no contact between cells.\nGenuine alpha-transparent background. No scenery, floor shadows, labels, text, Zs, effects, decorative marks, gradients, antialiasing, fine fur texture, realistic rendering, or blur. Canvas 1024x512 if possible.",
+    "file": "panda.png",
+    "frames": [
+      [
+        [
+          72,
+          108,
+          376,
+          358
+        ],
+        [
+          515,
+          108,
+          820,
+          358
+        ],
+        [
+          956,
+          108,
+          1266,
+          358
+        ],
+        [
+          1410,
+          112,
+          1714,
+          358
+        ],
+        [
+          49,
+          537,
+          394,
+          777
+        ],
+        [
+          523,
+          498,
+          813,
+          800
+        ],
+        [
+          942,
+          585,
+          1259,
+          790
+        ],
+        [
+          1403,
+          518,
+          1687,
+          800
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "rat",
+    "species": "rat",
+    "variants": [
+      "gray"
+    ],
+    "subject": "gray pet rat with rounded pink ears, pointed nose, black eye, tiny pink paws, continuous slim pink tail, curved mouse-like body. Greeting lifted forepaw sniffing; sleep curled",
+    "prompt": "Use case: stylized-concept. Asset: original retro PIXEL style animal animation sheet for a desktop pet game.\nSubject: gray pet rat with rounded pink ears, pointed nose, black eye, tiny pink paws, continuous slim pink tail, curved mouse-like body. Greeting lifted forepaw sniffing; sleep curled.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid. Reading left to right, top to bottom: idle, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose, holding or nuzzling a small green ball.\nDraw genuine LOW RESOLUTION pixel art: every animal is designed for a 32 by 32 logical pixel canvas and enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, simple expressive animal silhouette, 12-16 flat colors total, two-tone shading, single-pixel dark contour. Readable connected anatomy, charming little 1990s handheld game sprite, all facing RIGHT. Strongly chunky and simple.\nOne sprite per cell; at least 15% transparent gutters on every side. Consistent animal scale and baseline. Entire ears, tails and legs visible with no contact between cells.\nGenuine alpha-transparent background. No scenery, floor shadows, labels, text, Zs, effects, decorative marks, gradients, antialiasing, fine fur texture, realistic rendering, or blur. Canvas 1024x512 if possible.",
+    "file": "rat.png",
+    "frames": [
+      [
+        [
+          40,
+          143,
+          407,
+          350
+        ],
+        [
+          484,
+          143,
+          851,
+          350
+        ],
+        [
+          912,
+          149,
+          1302,
+          349
+        ],
+        [
+          1371,
+          151,
+          1750,
+          349
+        ],
+        [
+          25,
+          582,
+          444,
+          760
+        ],
+        [
+          523,
+          507,
+          863,
+          765
+        ],
+        [
+          984,
+          592,
+          1258,
+          765
+        ],
+        [
+          1379,
+          547,
+          1721,
+          765
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "turtle",
+    "species": "turtle",
+    "variants": [
+      "green"
+    ],
+    "subject": "green turtle with olive domed shell with readable large scute shapes, little head on short neck, four short legs and tiny tail. Greeting head stretched up; sleep head and legs tucked in shell; running purposeful step",
+    "prompt": "Use case: stylized-concept. Asset: original retro PIXEL style animal animation sheet for a desktop pet game.\nSubject: green turtle with olive domed shell with readable large scute shapes, little head on short neck, four short legs and tiny tail. Greeting head stretched up; sleep head and legs tucked in shell; running purposeful step.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid. Reading left to right, top to bottom: idle, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose, holding or nuzzling a small green ball.\nDraw genuine LOW RESOLUTION pixel art: every animal is designed for a 32 by 32 logical pixel canvas and enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, simple expressive animal silhouette, 12-16 flat colors total, two-tone shading, single-pixel dark contour. Readable connected anatomy, charming little 1990s handheld game sprite, all facing RIGHT. Strongly chunky and simple.\nOne sprite per cell; at least 15% transparent gutters on every side. Consistent animal scale and baseline. Entire ears, tails and legs visible with no contact between cells.\nGenuine alpha-transparent background. No scenery, floor shadows, labels, text, Zs, effects, decorative marks, gradients, antialiasing, fine fur texture, realistic rendering, or blur. Canvas 1024x512 if possible.",
+    "file": "turtle.png",
+    "frames": [
+      [
+        [
+          45,
+          141,
+          405,
+          362
+        ],
+        [
+          489,
+          141,
+          850,
+          362
+        ],
+        [
+          933,
+          141,
+          1293,
+          369
+        ],
+        [
+          1377,
+          141,
+          1737,
+          369
+        ],
+        [
+          45,
+          567,
+          437,
+          792
+        ],
+        [
+          506,
+          499,
+          857,
+          800
+        ],
+        [
+          950,
+          590,
+          1244,
+          800
+        ],
+        [
+          1359,
+          582,
+          1720,
+          800
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "crab",
+    "species": "crab",
+    "variants": [
+      "red"
+    ],
+    "subject": "red crab with rounded flat carapace, two stout claw-bearing arms, four pairs of short jointed walking legs and small eye stalks; slight three-quarter view to show both claws, head facing right. Greeting raised claw; sleep crouched; ball held in claw",
+    "prompt": "Use case: stylized-concept. Asset: original retro PIXEL style animal animation sheet for a desktop pet game.\nSubject: red crab with rounded flat carapace, two stout claw-bearing arms, four pairs of short jointed walking legs and small eye stalks; slight three-quarter view to show both claws, head facing right. Greeting raised claw; sleep crouched; ball held in claw.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid. Reading left to right, top to bottom: idle, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose, holding or nuzzling a small green ball.\nDraw genuine LOW RESOLUTION pixel art: every animal is designed for a 32 by 32 logical pixel canvas and enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, simple expressive animal silhouette, 12-16 flat colors total, two-tone shading, single-pixel dark contour. Readable connected anatomy, charming little 1990s handheld game sprite, all facing RIGHT. Strongly chunky and simple.\nOne sprite per cell; at least 15% transparent gutters on every side. Consistent animal scale and baseline. Entire ears, tails and legs visible with no contact between cells.\nGenuine alpha-transparent background. No scenery, floor shadows, labels, text, Zs, effects, decorative marks, gradients, antialiasing, fine fur texture, realistic rendering, or blur. Canvas 1024x512 if possible.",
+    "file": "crab.png",
+    "frames": [
+      [
+        [
+          52,
+          151,
+          403,
+          366
+        ],
+        [
+          489,
+          154,
+          840,
+          366
+        ],
+        [
+          926,
+          151,
+          1289,
+          369
+        ],
+        [
+          1363,
+          157,
+          1727,
+          374
+        ],
+        [
+          39,
+          558,
+          420,
+          778
+        ],
+        [
+          502,
+          529,
+          848,
+          783
+        ],
+        [
+          951,
+          597,
+          1274,
+          778
+        ],
+        [
+          1402,
+          567,
+          1727,
+          778
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "monkey",
+    "species": "monkey",
+    "variants": [
+      "gray"
+    ],
+    "subject": "small gray monkey with cream muzzle and ears, dark eye, long flexible limbs ending in hands and feet, long curving tail. Greeting raised hand; sleeping curled; ball in hand",
+    "prompt": "Use case: stylized-concept. Asset: original retro PIXEL style animal animation sheet for a desktop pet game.\nSubject: small gray monkey with cream muzzle and ears, dark eye, long flexible limbs ending in hands and feet, long curving tail. Greeting raised hand; sleeping curled; ball in hand.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid. Reading left to right, top to bottom: idle, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose, holding or nuzzling a small green ball.\nDraw genuine LOW RESOLUTION pixel art: every animal is designed for a 32 by 32 logical pixel canvas and enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, simple expressive animal silhouette, 12-16 flat colors total, two-tone shading, single-pixel dark contour. Readable connected anatomy, charming little 1990s handheld game sprite, all facing RIGHT. Strongly chunky and simple.\nOne sprite per cell; at least 15% transparent gutters on every side. Consistent animal scale and baseline. Entire ears, tails and legs visible with no contact between cells.\nGenuine alpha-transparent background. No scenery, floor shadows, labels, text, Zs, effects, decorative marks, gradients, antialiasing, fine fur texture, realistic rendering, or blur. Canvas 1024x512 if possible.",
+    "file": "monkey.png",
+    "frames": [
+      [
+        [
+          52,
+          88,
+          386,
+          389
+        ],
+        [
+          493,
+          88,
+          827,
+          389
+        ],
+        [
+          929,
+          89,
+          1272,
+          389
+        ],
+        [
+          1372,
+          95,
+          1716,
+          389
+        ],
+        [
+          27,
+          520,
+          412,
+          805
+        ],
+        [
+          493,
+          492,
+          851,
+          816
+        ],
+        [
+          934,
+          575,
+          1272,
+          808
+        ],
+        [
+          1380,
+          511,
+          1716,
+          816
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "snail",
+    "species": "snail",
+    "variants": [
+      "brown"
+    ],
+    "subject": "brown garden snail with large warm ochre spiral shell and continuous beige soft foot, long eye tentacles and tiny lower feelers. Walking and running are slow crawl poses with foot and feeler variation; greeting raised feelers; sleep withdrawn into shell; ball nudged by face",
+    "prompt": "Use case: stylized-concept. Asset: original retro PIXEL style animal animation sheet for a desktop pet game.\nSubject: brown garden snail with large warm ochre spiral shell and continuous beige soft foot, long eye tentacles and tiny lower feelers. Walking and running are slow crawl poses with foot and feeler variation; greeting raised feelers; sleep withdrawn into shell; ball nudged by face.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid. Reading left to right, top to bottom: idle, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose, holding or nuzzling a small green ball.\nDraw genuine LOW RESOLUTION pixel art: every animal is designed for a 32 by 32 logical pixel canvas and enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, simple expressive animal silhouette, 12-16 flat colors total, two-tone shading, single-pixel dark contour. Readable connected anatomy, charming little 1990s handheld game sprite, all facing RIGHT. Strongly chunky and simple.\nOne sprite per cell; at least 15% transparent gutters on every side. Consistent animal scale and baseline. Entire ears, tails and legs visible with no contact between cells.\nGenuine alpha-transparent background. No scenery, floor shadows, labels, text, Zs, effects, decorative marks, gradients, antialiasing, fine fur texture, realistic rendering, or blur. Canvas 1024x512 if possible.",
+    "file": "snail.png",
+    "frames": [
+      [
+        [
+          61,
+          148,
+          403,
+          374
+        ],
+        [
+          497,
+          148,
+          846,
+          374
+        ],
+        [
+          932,
+          148,
+          1282,
+          374
+        ],
+        [
+          1367,
+          149,
+          1724,
+          374
+        ],
+        [
+          38,
+          580,
+          434,
+          799
+        ],
+        [
+          505,
+          508,
+          846,
+          800
+        ],
+        [
+          986,
+          590,
+          1220,
+          793
+        ],
+        [
+          1367,
+          581,
+          1737,
+          800
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "snake",
+    "species": "snake",
+    "variants": [
+      "green"
+    ],
+    "subject": "green grass snake with a yellow underside, continuous winding limbless body, lifted head, dark eye and little forked tongue. Walking and running are clearly different S-shaped slither poses; greeting raised head; sleep tightly coiled; ball nudged by snout",
+    "prompt": "Use case: stylized-concept. Asset: original retro PIXEL style animal animation sheet for a desktop pet game.\nSubject: green grass snake with a yellow underside, continuous winding limbless body, lifted head, dark eye and little forked tongue. Walking and running are clearly different S-shaped slither poses; greeting raised head; sleep tightly coiled; ball nudged by snout.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid. Reading left to right, top to bottom: idle, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose, holding or nuzzling a small green ball.\nDraw genuine LOW RESOLUTION pixel art: every animal is designed for a 32 by 32 logical pixel canvas and enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, simple expressive animal silhouette, 12-16 flat colors total, two-tone shading, single-pixel dark contour. Readable connected anatomy, charming little 1990s handheld game sprite, all facing RIGHT. Strongly chunky and simple.\nOne sprite per cell; at least 15% transparent gutters on every side. Consistent animal scale and baseline. Entire ears, tails and legs visible with no contact between cells.\nGenuine alpha-transparent background. No scenery, floor shadows, labels, text, Zs, effects, decorative marks, gradients, antialiasing, fine fur texture, realistic rendering, or blur. Canvas 1024x512 if possible.",
+    "file": "snake.png",
+    "frames": [
+      [
+        [
+          40,
+          139,
+          422,
+          366
+        ],
+        [
+          472,
+          139,
+          853,
+          366
+        ],
+        [
+          901,
+          134,
+          1305,
+          366
+        ],
+        [
+          1351,
+          144,
+          1750,
+          366
+        ],
+        [
+          31,
+          595,
+          454,
+          763
+        ],
+        [
+          528,
+          501,
+          843,
+          781
+        ],
+        [
+          986,
+          597,
+          1245,
+          781
+        ],
+        [
+          1359,
+          609,
+          1739,
+          781
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "forest_sprite",
+    "species": "forest_sprite",
+    "variants": [
+      "blue"
+    ],
+    "subject": "original blue woodland mouse-squirrel fantasy animal, round ears, tiny black eyes, pale chest, four paws, fluffy curling tail and small teal leaf tuft on crown. Coherent small-mammal anatomy; no resemblance to existing named characters. Greeting raised paw, sleep curled",
+    "prompt": "Use case: stylized-concept. Asset: original retro PIXEL style animal animation sheet for a desktop pet game.\nSubject: original blue woodland mouse-squirrel fantasy animal, round ears, tiny black eyes, pale chest, four paws, fluffy curling tail and small teal leaf tuft on crown. Coherent small-mammal anatomy; no resemblance to existing named characters. Greeting raised paw, sleep curled.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid. Reading left to right, top to bottom: idle, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose, holding or nuzzling a small green ball.\nDraw genuine LOW RESOLUTION pixel art: every animal is designed for a 32 by 32 logical pixel canvas and enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, simple expressive animal silhouette, 12-16 flat colors total, two-tone shading, single-pixel dark contour. Readable connected anatomy, charming little 1990s handheld game sprite, all facing RIGHT. Strongly chunky and simple.\nOne sprite per cell; at least 15% transparent gutters on every side. Consistent animal scale and baseline. Entire ears, tails and legs visible with no contact between cells.\nGenuine alpha-transparent background. No scenery, floor shadows, labels, text, Zs, effects, decorative marks, gradients, antialiasing, fine fur texture, realistic rendering, or blur. Canvas 1024x512 if possible.",
+    "file": "forest_sprite.png",
+    "frames": [
+      [
+        [
+          64,
+          122,
+          395,
+          395
+        ],
+        [
+          508,
+          125,
+          840,
+          395
+        ],
+        [
+          935,
+          139,
+          1279,
+          403
+        ],
+        [
+          1375,
+          142,
+          1724,
+          403
+        ],
+        [
+          48,
+          512,
+          427,
+          770
+        ],
+        [
+          526,
+          523,
+          862,
+          793
+        ],
+        [
+          972,
+          585,
+          1287,
+          802
+        ],
+        [
+          1381,
+          515,
+          1706,
+          791
+        ]
+      ]
+    ]
+  }
+]

@@ -2,6 +2,12 @@ import AppKit
 import Combine
 import Foundation
 
+enum PetStyle: String, Codable, CaseIterable {
+    case realistic, pixel
+
+    var title: String { rawValue.capitalized }
+}
+
 struct PetRecord: Codable, Identifiable, Equatable {
     var id: UUID
     var name: String
@@ -56,13 +62,14 @@ struct AppDocument: Codable {
     var selectedDisplays: [String] = []
     var appearance = "system"
     var animationQuality = "standard"
+    var petStyle: PetStyle = .realistic
 
     init(pets: [PetRecord]) { self.pets = pets }
 
     private enum CodingKeys: String, CodingKey {
         case version, pets, treats, hideAll, paused, clickThrough, size, floorOffset,
              bedtime, bedtimeStart, bedtimeEnd, displayMode, selectedDisplays,
-             appearance, animationQuality
+             appearance, animationQuality, petStyle
     }
 
     init(from decoder: Decoder) throws {
@@ -82,6 +89,7 @@ struct AppDocument: Codable {
         selectedDisplays = try c.decodeIfPresent([String].self, forKey: .selectedDisplays) ?? []
         appearance = try c.decodeIfPresent(String.self, forKey: .appearance) ?? "system"
         animationQuality = try c.decodeIfPresent(String.self, forKey: .animationQuality) ?? "standard"
+        petStyle = try c.decodeIfPresent(PetStyle.self, forKey: .petStyle) ?? .realistic
         guard size >= 40, size <= 120, floorOffset >= 0, floorOffset <= 200,
               (0...23).contains(bedtimeStart), (0...23).contains(bedtimeEnd) else {
             throw CocoaError(.fileReadCorruptFile)
@@ -118,6 +126,32 @@ enum PetCatalog {
 
     static var variantCount: Int { variants.reduce(0) { $0 + $1.colors.count } }
 
+    static let pixelVariants: [(species: String, colors: [String])] = [
+        ("chicken", ["brown"]), ("cockatiel", ["gray"]), ("crab", ["red"]),
+        ("dog", ["brown"]), ("fox", ["red"]), ("horse", ["brown"]),
+        ("monkey", ["gray"]), ("panda", ["black"]), ("rat", ["gray"]),
+        ("snail", ["brown"]), ("snake", ["green"]), ("turtle", ["green"]),
+        ("rabbit", ["white"]), ("forest_sprite", ["blue"])
+    ]
+
+    static func catalog(for style: PetStyle) -> [(species: String, colors: [String])] {
+        style == .realistic ? variants : pixelVariants
+    }
+
+    static func variantCount(for style: PetStyle) -> Int {
+        catalog(for: style).reduce(0) { $0 + $1.colors.count }
+    }
+
+    static func displayVariant(for pet: PetRecord, style: PetStyle) -> String {
+        let colors = catalog(for: style).first(where: { $0.species == pet.species })?.colors ?? []
+        return colors.contains(pet.variant) ? pet.variant : colors.first ?? pet.variant
+    }
+
+    static func animationPath(for pet: PetRecord, state: String, style: PetStyle) -> String {
+        let folder = style == .pixel ? "Assets/Pixel" : "Assets"
+        return "\(folder)/\(pet.species)/\(displayVariant(for: pet, style: style))_\(state)_8fps.gif"
+    }
+
     static func walkSpeed(for species: String) -> Double {
         switch species {
         case "snail": return 18
@@ -132,11 +166,10 @@ enum PetCatalog {
         variants.contains { $0.species == pet.species && $0.colors.contains(pet.variant) }
     }
 
-    static func animationURL(for pet: PetRecord, state: String) -> URL? {
-        let name = "\(pet.variant)_\(state)_8fps.gif"
-        let url = Bundle.main.resourceURL?.appendingPathComponent("Assets/\(pet.species)/\(name)")
+    static func animationURL(for pet: PetRecord, state: String, style: PetStyle = .realistic) -> URL? {
+        let url = Bundle.main.resourceURL?.appendingPathComponent(animationPath(for: pet, state: state, style: style))
         if let url, FileManager.default.fileExists(atPath: url.path) { return url }
-        return Bundle.main.resourceURL?.appendingPathComponent("Assets/\(pet.species)/\(pet.variant)_idle_8fps.gif")
+        return Bundle.main.resourceURL?.appendingPathComponent(animationPath(for: pet, state: "idle", style: style))
     }
 }
 

@@ -1,9 +1,10 @@
-"""Package the original artwork in Artwork/ into transparent 128 px GIFs.
+"""Package original Realistic (128 px) or Pixel (32 px) artwork as GIFs.
 
 Requires Pillow. Sheets, generation prompts and reviewed frame bounds are checked
 in together; regenerating never calls a service or redraws the animals.
 """
 
+import argparse
 import json
 from pathlib import Path
 from PIL import Image
@@ -22,25 +23,25 @@ ANIMATIONS = {
 }
 
 
-def prepare_frames(sheet, bounds):
+def prepare_frames(sheet, bounds, size=SIZE, margin=MARGIN, color_count=255):
     # One scale for the entire animal prevents its size changing between poses.
     extent = max(max(right-left, bottom-top) for left, top, right, bottom in bounds)
-    scale = (SIZE - 2*MARGIN) / extent
+    scale = (size - 2*margin) / extent
     frames = []
     for box in bounds:
         artwork = sheet.crop(box)
         artwork = artwork.resize((max(1, round(artwork.width*scale)),
                                   max(1, round(artwork.height*scale))), Image.Resampling.NEAREST)
-        frame = Image.new("RGBA", (SIZE, SIZE))
-        frame.paste(artwork, ((SIZE-artwork.width)//2, SIZE-MARGIN-artwork.height))
+        frame = Image.new("RGBA", (size, size))
+        frame.paste(artwork, ((size-artwork.width)//2, size-margin-artwork.height))
         frame.paste((0, 0, 0, 0), mask=frame.getchannel("A").point(lambda alpha: 255 if alpha < 128 else 0))
         frames.append(frame)
 
     # Share the palette across actions to keep fur and markings from flickering.
-    strip = Image.new("RGB", (SIZE*len(frames), SIZE))
+    strip = Image.new("RGB", (size*len(frames), size))
     for index, frame in enumerate(frames):
-        strip.paste(frame.convert("RGB"), (SIZE*index, 0))
-    palette = strip.quantize(colors=255, method=Image.Quantize.MAXCOVERAGE, dither=Image.Dither.NONE)
+        strip.paste(frame.convert("RGB"), (size*index, 0))
+    palette = strip.quantize(colors=color_count, method=Image.Quantize.MAXCOVERAGE, dither=Image.Dither.NONE)
     colors = [0, 0, 0] + palette.getpalette()[:765]
     indexed = []
     for frame in frames:
@@ -55,14 +56,21 @@ def prepare_frames(sheet, bounds):
 
 
 def main():
-    specs = json.loads((PROJECT / "Artwork/sheets.json").read_text())
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--style", choices=("realistic", "pixel"), default="realistic")
+    style = parser.parse_args().style
+    pixel = style == "pixel"
+    artwork_folder = PROJECT / ("Artwork/Pixel" if pixel else "Artwork")
+    asset_folder = PROJECT / ("Assets/Pixel" if pixel else "Assets")
+    specs = json.loads((artwork_folder / "sheets.json").read_text())
     count = 0
     for spec in specs:
-        sheet = Image.open(PROJECT / "Artwork" / spec["file"]).convert("RGBA")
+        sheet = Image.open(artwork_folder / spec["file"]).convert("RGBA")
         for variant, bounds in zip(spec["variants"], spec["frames"], strict=True):
             assert len(bounds) == 8, (spec["id"], variant)
-            frames = prepare_frames(sheet, bounds)
-            folder = PROJECT / "Assets" / spec["species"]
+            frames = prepare_frames(sheet, bounds, size=32 if pixel else SIZE,
+                                    margin=2 if pixel else MARGIN, color_count=15 if pixel else 255)
+            folder = asset_folder / spec["species"]
             folder.mkdir(parents=True, exist_ok=True)
             for state, (indices, durations) in ANIMATIONS.items():
                 selected = [frames[index] for index in indices]
@@ -70,7 +78,7 @@ def main():
                                  append_images=selected[1:], duration=durations, loop=0,
                                  transparency=0, disposal=2, optimize=False)
                 count += 1
-    print(f"Packaged {count} original GIFs; upstream dog GIFs untouched")
+    print(f"Packaged {count} original {style} GIFs; third-party GIFs untouched")
 
 
 if __name__ == "__main__":

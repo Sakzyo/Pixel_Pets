@@ -44,8 +44,8 @@ final class SpriteCache {
         }
     }
 
-    func retain(for pets: [PetRecord]) {
-        let folders = Set(pets.map { Bundle.main.resourceURL?.appendingPathComponent("Assets/\($0.species)").path })
+    func retain(for pets: [PetRecord], style: PetStyle) {
+        let folders = Set(pets.map { PetCatalog.animationURL(for: $0, state: "idle", style: style)?.deletingLastPathComponent().path })
         items = items.filter { folders.contains($0.key.deletingLastPathComponent().path) }
     }
 }
@@ -167,7 +167,7 @@ final class PetProjection {
     let petID: UUID
     var x: CGFloat
     var behavior = PetBehaviorEngine(now: ProcessInfo.processInfo.systemUptime)
-    var currentAnimation = ""
+    var currentAnimationURL: URL?
 
     init(petID: UUID, size: CGFloat, x: CGFloat) {
         self.petID = petID
@@ -311,7 +311,7 @@ final class OverlayCoordinator: NSObject {
             }
             projections[id] = shown
         }
-        cache.retain(for: store.pets)
+        cache.retain(for: store.pets, style: store.document.petStyle)
         schedule()
         tick()
     }
@@ -427,17 +427,19 @@ final class OverlayCoordinator: NSObject {
                 case .carrying: animation = "with_ball"
                 }
                 let displayAnimation = reduceMotion && (animation == "walk" || animation == "run") ? "idle" : animation
-                if projection.currentAnimation != displayAnimation {
-                    projection.currentAnimation = displayAnimation
-                    if let url = PetCatalog.animationURL(for: pet, state: displayAnimation) {
+                let url = PetCatalog.animationURL(for: pet, state: displayAnimation, style: store.document.petStyle)
+                if projection.currentAnimationURL != url {
+                    projection.currentAnimationURL = url
+                    if let url {
                         cache.request(url) { [weak projection] decoded in
-                            guard let projection, projection.currentAnimation == displayAnimation else { return }
+                            guard let projection, projection.currentAnimationURL == url else { return }
                             projection.view.setAnimation(decoded, now: ProcessInfo.processInfo.systemUptime)
                         }
                     }
                 }
                 projection.view.advance(now: uptime)
-                projection.view.face(left: pet.species == "dog" ? false : projection.behavior.facingLeft)
+                let fixedDogDirection = pet.species == "dog" && store.document.petStyle == .realistic
+                projection.view.face(left: fixedDogDirection ? false : projection.behavior.facingLeft)
             }
         }
         schedule()

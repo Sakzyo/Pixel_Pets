@@ -138,17 +138,23 @@ final class ModelTests: XCTestCase {
         let assets = root.appendingPathComponent("Assets")
         let manifest = try JSONSerialization.jsonObject(with: Data(contentsOf: assets.appendingPathComponent("manifest.json"))) as! [String: Any]
         let files = manifest["files"] as! [[String: Any]]
-        XCTAssertEqual(manifest["catalogVariants"] as? Int, PetCatalog.variantCount)
-        XCTAssertEqual(files.count, PetCatalog.variantCount * 6)
+        let total = PetStyle.allCases.reduce(0) { $0 + PetCatalog.variantCount(for: $1) }
+        XCTAssertEqual(manifest["catalogVariants"] as? Int, total)
+        XCTAssertEqual(files.count, total * 6)
         for entry in files {
             let file = root.appendingPathComponent(entry["path"] as! String)
             let digest = SHA256.hash(data: try Data(contentsOf: file)).map { String(format: "%02x", $0) }.joined()
             XCTAssertEqual(digest, entry["sha256"] as? String, file.path)
         }
-        for entry in PetCatalog.variants {
-            for color in entry.colors {
-                for state in ["idle", "walk", "run", "swipe", "lie", "with_ball"] {
-                    XCTAssertTrue(FileManager.default.fileExists(atPath: assets.appendingPathComponent("\(entry.species)/\(color)_\(state)_8fps.gif").path))
+        for style in PetStyle.allCases {
+            XCTAssertEqual((manifest["styleVariants"] as? [String: Int])?[style.rawValue], PetCatalog.variantCount(for: style))
+            for entry in PetCatalog.catalog(for: style) {
+                for color in entry.colors {
+                    let pet = PetRecord(id: UUID(), name: "Test", species: entry.species, variant: color)
+                    for state in ["idle", "walk", "run", "swipe", "lie", "with_ball"] {
+                        let path = PetCatalog.animationPath(for: pet, state: state, style: style)
+                        XCTAssertTrue(FileManager.default.fileExists(atPath: root.appendingPathComponent(path).path), path)
+                    }
                 }
             }
         }
@@ -164,21 +170,68 @@ final class ModelTests: XCTestCase {
             let animation = try XCTUnwrap(SpriteAnimation.load(root.appendingPathComponent(path)), path)
             XCTAssertEqual(animation.frames.count, animation.durations.count, path)
             let generated = (entry["source"] as! String).hasPrefix("Artwork/")
+            let pixel = entry["style"] as? String == "pixel"
             if generated && ["idle", "walk", "run"].contains(where: { path.hasSuffix("_\($0)_8fps.gif") }) {
                 XCTAssertGreaterThan(animation.frames.count, 1, path)
             }
             for frame in animation.frames {
-                // Reject accidentally reintroduced low-resolution placeholder assets.
-                XCTAssertGreaterThanOrEqual(frame.width, 64, path)
-                XCTAssertGreaterThanOrEqual(frame.height, 64, path)
+                XCTAssertGreaterThanOrEqual(frame.width, pixel ? 32 : 64, path)
+                XCTAssertGreaterThanOrEqual(frame.height, pixel ? 32 : 64, path)
                 guard generated else { continue }
-                XCTAssertEqual(frame.width, 128, path)
-                XCTAssertEqual(frame.height, 128, path)
+                let size = pixel ? 32 : 128
+                XCTAssertEqual(frame.width, size, path)
+                XCTAssertEqual(frame.height, size, path)
                 let bitmap = NSBitmapImageRep(cgImage: frame)
-                for offset in 0..<128 {
-                    for (x, y) in [(0, offset), (127, offset), (offset, 0), (offset, 127)] {
+                for offset in 0..<size {
+                    for (x, y) in [(0, offset), (size-1, offset), (offset, 0), (offset, size-1)] {
                         XCTAssertEqual(bitmap.colorAt(x: x, y: y)?.alphaComponent, 0, path)
                     }
+                }
+            }
+        }
+    }
+
+    func testExistingDocumentsDefaultToRealistic() throws {
+        let legacy = Data(#"{"version":1,"pets":[{"id":"AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE","name":"Snow","species":"fox","variant":"white","hidden":true}],"paused":true}"#.utf8)
+        let document = try JSONDecoder().decode(AppDocument.self, from: legacy)
+        XCTAssertEqual(document.petStyle, .realistic)
+        XCTAssertEqual(document.pets.first?.variant, "white")
+        XCTAssertEqual(document.pets.first?.hidden, true)
+        XCTAssertTrue(document.paused)
+    }
+
+    @MainActor
+    func testStylePersistsWithoutChangingPetsOrCoats() throws {
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString).appendingPathComponent("state.json")
+        defer { try? FileManager.default.removeItem(at: url.deletingLastPathComponent()) }
+        let store = PetStore(url: url)
+        store.add(species: "fox", variant: "white", name: "Snow")
+        store.add(species: "horse", variant: "magical", name: "Star")
+        store.change { $0.pets[1].hidden = true; $0.paused = true }
+        let originalPets = store.pets
+        store.change { $0.petStyle = .pixel }
+        let restored = PetStore(url: url)
+        XCTAssertEqual(restored.document.petStyle, .pixel)
+        XCTAssertTrue(restored.document.paused)
+        XCTAssertEqual(restored.pets, originalPets)
+        XCTAssertEqual(PetCatalog.displayVariant(for: restored.pets[1], style: .pixel), "red")
+        restored.change { $0.petStyle = .realistic }
+        XCTAssertEqual(PetStore(url: url).pets, originalPets)
+        XCTAssertEqual(PetCatalog.displayVariant(for: restored.pets[1], style: .realistic), "white")
+    }
+
+    func testAllExistingPetsHaveDistinctPixelAssetsForEveryAction() {
+        let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent()
+            .deletingLastPathComponent().deletingLastPathComponent()
+        XCTAssertEqual(Set(PetCatalog.variants.map(\.species)), Set(PetCatalog.pixelVariants.map(\.species)))
+        for entry in PetCatalog.variants {
+            for variant in entry.colors {
+                let pet = PetRecord(id: UUID(), name: "Test", species: entry.species, variant: variant)
+                for state in ["idle", "walk", "run", "swipe", "lie", "with_ball"] {
+                    let realistic = PetCatalog.animationPath(for: pet, state: state, style: .realistic)
+                    let pixel = PetCatalog.animationPath(for: pet, state: state, style: .pixel)
+                    XCTAssertNotEqual(realistic, pixel)
+                    XCTAssertTrue(FileManager.default.fileExists(atPath: root.appendingPathComponent(pixel).path), pixel)
                 }
             }
         }

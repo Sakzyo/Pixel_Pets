@@ -38,8 +38,22 @@ struct ManagerView: View {
                 Button(store.document.hideAll ? "Show Pets" : "Hide All") { store.change { $0.hideAll.toggle() } }
                 Button(store.document.paused ? "Resume" : "Pause") { store.change { $0.paused.toggle() } }
             }
-            Text("\(PetCatalog.variants.count) species · \(PetCatalog.variantCount) variants")
+            Picker("Animal style", selection: Binding(get: { store.document.petStyle }, set: { value in
+                store.change { $0.petStyle = value }
+            })) {
+                ForEach(PetStyle.allCases, id: \.self) { style in
+                    Text(style.title).tag(style)
+                }
+            }
+            .pickerStyle(.segmented)
+            .disabled(store.loadError != nil)
+            .accessibilityIdentifier("animalStylePicker")
+            Text("\(PetCatalog.catalog(for: store.document.petStyle).count) species · \(PetCatalog.variantCount(for: store.document.petStyle)) \(store.document.petStyle.title) variants")
                 .font(.caption).foregroundStyle(.secondary)
+            if store.document.petStyle == .pixel {
+                Text("Pixel has one coat per species. Your Realistic coat choices are saved.")
+                    .font(.caption).foregroundStyle(.secondary)
+            }
             HStack {
                 Label("\(store.treats.count)/10 treats", systemImage: "heart.fill")
                 if store.treats.count < 10 {
@@ -57,12 +71,12 @@ struct ManagerView: View {
                 List {
                     ForEach(store.pets) { pet in
                         HStack(spacing: 12) {
-                            PetPreview(pet: pet)
+                            PetPreview(pet: pet, style: store.document.petStyle)
                                 .frame(width: 44, height: 44)
                                 .clipped()
                             VStack(alignment: .leading) {
                                 TextField("Name", text: nameBinding(pet))
-                                Text("\(pet.variant.capitalized) \(pet.species.capitalized)")
+                                Text("\(PetCatalog.displayVariant(for: pet, style: store.document.petStyle).capitalized) \(pet.species.capitalized)")
                                     .font(.caption).foregroundStyle(.secondary)
                             }
                             .frame(maxWidth: .infinity, alignment: .leading)
@@ -94,7 +108,7 @@ struct ManagerView: View {
             DisclosureGroup("Visit Shelter", isExpanded: $shelterOpen) {
                 VStack(alignment: .leading, spacing: 8) {
                     Picker("Species", selection: $chosenSpecies) {
-                        ForEach(PetCatalog.variants, id: \.species) { entry in
+                        ForEach(PetCatalog.catalog(for: store.document.petStyle), id: \.species) { entry in
                             Text(entry.species.capitalized).tag(entry.species)
                         }
                     }
@@ -113,10 +127,16 @@ struct ManagerView: View {
         }
         .padding(16)
         .onChange(of: chosenSpecies) { _, _ in chosenVariant = colors.first ?? "" }
+        .onChange(of: store.document.petStyle) { _, _ in
+            if !colors.contains(chosenVariant) { chosenVariant = colors.first ?? "" }
+        }
+        .onAppear {
+            if !colors.contains(chosenVariant) { chosenVariant = colors.first ?? "" }
+        }
     }
 
     private var colors: [String] {
-        PetCatalog.variants.first(where: { $0.species == chosenSpecies })?.colors ?? []
+        PetCatalog.catalog(for: store.document.petStyle).first(where: { $0.species == chosenSpecies })?.colors ?? []
     }
 
     private var settingsView: some View {
@@ -176,7 +196,7 @@ struct ManagerView: View {
     private var creditsView: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("Artwork and credits").font(.title2.bold())
-            Text("Four dog color sets are unmodified GIFs from VS Code Pets. Dog artwork is credited to NVPH Studio under CC BY-ND 4.0. Horse artwork is by Onfe, adapted by Chris Kent, and used with credit under Onfe’s published permission. The other pet drawings were created for this project.")
+            Text("In Realistic, four dog color sets are unmodified GIFs from VS Code Pets, credited to NVPH Studio under CC BY-ND 4.0. Horse artwork is by Onfe, adapted by Chris Kent, and used with credit under Onfe’s published permission. All Pixel drawings and the other Realistic drawings were created for this project.")
             Text("Rabbit and forest sprite are generic alternatives to branded characters in the reference extension.")
             Link("VS Code Pets", destination: URL(string: "https://github.com/tonybaloney/vscode-pets")!)
             Link("CC BY-ND 4.0", destination: URL(string: "https://creativecommons.org/licenses/by-nd/4.0/")!)
@@ -226,11 +246,12 @@ struct ManagerView: View {
 
 struct PetPreview: NSViewRepresentable {
     let pet: PetRecord
+    let style: PetStyle
     func makeNSView(context: Context) -> PetPreviewImageView {
         PetPreviewImageView()
     }
     func updateNSView(_ view: PetPreviewImageView, context: Context) {
-        view.show(PetCatalog.animationURL(for: pet, state: "idle"))
+        view.show(PetCatalog.animationURL(for: pet, state: "idle", style: style))
     }
 }
 

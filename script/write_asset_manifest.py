@@ -8,16 +8,18 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "Assets"
 UPSTREAM_COMMIT = "2c91214beb922288cca1938cddb607abc5f806b7"
 REFERENCE_COMMIT = "da09dab583ef8b8bb83f160eaa81ebef228ee270"
-SHEETS = json.loads((ROOT / "Artwork/sheets.json").read_text())
 ORIGINAL_SOURCES = {
-    (sheet["species"], variant): f"Artwork/{sheet['file']}"
-    for sheet in SHEETS for variant in sheet["variants"]
+    (style, sheet["species"], variant): f"{folder}/{sheet['file']}"
+    for style, folder in (("realistic", "Artwork"), ("pixel", "Artwork/Pixel"))
+    for sheet in json.loads((ROOT / folder / "sheets.json").read_text())
+    for variant in sheet["variants"]
 }
 
 items = []
-for path in sorted(ASSETS.glob("*/*.gif")):
+for path in sorted(ASSETS.rglob("*.gif")):
     relative = path.relative_to(ROOT).as_posix()
-    upstream_dog = path.parent.name == "dog" and not path.name.startswith("akita_")
+    style = "pixel" if path.relative_to(ASSETS).parts[0] == "Pixel" else "realistic"
+    upstream_dog = style == "realistic" and path.parent.name == "dog" and not path.name.startswith("akita_")
     if upstream_dog:
         info = {
             "source": f"https://github.com/tonybaloney/vscode-pets/blob/{UPSTREAM_COMMIT}/media/dog/{path.name}",
@@ -25,7 +27,7 @@ for path in sorted(ASSETS.glob("*/*.gif")):
             "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
             "modifications": "None; original GIF bytes copied verbatim",
         }
-    elif path.parent.name == "horse":
+    elif style == "realistic" and path.parent.name == "horse":
         source_name = path.name.replace("_lie_", "_stand_")
         info = {
             "source": f"https://github.com/tonybaloney/vscode-pets/blob/{UPSTREAM_COMMIT}/media/horse/{source_name}",
@@ -39,17 +41,23 @@ for path in sorted(ASSETS.glob("*/*.gif")):
         if variant.endswith("_with"):
             variant = variant.removesuffix("_with")
         info = {
-            "source": ORIGINAL_SOURCES[(path.parent.name, variant)],
+            "source": ORIGINAL_SOURCES[(style, path.parent.name, variant)],
             "creator": "Desktop Pets project, created with OpenAI image generation",
             "license": "Project-original artwork; no external image incorporated",
             "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding",
         }
-    items.append({"path": relative, "sha256": hashlib.sha256(path.read_bytes()).hexdigest(), **info})
+    items.append({"path": relative, "style": style, "sha256": hashlib.sha256(path.read_bytes()).hexdigest(), **info})
+
+style_variants = {
+    style: sum(item["style"] == style and item["path"].endswith("_idle_8fps.gif") for item in items)
+    for style in ("realistic", "pixel")
+}
 
 manifest = {
     "referenceExtension": f"https://github.com/nguyenv119/pets/tree/{REFERENCE_COMMIT}",
     "upstreamSprites": f"https://github.com/tonybaloney/vscode-pets/tree/{UPSTREAM_COMMIT}",
-    "catalogVariants": len({(p.parent.name, p.name.split("_idle_8fps.gif")[0]) for p in ASSETS.glob("*/*_idle_8fps.gif")}),
+    "catalogVariants": sum(style_variants.values()),
+    "styleVariants": style_variants,
     "files": items,
 }
 (ASSETS / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
