@@ -17,9 +17,9 @@ and explicitly allows sharing GIFs in project repositories. These GIF bytes are
 unchanged; the standing animation is also used for the horse's resting state.
 The permission and source details are recorded in `Assets/horse/license.txt`.
 
-The other 120 Realistic GIFs and all 84 Pixel GIFs were created for this project
-using OpenAI's built-in image generation tool. The 13 Realistic RGBA sheets are
-in `Artwork/`; the 14 new Pixel sheets are in `Artwork/Pixel/`, including original
+The other 150 Realistic GIFs and all 210 Pixel GIFs were created for this project
+using OpenAI's built-in image generation tool. The 18 Realistic RGBA sheets are
+in `Artwork/`; the 35 Pixel sheets are in `Artwork/Pixel/`, including original
 Pixel dog and horse artwork. Each folder records exact prompts, variant order,
 and reviewed frame bounds in `sheets.json`. `script/generate_original_sprites.py`
 extracts and packages them with uniform scale, baseline, palette, and transparency.

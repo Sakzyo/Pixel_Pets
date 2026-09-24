@@ -8,9 +8,11 @@ variant order, and reviewed pixel bounds for the eight poses. No API/CLI fallbac
 was used. These source sheets are project assets; only the GIFs in `Assets/` are
 included in the app bundle.
 
-The existing 35 variants are classified as **Realistic**. The new **Pixel** set
-has one original variant for every species. Its 14 source sheets, exact prompts,
-reviewed frame bounds, and a comparison preview are in [Pixel/](Pixel/README.md).
+The **Realistic** set has 40 variants, including three cats and two deer.
+The **Pixel** set has 35 original variants across 16 species, with at least two
+colors per species. Its source sheets, exact prompts, reviewed frame bounds,
+and color preview are in [Pixel/](Pixel/README.md). See also the
+[cats and deer comparison](cats-and-deer-preview.png).
 Pixel GIFs are packaged into `Assets/Pixel/` with 32 × 32 frames, a two-pixel margin,
 at most 15 opaque colors per animal, binary transparency, and no dithering.
 Both styles use nearest-neighbor scaling in the app.
@@ -28,8 +30,8 @@ as the green ball. GIFs use a reserved transparent index and no dithering.
 Regenerate either original set with Pillow installed:
 
 ```sh
-python3 script/generate_original_sprites.py --style realistic # 120 GIFs
-python3 script/generate_original_sprites.py --style pixel     # 84 GIFs
+python3 script/generate_original_sprites.py --style realistic # 150 GIFs
+python3 script/generate_original_sprites.py --style pixel     # 210 GIFs
 python3 script/write_asset_manifest.py
 ./script/test.sh
 ```

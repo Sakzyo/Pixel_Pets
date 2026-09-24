@@ -51,7 +51,7 @@ struct ManagerView: View {
             Text("\(PetCatalog.catalog(for: store.document.petStyle).count) species · \(PetCatalog.variantCount(for: store.document.petStyle)) \(store.document.petStyle.title) variants")
                 .font(.caption).foregroundStyle(.secondary)
             if store.document.petStyle == .pixel {
-                Text("Pixel has one coat per species. Your Realistic coat choices are saved.")
+                Text("Coat choices are saved when switching styles.")
                     .font(.caption).foregroundStyle(.secondary)
             }
             HStack {

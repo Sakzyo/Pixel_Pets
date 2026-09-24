@@ -108,9 +108,11 @@ enum PetCatalog {
     // Horses and four dog colors are credited upstream assets; the rest are original artwork.
     // Miffy and Totoro are replaced by a generic rabbit and forest sprite.
     static let variants: [(species: String, colors: [String])] = [
+        ("cat", ["orange", "gray", "black"]),
         ("chicken", ["brown", "white"]),
         ("cockatiel", ["brown", "gray"]),
         ("crab", ["red"]),
+        ("deer", ["brown", "white"]),
         ("dog", ["akita", "black", "brown", "red", "white"]),
         ("fox", ["red", "white"]),
         ("horse", ["black", "brown", "white", "magical", "warrior", "paint_beige", "paint_black", "paint_brown", "socks_beige", "socks_black", "socks_brown"]),
@@ -127,11 +129,13 @@ enum PetCatalog {
     static var variantCount: Int { variants.reduce(0) { $0 + $1.colors.count } }
 
     static let pixelVariants: [(species: String, colors: [String])] = [
-        ("chicken", ["brown"]), ("cockatiel", ["gray"]), ("crab", ["red"]),
-        ("dog", ["brown"]), ("fox", ["red"]), ("horse", ["brown"]),
-        ("monkey", ["gray"]), ("panda", ["black"]), ("rat", ["gray"]),
-        ("snail", ["brown"]), ("snake", ["green"]), ("turtle", ["green"]),
-        ("rabbit", ["white"]), ("forest_sprite", ["blue"])
+        ("cat", ["orange", "gray", "black"]),
+        ("chicken", ["brown", "white"]), ("cockatiel", ["gray", "brown"]), ("crab", ["red", "blue"]),
+        ("deer", ["brown", "white"]),
+        ("dog", ["brown", "black", "white"]), ("fox", ["red", "white"]), ("horse", ["brown", "black", "white"]),
+        ("monkey", ["gray", "brown"]), ("panda", ["black", "brown"]), ("rat", ["gray", "white"]),
+        ("snail", ["brown", "blue"]), ("snake", ["green", "gold"]), ("turtle", ["green", "orange"]),
+        ("rabbit", ["white", "brown"]), ("forest_sprite", ["blue", "purple"])
     ]
 
     static func catalog(for style: PetStyle) -> [(species: String, colors: [String])] {
@@ -163,7 +167,9 @@ enum PetCatalog {
     }
 
     static func has(_ pet: PetRecord) -> Bool {
-        variants.contains { $0.species == pet.species && $0.colors.contains(pet.variant) }
+        PetStyle.allCases.contains { style in
+            catalog(for: style).contains { $0.species == pet.species && $0.colors.contains(pet.variant) }
+        }
     }
 
     static func animationURL(for pet: PetRecord, state: String, style: PetStyle = .realistic) -> URL? {

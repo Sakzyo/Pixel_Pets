@@ -865,5 +865,1307 @@
         ]
       ]
     ]
+  },
+  {
+    "id": "cat_orange",
+    "style": "pixel",
+    "species": "cat",
+    "variants": [
+      "orange"
+    ],
+    "file": "cat_orange.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: orange tabby domestic cat, dark ginger stripes, cream muzzle, triangular ears, long curved tail, four paws.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          80,
+          103,
+          406,
+          406
+        ],
+        [
+          515,
+          106,
+          840,
+          406
+        ],
+        [
+          946,
+          113,
+          1282,
+          406
+        ],
+        [
+          1388,
+          116,
+          1726,
+          406
+        ],
+        [
+          49,
+          545,
+          435,
+          808
+        ],
+        [
+          532,
+          519,
+          842,
+          812
+        ],
+        [
+          959,
+          636,
+          1269,
+          813
+        ],
+        [
+          1375,
+          516,
+          1727,
+          810
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "cat_gray",
+    "style": "pixel",
+    "species": "cat",
+    "variants": [
+      "gray"
+    ],
+    "file": "cat_gray.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: silver-gray tabby domestic cat, charcoal stripes, pale muzzle, triangular ears, long curved tail, four paws.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          77,
+          113,
+          402,
+          414
+        ],
+        [
+          510,
+          113,
+          838,
+          414
+        ],
+        [
+          929,
+          121,
+          1271,
+          414
+        ],
+        [
+          1370,
+          120,
+          1726,
+          414
+        ],
+        [
+          42,
+          526,
+          444,
+          798
+        ],
+        [
+          509,
+          498,
+          855,
+          791
+        ],
+        [
+          936,
+          623,
+          1282,
+          791
+        ],
+        [
+          1371,
+          508,
+          1703,
+          791
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "cat_black",
+    "style": "pixel",
+    "species": "cat",
+    "variants": [
+      "black"
+    ],
+    "file": "cat_black.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: black domestic cat, cool charcoal highlights, bright golden eyes, triangular ears, long curved tail, four paws.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          77,
+          119,
+          431,
+          426
+        ],
+        [
+          508,
+          119,
+          867,
+          426
+        ],
+        [
+          930,
+          115,
+          1296,
+          426
+        ],
+        [
+          1363,
+          128,
+          1750,
+          426
+        ],
+        [
+          39,
+          556,
+          456,
+          816
+        ],
+        [
+          513,
+          519,
+          819,
+          816
+        ],
+        [
+          937,
+          640,
+          1282,
+          816
+        ],
+        [
+          1363,
+          556,
+          1729,
+          816
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "deer_brown",
+    "style": "pixel",
+    "species": "deer",
+    "variants": [
+      "brown"
+    ],
+    "file": "deer_brown.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: tan brown deer with cream throat, four slender legs with hooves, large pointed ears, short white-underneath tail, small branching antlers.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          105,
+          45,
+          381,
+          411
+        ],
+        [
+          537,
+          45,
+          813,
+          411
+        ],
+        [
+          973,
+          48,
+          1272,
+          413
+        ],
+        [
+          1409,
+          48,
+          1712,
+          413
+        ],
+        [
+          56,
+          484,
+          402,
+          810
+        ],
+        [
+          539,
+          467,
+          833,
+          825
+        ],
+        [
+          959,
+          614,
+          1266,
+          810
+        ],
+        [
+          1388,
+          575,
+          1718,
+          825
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "deer_white",
+    "style": "pixel",
+    "species": "deer",
+    "variants": [
+      "white"
+    ],
+    "file": "deer_white.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: white deer with ivory coat and light gray shadows, four slender legs with dark hooves, large pointed ears, short tail, small tan branching antlers.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          118,
+          46,
+          390,
+          412
+        ],
+        [
+          536,
+          46,
+          808,
+          413
+        ],
+        [
+          945,
+          46,
+          1253,
+          413
+        ],
+        [
+          1393,
+          47,
+          1695,
+          413
+        ],
+        [
+          60,
+          479,
+          415,
+          815
+        ],
+        [
+          545,
+          462,
+          829,
+          827
+        ],
+        [
+          938,
+          645,
+          1248,
+          827
+        ],
+        [
+          1378,
+          577,
+          1708,
+          824
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "chicken_white",
+    "style": "pixel",
+    "species": "chicken",
+    "variants": [
+      "white"
+    ],
+    "file": "chicken_white.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: white domestic hen with ivory feathers and pale gray shadows, bright red comb, yellow beak, layered wing, upright fan tail and two thin bird legs.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          73,
+          91,
+          369,
+          388
+        ],
+        [
+          507,
+          91,
+          804,
+          388
+        ],
+        [
+          953,
+          91,
+          1247,
+          388
+        ],
+        [
+          1399,
+          90,
+          1694,
+          388
+        ],
+        [
+          85,
+          528,
+          402,
+          791
+        ],
+        [
+          520,
+          498,
+          854,
+          810
+        ],
+        [
+          954,
+          593,
+          1251,
+          804
+        ],
+        [
+          1392,
+          518,
+          1694,
+          802
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "cockatiel_brown",
+    "style": "pixel",
+    "species": "cockatiel",
+    "variants": [
+      "brown"
+    ],
+    "file": "cockatiel_brown.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: warm brown cinnamon cockatiel, yellow face and tall yellow crest, round orange cheek patch, warm brown wings and cream wing stripe, long tail and tiny bird feet.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          49,
+          62,
+          410,
+          401
+        ],
+        [
+          482,
+          63,
+          843,
+          402
+        ],
+        [
+          916,
+          62,
+          1277,
+          401
+        ],
+        [
+          1351,
+          62,
+          1711,
+          407
+        ],
+        [
+          43,
+          512,
+          457,
+          808
+        ],
+        [
+          500,
+          482,
+          833,
+          809
+        ],
+        [
+          916,
+          555,
+          1270,
+          809
+        ],
+        [
+          1344,
+          570,
+          1723,
+          809
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "crab_blue",
+    "style": "pixel",
+    "species": "crab",
+    "variants": [
+      "blue"
+    ],
+    "file": "crab_blue.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: bright blue crab with deep cobalt shell and sky-blue highlights, cream underside, two eye stalks, two raised pincers and small jointed legs.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          49,
+          146,
+          395,
+          379
+        ],
+        [
+          493,
+          145,
+          839,
+          379
+        ],
+        [
+          926,
+          145,
+          1282,
+          388
+        ],
+        [
+          1380,
+          145,
+          1726,
+          388
+        ],
+        [
+          39,
+          564,
+          419,
+          807
+        ],
+        [
+          501,
+          539,
+          839,
+          808
+        ],
+        [
+          937,
+          636,
+          1259,
+          809
+        ],
+        [
+          1398,
+          564,
+          1730,
+          809
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "dog_black",
+    "style": "pixel",
+    "species": "dog",
+    "variants": [
+      "black"
+    ],
+    "file": "dog_black.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: black floppy-eared spaniel dog with charcoal highlights, cream chest patch, soft muzzle, four paws, fluffy floppy ears and wagging curved tail.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          59,
+          138,
+          395,
+          412
+        ],
+        [
+          503,
+          138,
+          838,
+          413
+        ],
+        [
+          928,
+          138,
+          1275,
+          413
+        ],
+        [
+          1364,
+          138,
+          1717,
+          412
+        ],
+        [
+          48,
+          521,
+          414,
+          779
+        ],
+        [
+          515,
+          512,
+          838,
+          785
+        ],
+        [
+          935,
+          636,
+          1294,
+          786
+        ],
+        [
+          1375,
+          520,
+          1724,
+          792
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "dog_white",
+    "style": "pixel",
+    "species": "dog",
+    "variants": [
+      "white"
+    ],
+    "file": "dog_white.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: white floppy-eared spaniel dog with ivory coat and cool pale gray shadows, black nose, soft muzzle, four paws, fluffy floppy ears and wagging curved tail.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          39,
+          97,
+          399,
+          373
+        ],
+        [
+          482,
+          97,
+          842,
+          373
+        ],
+        [
+          922,
+          107,
+          1289,
+          373
+        ],
+        [
+          1367,
+          109,
+          1735,
+          373
+        ],
+        [
+          40,
+          552,
+          414,
+          807
+        ],
+        [
+          509,
+          477,
+          814,
+          815
+        ],
+        [
+          929,
+          647,
+          1285,
+          815
+        ],
+        [
+          1365,
+          532,
+          1735,
+          815
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "fox_white",
+    "style": "pixel",
+    "species": "fox",
+    "variants": [
+      "white"
+    ],
+    "file": "fox_white.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: white arctic fox with ivory coat and cool gray shading, pointed triangular ears, narrow muzzle, four paws and large bushy pale tail.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          31,
+          140,
+          420,
+          407
+        ],
+        [
+          464,
+          139,
+          855,
+          407
+        ],
+        [
+          902,
+          140,
+          1297,
+          407
+        ],
+        [
+          1345,
+          140,
+          1742,
+          407
+        ],
+        [
+          18,
+          552,
+          451,
+          782
+        ],
+        [
+          495,
+          471,
+          835,
+          786
+        ],
+        [
+          949,
+          638,
+          1262,
+          795
+        ],
+        [
+          1329,
+          567,
+          1709,
+          789
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "horse_black",
+    "style": "pixel",
+    "species": "horse",
+    "variants": [
+      "black"
+    ],
+    "file": "horse_black.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: black horse with charcoal highlights, black mane and tail, long muzzle, upright ears, long four legs ending in hooves.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          41,
+          65,
+          422,
+          409
+        ],
+        [
+          468,
+          64,
+          849,
+          409
+        ],
+        [
+          897,
+          77,
+          1292,
+          410
+        ],
+        [
+          1331,
+          74,
+          1718,
+          410
+        ],
+        [
+          25,
+          495,
+          468,
+          801
+        ],
+        [
+          512,
+          433,
+          812,
+          818
+        ],
+        [
+          897,
+          648,
+          1292,
+          817
+        ],
+        [
+          1342,
+          561,
+          1741,
+          808
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "horse_white",
+    "style": "pixel",
+    "species": "horse",
+    "variants": [
+      "white"
+    ],
+    "file": "horse_white.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: white horse with pale gray shading, silver mane and tail, long muzzle, upright ears, long four legs ending in dark hooves.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          40,
+          45,
+          416,
+          380
+        ],
+        [
+          478,
+          45,
+          856,
+          380
+        ],
+        [
+          917,
+          48,
+          1310,
+          380
+        ],
+        [
+          1360,
+          48,
+          1758,
+          380
+        ],
+        [
+          31,
+          494,
+          452,
+          782
+        ],
+        [
+          511,
+          414,
+          844,
+          822
+        ],
+        [
+          917,
+          635,
+          1254,
+          805
+        ],
+        [
+          1343,
+          548,
+          1721,
+          790
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "monkey_brown",
+    "style": "pixel",
+    "species": "monkey",
+    "variants": [
+      "brown"
+    ],
+    "file": "monkey_brown.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: brown monkey with cream muzzle and ears, dark eyes, long flexible limbs ending in hands and feet, long curving tail.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          59,
+          87,
+          395,
+          387
+        ],
+        [
+          511,
+          87,
+          839,
+          387
+        ],
+        [
+          923,
+          87,
+          1280,
+          387
+        ],
+        [
+          1397,
+          87,
+          1725,
+          387
+        ],
+        [
+          38,
+          525,
+          425,
+          799
+        ],
+        [
+          497,
+          478,
+          855,
+          812
+        ],
+        [
+          941,
+          624,
+          1298,
+          812
+        ],
+        [
+          1378,
+          493,
+          1709,
+          806
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "panda_brown",
+    "style": "pixel",
+    "species": "panda",
+    "variants": [
+      "brown"
+    ],
+    "file": "panda_brown.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: brown panda with chocolate brown ears and eye patches, cream head and torso, chocolate brown legs, short rounded tail.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          68,
+          113,
+          396,
+          387
+        ],
+        [
+          511,
+          113,
+          840,
+          387
+        ],
+        [
+          946,
+          113,
+          1283,
+          388
+        ],
+        [
+          1393,
+          113,
+          1727,
+          388
+        ],
+        [
+          52,
+          529,
+          428,
+          787
+        ],
+        [
+          526,
+          480,
+          848,
+          798
+        ],
+        [
+          939,
+          605,
+          1297,
+          798
+        ],
+        [
+          1407,
+          514,
+          1708,
+          798
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "rat_white",
+    "style": "pixel",
+    "species": "rat",
+    "variants": [
+      "white"
+    ],
+    "file": "rat_white.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: white rat with ivory coat and pale gray shadows, pink rounded ears, pointed nose, four tiny paws and long pink tail.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          16,
+          153,
+          416,
+          360
+        ],
+        [
+          459,
+          153,
+          858,
+          360
+        ],
+        [
+          902,
+          153,
+          1302,
+          360
+        ],
+        [
+          1345,
+          153,
+          1744,
+          360
+        ],
+        [
+          19,
+          585,
+          491,
+          765
+        ],
+        [
+          549,
+          486,
+          841,
+          787
+        ],
+        [
+          968,
+          641,
+          1302,
+          789
+        ],
+        [
+          1403,
+          570,
+          1739,
+          783
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "snail_blue",
+    "style": "pixel",
+    "species": "snail",
+    "variants": [
+      "blue"
+    ],
+    "file": "snail_blue.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: snail with rich blue spiral shell, navy spiral and sky-blue highlights, warm cream body, two tall eye stalks.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          65,
+          126,
+          379,
+          403
+        ],
+        [
+          509,
+          126,
+          823,
+          403
+        ],
+        [
+          942,
+          126,
+          1270,
+          404
+        ],
+        [
+          1408,
+          126,
+          1709,
+          411
+        ],
+        [
+          60,
+          567,
+          407,
+          824
+        ],
+        [
+          521,
+          522,
+          814,
+          824
+        ],
+        [
+          956,
+          626,
+          1308,
+          825
+        ],
+        [
+          1384,
+          560,
+          1718,
+          825
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "snake_gold",
+    "style": "pixel",
+    "species": "snake",
+    "variants": [
+      "gold"
+    ],
+    "file": "snake_gold.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: golden-yellow snake with orange-gold back shading and cream belly, small rounded head, black eyes and long curved body.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          70,
+          157,
+          361,
+          385
+        ],
+        [
+          513,
+          157,
+          804,
+          385
+        ],
+        [
+          915,
+          178,
+          1285,
+          380
+        ],
+        [
+          1354,
+          176,
+          1726,
+          385
+        ],
+        [
+          30,
+          608,
+          439,
+          754
+        ],
+        [
+          512,
+          525,
+          825,
+          788
+        ],
+        [
+          950,
+          641,
+          1236,
+          783
+        ],
+        [
+          1393,
+          608,
+          1684,
+          793
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "turtle_orange",
+    "style": "pixel",
+    "species": "turtle",
+    "variants": [
+      "orange"
+    ],
+    "file": "turtle_orange.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: turtle with rich orange segmented shell, ochre shell shadows, yellow-green head, neck, four legs and little tail.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          63,
+          158,
+          399,
+          369
+        ],
+        [
+          505,
+          157,
+          842,
+          369
+        ],
+        [
+          941,
+          154,
+          1281,
+          369
+        ],
+        [
+          1372,
+          156,
+          1719,
+          373
+        ],
+        [
+          56,
+          559,
+          408,
+          761
+        ],
+        [
+          504,
+          512,
+          825,
+          766
+        ],
+        [
+          935,
+          606,
+          1287,
+          766
+        ],
+        [
+          1382,
+          552,
+          1696,
+          766
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "rabbit_brown",
+    "style": "pixel",
+    "species": "rabbit",
+    "variants": [
+      "brown"
+    ],
+    "file": "rabbit_brown.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: brown rabbit with warm chestnut coat, tan belly and muzzle, long upright ears with pink interiors, large hind feet and short fluffy tail.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          92,
+          49,
+          387,
+          402
+        ],
+        [
+          536,
+          49,
+          831,
+          402
+        ],
+        [
+          979,
+          49,
+          1275,
+          403
+        ],
+        [
+          1422,
+          49,
+          1718,
+          403
+        ],
+        [
+          44,
+          514,
+          418,
+          798
+        ],
+        [
+          558,
+          458,
+          792,
+          825
+        ],
+        [
+          947,
+          604,
+          1276,
+          819
+        ],
+        [
+          1410,
+          514,
+          1723,
+          819
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "forest_sprite_purple",
+    "style": "pixel",
+    "species": "forest_sprite",
+    "variants": [
+      "purple"
+    ],
+    "file": "forest_sprite_purple.png",
+    "prompt": "Use case: stylized-concept. Asset: original pixel animal animation sheet for the Desktop Pets game.\nSubject: original tiny purple woodland squirrel-like creature with lavender fur, large rounded mouse-like ears, long curled fluffy tail, four little paws and small green leaf tuft; no copyrighted character.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nTrue low-resolution pixel art designed for a 32 by 32 logical pixel canvas, enlarged with nearest-neighbor only. Large clearly visible square pixel clusters, 12-16 flat colors, simple two-tone shading, single-pixel dark outline, charming small 1990s game sprite. No gradients, antialiasing, fine fur texture, blur or realistic rendering. Canvas 1024x512 if possible.",
+    "frames": [
+      [
+        [
+          60,
+          118,
+          394,
+          396
+        ],
+        [
+          501,
+          118,
+          831,
+          396
+        ],
+        [
+          944,
+          117,
+          1280,
+          396
+        ],
+        [
+          1393,
+          119,
+          1727,
+          396
+        ],
+        [
+          55,
+          568,
+          435,
+          813
+        ],
+        [
+          513,
+          490,
+          838,
+          817
+        ],
+        [
+          944,
+          591,
+          1290,
+          810
+        ],
+        [
+          1386,
+          511,
+          1733,
+          813
+        ]
+      ]
+    ]
   }
 ]

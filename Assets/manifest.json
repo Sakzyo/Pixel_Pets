@@ -1,12 +1,174 @@
 {
   "referenceExtension": "https://github.com/nguyenv119/pets/tree/da09dab583ef8b8bb83f160eaa81ebef228ee270",
   "upstreamSprites": "https://github.com/tonybaloney/vscode-pets/tree/2c91214beb922288cca1938cddb607abc5f806b7",
-  "catalogVariants": 49,
+  "catalogVariants": 75,
   "styleVariants": {
-    "realistic": 35,
-    "pixel": 14
+    "realistic": 40,
+    "pixel": 35
   },
   "files": [
+    {
+      "path": "Assets/Pixel/cat/black_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "89df003a2c4470cd7017d3208539605ef76cf6f16c3b42a9e848176dc776af81",
+      "source": "Artwork/Pixel/cat_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/black_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "43638107377e6e087c2fbcec14fc33535b32378c9c8aafaa707f985fc6b8c237",
+      "source": "Artwork/Pixel/cat_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/black_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "c4ab354252db29d4e5b2c2603a99b8802dde63f73044c5ed0c5a394326ee4e9d",
+      "source": "Artwork/Pixel/cat_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/black_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "4651fe5c0200693f8e90a8aa6fb417947a3845c511bd143b962ea44a749c1bb3",
+      "source": "Artwork/Pixel/cat_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/black_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "1e710d8405407d56546eb4ddac6c24bcdb6758d7f74f071aed8a2d3348bffb47",
+      "source": "Artwork/Pixel/cat_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/black_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "f8a62ad177a1d918879e14c51c184805d0858154554b3d7bea77529025899cb5",
+      "source": "Artwork/Pixel/cat_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/gray_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "01ca562d80632dfab175bcf990cb08c7fc98f6dc2a48b6014d3527067c955199",
+      "source": "Artwork/Pixel/cat_gray.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/gray_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "30d6973f1cdda106448ce687537d5c8fa5d4642afd3b5af3bfebfdb2537f9538",
+      "source": "Artwork/Pixel/cat_gray.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/gray_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "711487c66f2f0f9bbe2b5480a00c5e1cc9bd7ddbe9e17a51becc5d9316733f37",
+      "source": "Artwork/Pixel/cat_gray.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/gray_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "b0366cc9113a54d5db44ec1da9c3c545996f21950542bb62bbc9fab8a651d83d",
+      "source": "Artwork/Pixel/cat_gray.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/gray_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "977a2ec2ec47ffa189dbc5fe3cf0bee4d84805c0a3d96ebdb8aca626305737db",
+      "source": "Artwork/Pixel/cat_gray.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/gray_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "53e098c54073108f07b6b4a122d3b7f2bb5aa5a03b0f012f042a908b0ebc0d97",
+      "source": "Artwork/Pixel/cat_gray.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/orange_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "0fb94d0287c9d669720397e9f19e6dc6463a542be349177171ae8c8bffd5dd29",
+      "source": "Artwork/Pixel/cat_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/orange_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "f71463c036df9c3baef718a97a1b7a50ed2dfd9fd2cbf3145612ff1cf5cfcdf4",
+      "source": "Artwork/Pixel/cat_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/orange_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "4d185b4f01c3d3e98ef6bfb283f53e795162945ea37e328dea9315f7bb49c5d0",
+      "source": "Artwork/Pixel/cat_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/orange_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "1dfe51c060059d00df96cba3b18a2b40491b8dfaf3a48d3aafae0aaac30e61c8",
+      "source": "Artwork/Pixel/cat_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/orange_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "8ccb32bf8f0c8eb98e96abd18ec28fc7b9987c8cd78c31df77ab929f7848b1de",
+      "source": "Artwork/Pixel/cat_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cat/orange_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "f0258c56222e08615fc5e850ca3c1253fe113c2a16d57972cfc26da0ad54c362",
+      "source": "Artwork/Pixel/cat_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
     {
       "path": "Assets/Pixel/chicken/brown_idle_8fps.gif",
       "style": "pixel",
@@ -57,6 +219,114 @@
       "style": "pixel",
       "sha256": "3dbfd49a6ea9396603827997eab9c7871c2de7ae5460a9fd07f84304d5e569c2",
       "source": "Artwork/Pixel/chicken.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/chicken/white_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "f375827cc54b9edf3d4f4d683d772a631902af51289ee6e9df7e829a799a5c95",
+      "source": "Artwork/Pixel/chicken_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/chicken/white_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "c6e5ecbad9e2ecfdf5b907c479c45528da228d51fdea98c6ffda0e74aa549f2e",
+      "source": "Artwork/Pixel/chicken_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/chicken/white_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "76ecfbaaee814f2984179e1a99b9561ba453fa769dec7c653334e7011afded5c",
+      "source": "Artwork/Pixel/chicken_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/chicken/white_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "25f02246f208612922720409a3bebefb46e24fe3f3fbff9e420994ccd35f2966",
+      "source": "Artwork/Pixel/chicken_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/chicken/white_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "23d2a6cbde708c76eebf7e67633c8d9c581fd7022285cfe264d292a6674d7b50",
+      "source": "Artwork/Pixel/chicken_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/chicken/white_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "e3d9e89427653c1573d047ee0f9aeec7e55a8768711c01172c84e68d7d66a0c0",
+      "source": "Artwork/Pixel/chicken_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cockatiel/brown_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "21787e3fac373554a76139af6d3c0fc6280413d5ac209bcca7c4a2ac2d2474da",
+      "source": "Artwork/Pixel/cockatiel_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cockatiel/brown_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "b1c2e291d29a2d7b197eb96848cbf4bf54baee3e7017eddc8149dd9d0ce489ea",
+      "source": "Artwork/Pixel/cockatiel_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cockatiel/brown_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "5adbef67d1db5f521cf43e5596f7797fd651a6c6fc1b858e09447a5c9bac0d08",
+      "source": "Artwork/Pixel/cockatiel_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cockatiel/brown_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "96e3bd51b5b50c1bdf3542f5e8fe7edea22cd4b9bb2eabdf6f13b1a7924f8275",
+      "source": "Artwork/Pixel/cockatiel_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cockatiel/brown_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "bce273d8aa717e8f292e216b25acc540fe49a7d4cebe3f84311620969858e006",
+      "source": "Artwork/Pixel/cockatiel_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/cockatiel/brown_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "90e026acf0c60e781b8fd24a457152fa9cd5825d3ce9f6c50dd48db73db2dcdb",
+      "source": "Artwork/Pixel/cockatiel_brown.png",
       "creator": "Desktop Pets project, created with OpenAI image generation",
       "license": "Project-original artwork; no external image incorporated",
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
@@ -116,6 +386,60 @@
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
+      "path": "Assets/Pixel/crab/blue_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "f8d23e4abd42a8d22b3d6792de8eadac0201ad714855e21ddd7e53c111e181e1",
+      "source": "Artwork/Pixel/crab_blue.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/crab/blue_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "1ae784912cf2daa4cdb91fb9aadcd69b5afb0cca88b6c80a00cc2881e35adb6a",
+      "source": "Artwork/Pixel/crab_blue.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/crab/blue_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "db4a5973cea06aea18feefb4e777bb2e1ef8f21dfc24acc12f3943f78219b462",
+      "source": "Artwork/Pixel/crab_blue.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/crab/blue_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "c09b7c305d8e5c014c8f9a3238f6c0962031c0dd30d57fa209f3a15caa391261",
+      "source": "Artwork/Pixel/crab_blue.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/crab/blue_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "6cb83df62a33d32f7a4dc3b7cd4f1ead6e626bfc8fac8ba2e3d39082f056910b",
+      "source": "Artwork/Pixel/crab_blue.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/crab/blue_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "b615f402a85a245de834f460934d67390575bf6375f36f6882bffa02c08870a8",
+      "source": "Artwork/Pixel/crab_blue.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
       "path": "Assets/Pixel/crab/red_idle_8fps.gif",
       "style": "pixel",
       "sha256": "6676f2005eb1cca640ec2c075f22d0b22951a7e10f76016d97ab8fac220b6940",
@@ -165,6 +489,168 @@
       "style": "pixel",
       "sha256": "36d089bc2ab94530d52f4201aaf6f9cd3eee54e63c557ca50f67e275a593299f",
       "source": "Artwork/Pixel/crab.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/deer/brown_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "e5cb6d8eb3680f637addf8b06273c43c6028687dfe40bb57e35272f65d736bbd",
+      "source": "Artwork/Pixel/deer_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/deer/brown_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "182e21c4ce722e488f7f3c873cc82abbaa5eca992c2359add45e425fd68561f5",
+      "source": "Artwork/Pixel/deer_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/deer/brown_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "f4baddaca1ff610fdb96d136a12294e27aa8dc24adebcd3810804e8a5c98a59c",
+      "source": "Artwork/Pixel/deer_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/deer/brown_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "8a7f7656cb228a23d7cfd2984e27188f96de78fce6cb1a64334d1287cd2bcdd3",
+      "source": "Artwork/Pixel/deer_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/deer/brown_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "34758b0efa327b757f2b6ed67d4daaea39898c33476852acc75416fbc9434f23",
+      "source": "Artwork/Pixel/deer_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/deer/brown_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "de2b6400937cfa0cbf7d15896efd749f5e0e236897f641b0c7d3629bb02e7f8c",
+      "source": "Artwork/Pixel/deer_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/deer/white_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "5f3a24f5ea29a54716f5dacfb78eb8af0d1d67a650561fd67e6500e5803dd773",
+      "source": "Artwork/Pixel/deer_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/deer/white_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "afef6a311fbfbfe9dacf0c9209f99403366f4662b7e786c1927ea08f2294c9d4",
+      "source": "Artwork/Pixel/deer_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/deer/white_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "829c89a224bb2fce549b494e244707c9f1a0c8e6ef533da2b731620173cc4802",
+      "source": "Artwork/Pixel/deer_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/deer/white_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "ace7efbc3e651f02bbc2e2010b84e40fd686339798190bb866c39acb583e4f88",
+      "source": "Artwork/Pixel/deer_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/deer/white_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "08e844fb3c4c77dd3aea515312bfc41ec351ba5017b7b7ee20124d5678ae3fd1",
+      "source": "Artwork/Pixel/deer_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/deer/white_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "1a2fee7bd9f5fbe933d73389695119781fc5fd6b24e48441dbb19be8ebaba33f",
+      "source": "Artwork/Pixel/deer_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/dog/black_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "4eb5c64832e13cb04eb8f2f9306bc68a02f08d59d626f3794c8c8c93ad1f9580",
+      "source": "Artwork/Pixel/dog_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/dog/black_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "d125966c109aa3db5446ec34cea88eb081e5b09700394ee51788e611b28202c1",
+      "source": "Artwork/Pixel/dog_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/dog/black_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "6a87237613d43de2a0d4f23321a3ef714d99c3d673e5a6132a1fd89d40a4d205",
+      "source": "Artwork/Pixel/dog_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/dog/black_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "f299c275d0198330e9ff1d2c1a0af44e36e6385a31a943179bdadcf9784a5565",
+      "source": "Artwork/Pixel/dog_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/dog/black_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "fd5820f5bc4a3c152cd1f088fad17ea12dabca1ac55d5454e6496450a748af99",
+      "source": "Artwork/Pixel/dog_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/dog/black_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "7ea63d52deca6735341119fe9432a4c187a15cb3c81daf1a156b9e3bfb5418fa",
+      "source": "Artwork/Pixel/dog_black.png",
       "creator": "Desktop Pets project, created with OpenAI image generation",
       "license": "Project-original artwork; no external image incorporated",
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
@@ -224,6 +710,60 @@
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
+      "path": "Assets/Pixel/dog/white_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "530d6fd6f59007eac6770df5e7441eeb0ab567e3fd1346b74648a8fb5d4a9c0f",
+      "source": "Artwork/Pixel/dog_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/dog/white_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "f97226fba1c3166db569d3aea1b4bbaae4ce172b709794abf42d68347cf7d27b",
+      "source": "Artwork/Pixel/dog_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/dog/white_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "90c99e41c23c43a0dfa7824ae6b441c25cf741e6ca026acb435449c68120e64e",
+      "source": "Artwork/Pixel/dog_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/dog/white_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "a33f967906658486bddb2eca3b033c83a485f736df70c499b1cd648cc1ed3312",
+      "source": "Artwork/Pixel/dog_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/dog/white_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "c84aa1f46b28c83d3466a9c9dd1126b932924ba9b33f86b407aed53f9f356b91",
+      "source": "Artwork/Pixel/dog_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/dog/white_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "7e4f0b07887de48cb015766676f64c7eda03a63ecc654f712640055f44e5cc4c",
+      "source": "Artwork/Pixel/dog_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
       "path": "Assets/Pixel/forest_sprite/blue_idle_8fps.gif",
       "style": "pixel",
       "sha256": "bbc59b2732b7a29c6541af04d8fc3e6fedd350f68ba4db86aba5b90eba5899cc",
@@ -273,6 +813,60 @@
       "style": "pixel",
       "sha256": "5863ce376f8f95705cf429e35f72f54a458a904d316b638ad3577246b1dfdc3c",
       "source": "Artwork/Pixel/forest_sprite.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/forest_sprite/purple_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "522a556c2c7f3d2aec33f4f2dd6ac2203b3e3a43105449b09747100e9a501ac2",
+      "source": "Artwork/Pixel/forest_sprite_purple.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/forest_sprite/purple_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "a4cb8ede098d54937d5ad6f0545157e37245be98142a9e426bfdd919784733ee",
+      "source": "Artwork/Pixel/forest_sprite_purple.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/forest_sprite/purple_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "78369f82e110611dd7021a0afe49cca45706c075c4b7f8b1e6a43d286ef6d967",
+      "source": "Artwork/Pixel/forest_sprite_purple.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/forest_sprite/purple_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "4f7d4e3a30ebb37f068fc5706814dcedf825892151436b89d037cc1d07052aeb",
+      "source": "Artwork/Pixel/forest_sprite_purple.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/forest_sprite/purple_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "6c57293300073ee4dd12f2ae0b1bfe64e704ee4b8150b6e8627aae3a17374e32",
+      "source": "Artwork/Pixel/forest_sprite_purple.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/forest_sprite/purple_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "dedea7d093a427b22595fa81cd4685ed9d040c1e149088dbe322909f5d092cdb",
+      "source": "Artwork/Pixel/forest_sprite_purple.png",
       "creator": "Desktop Pets project, created with OpenAI image generation",
       "license": "Project-original artwork; no external image incorporated",
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
@@ -332,6 +926,114 @@
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
+      "path": "Assets/Pixel/fox/white_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "e73afe167fc3a5638d080582a46aeb88f5de3f8ae072f58b7380ac7b5fefebc5",
+      "source": "Artwork/Pixel/fox_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/fox/white_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "88ab6731f0c5705967a1e3179957ce4fe47473f58a5d47a963347d5c511eedca",
+      "source": "Artwork/Pixel/fox_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/fox/white_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "782c82bcb44269c4e9ba482ecfd0d24677f08dc5ae993887b22443992a76365e",
+      "source": "Artwork/Pixel/fox_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/fox/white_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "d0139d3c369da4c113f2593cd2e3c83303d6a8f7e7db5fffa37254a1b21fb528",
+      "source": "Artwork/Pixel/fox_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/fox/white_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "631c8d18c410121a58139708be222ad24fb2db85397befb7bb2a443e79829177",
+      "source": "Artwork/Pixel/fox_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/fox/white_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "fccb69256d19349246555a39da8c3b75e9cf35ae4780de7e983b7ae6664c80a9",
+      "source": "Artwork/Pixel/fox_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/horse/black_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "7fe08df9a8e2e7de0118d0870d97f0adfefac58a0424a7273517b416fe05deba",
+      "source": "Artwork/Pixel/horse_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/horse/black_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "38594220fa7e4f5d9dd74a273e3eb23eb1f818ea292377a5b454c39318f43e99",
+      "source": "Artwork/Pixel/horse_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/horse/black_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "d96bad910853b2fa9fbe40484ba096e6131995fda8f3058553ca702015c2dd12",
+      "source": "Artwork/Pixel/horse_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/horse/black_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "404b74a8b6ce633967b42c9777a08affb68fddace4c51ae9f2b950820ad260f7",
+      "source": "Artwork/Pixel/horse_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/horse/black_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "3ddbbae83087f8662bc84338e94a843a1f9875214d2c283de74398851a108f33",
+      "source": "Artwork/Pixel/horse_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/horse/black_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "08f98cd3b401dad19d72ff9c5f0be3079961d82198bfbacab080259c3eaf3f6d",
+      "source": "Artwork/Pixel/horse_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
       "path": "Assets/Pixel/horse/brown_idle_8fps.gif",
       "style": "pixel",
       "sha256": "8bfa5f91fa217d4fd090fe272faa4acfe29ff5fdec2fc789dafcc4a5aaca4116",
@@ -381,6 +1083,114 @@
       "style": "pixel",
       "sha256": "aca82181bbd1e9e3f9c1857ed82cefb57499f2a96662377025ffdeae58856a95",
       "source": "Artwork/Pixel/horse.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/horse/white_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "db69c052e4b64a773721e4be06141825e52196c1d8eba225dbec1795a40828ae",
+      "source": "Artwork/Pixel/horse_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/horse/white_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "d532c0ea40e7c2a94112a76009838de04e4d38401a5cbca7b09fa8c6656acb9f",
+      "source": "Artwork/Pixel/horse_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/horse/white_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "79d6efb80b4429838633260bb6b62d66900191c7a6a6addde52f11af16cd89b7",
+      "source": "Artwork/Pixel/horse_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/horse/white_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "2eabc2073bd7471acacb72251366c19ae376f67b40e9b640e4602355c21c10b2",
+      "source": "Artwork/Pixel/horse_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/horse/white_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "45d696e108362abb81c02c85d91b19a8c2801f019afee701316d8463ae8ea058",
+      "source": "Artwork/Pixel/horse_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/horse/white_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "5809025cc2dc7bf90cce4ab19478957f83bcc3305c3ac7a224f99cb751c66ca9",
+      "source": "Artwork/Pixel/horse_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/monkey/brown_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "f6a3d56e4a0153fc5fb22a9884d7625202f031fb1180806c46d3ef7edb5aeed3",
+      "source": "Artwork/Pixel/monkey_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/monkey/brown_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "edf1155c532344ce6db630f06d1d121303641f23c65cc3a44164946572e5d8c4",
+      "source": "Artwork/Pixel/monkey_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/monkey/brown_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "bddaf789a4f053e1be2bc54cc46ad6b7289992dd0e9a902cc7c12822d90cf3de",
+      "source": "Artwork/Pixel/monkey_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/monkey/brown_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "c732e36dfd831678e6bbb741953c6cc026510830107dbe5a086f41d30e6c93e4",
+      "source": "Artwork/Pixel/monkey_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/monkey/brown_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "ac910350f9252c86c8752bc77f3c5367458ffd6e7aca4a261e437efafa0d5ec9",
+      "source": "Artwork/Pixel/monkey_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/monkey/brown_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "e0fb73200e3631cbe85220ca991b075f6764f7be07ae43ec6e8179cfa09072e3",
+      "source": "Artwork/Pixel/monkey_brown.png",
       "creator": "Desktop Pets project, created with OpenAI image generation",
       "license": "Project-original artwork; no external image incorporated",
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
@@ -494,6 +1304,114 @@
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
+      "path": "Assets/Pixel/panda/brown_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "038b1495a39cbe643deef5f636e2bea6c1872c83a5220588eb31f0ad37ed686a",
+      "source": "Artwork/Pixel/panda_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/panda/brown_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "ccce22b3a30914c1b22ca91828e02faace38a40b18e5b6a8b530c006436f174a",
+      "source": "Artwork/Pixel/panda_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/panda/brown_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "328ded9ad28dc55771ca8b298a1ff1515bf301fc1c1be0eed69533ca9f3ce639",
+      "source": "Artwork/Pixel/panda_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/panda/brown_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "a24f30703e1e64a34eb81e52e66b2b7a3d57dc7f2b0e66f29def36c6f3a849b9",
+      "source": "Artwork/Pixel/panda_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/panda/brown_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "f6abc9e7cf816dcd37cec4d3890a89513197999208dccaefe3a168d6faca3314",
+      "source": "Artwork/Pixel/panda_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/panda/brown_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "a4ea434bf2b380259cb5bf8c0cd0ee4abc2bd10b903b092aef2e6a70a8eaaf90",
+      "source": "Artwork/Pixel/panda_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/rabbit/brown_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "d466720dba7d2b7de85673aadbea6d4e4b3cf4d4d5256e54e2caa104b4650852",
+      "source": "Artwork/Pixel/rabbit_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/rabbit/brown_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "64f7c5ead63a32c6f438dd5bfb43a137221f5bf5bf384c97aebb20f71112de14",
+      "source": "Artwork/Pixel/rabbit_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/rabbit/brown_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "5e0948dcfe975ca619b16bde8af240bc8b589d5bcf2f80c383b0dd86768fcd17",
+      "source": "Artwork/Pixel/rabbit_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/rabbit/brown_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "c10e1bb38037978d602cb8cdf3a0c153d2cbc0717db225f105ae24fd67f00f0e",
+      "source": "Artwork/Pixel/rabbit_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/rabbit/brown_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "ddd0a3f1c93081d87b6e7e5e39879c93ab9c5e0abf74d1dba044505249e200b6",
+      "source": "Artwork/Pixel/rabbit_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/rabbit/brown_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "0de5f0214b66e76b0b3ee7ee9c5fe1e8d672c0b0899fa9cfc7fc0e82eafe5a09",
+      "source": "Artwork/Pixel/rabbit_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
       "path": "Assets/Pixel/rabbit/white_idle_8fps.gif",
       "style": "pixel",
       "sha256": "41b8e0709749efb0ca8824e1e78cb376a45751db71ef55dd3078567ff0e26572",
@@ -602,6 +1520,114 @@
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
+      "path": "Assets/Pixel/rat/white_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "cadd6f144fa3ebf66e41aaa9ba500bb9cf62560e52ded5b4778450c75b13005f",
+      "source": "Artwork/Pixel/rat_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/rat/white_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "d0937604230a2b3d7835801674edbca1919e2d0c516c1988f46b6d3dde409101",
+      "source": "Artwork/Pixel/rat_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/rat/white_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "c40ea790de9baea7a58f7caf80b75cea99692807eea83ec9407b193048a65457",
+      "source": "Artwork/Pixel/rat_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/rat/white_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "26dbd3bed8225e89ade11e2c2048a25717fdfabdcfb3c1fdb92308fea46fe816",
+      "source": "Artwork/Pixel/rat_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/rat/white_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "5ab569fc2531da966fa6dd0417867902f8cf775ea1bfbc8307af52dd05c61bb1",
+      "source": "Artwork/Pixel/rat_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/rat/white_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "cc2844d3b9d3771b9a41627eaf04e04a66b3d6f59516da1e6daffdb0ccdce9d2",
+      "source": "Artwork/Pixel/rat_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/snail/blue_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "3b531486a5e16ec0b386a6b66fb79becec91b2c279ee1fd376701a2b8c23d45e",
+      "source": "Artwork/Pixel/snail_blue.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/snail/blue_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "ba4c2965adeec657dc78cf4c0af3dda824beaf39db232882ca81178e5b5b92d2",
+      "source": "Artwork/Pixel/snail_blue.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/snail/blue_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "ba481164ec09c7c55ba8d4a1d98fac9aff675ba52836b6625bd13654d831a1bc",
+      "source": "Artwork/Pixel/snail_blue.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/snail/blue_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "edea850106d1663001555bf07fdbbb95f4d4529c9ef0e5375a0ac3a775cf4b73",
+      "source": "Artwork/Pixel/snail_blue.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/snail/blue_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "20138f09e69b4bcc427e248fbcd1607bd8667b3bc6e9425dd4e03f8b207812d4",
+      "source": "Artwork/Pixel/snail_blue.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/snail/blue_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "8dad87145256a467532d0cc159e4d1562649c23271f8882eb326ea8a44556a0b",
+      "source": "Artwork/Pixel/snail_blue.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
       "path": "Assets/Pixel/snail/brown_idle_8fps.gif",
       "style": "pixel",
       "sha256": "92f09dc6a9f86a3f2fbda9ce4ed4e06703b41038b34e18546f0e4469864489e6",
@@ -651,6 +1677,60 @@
       "style": "pixel",
       "sha256": "cc02d18229c10c5ddd5209047cce5f2b0f0d9c382eecfd58ccc32ccd55b1cfb7",
       "source": "Artwork/Pixel/snail.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/snake/gold_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "12f66fe4493b985beef183806db38aa49a696cf7ca453eb17ad09ea545c037ff",
+      "source": "Artwork/Pixel/snake_gold.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/snake/gold_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "f9c7bfc76d3b9a2e6764046e60f4dbc84229a4cdf020966c4d94477ba22237f7",
+      "source": "Artwork/Pixel/snake_gold.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/snake/gold_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "f436aed9864e3add59baa23422964ad570b6958c7d4f3a4b48e54622c9c5c7d1",
+      "source": "Artwork/Pixel/snake_gold.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/snake/gold_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "23a40b9ab886a3bd1caffd21fcb2a92e695729c67a703a7e30f92549fe78d82c",
+      "source": "Artwork/Pixel/snake_gold.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/snake/gold_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "11efd3eea03153b2c5b1897a401c136509fbd49f4c4ffc32e89008a28c04eaa8",
+      "source": "Artwork/Pixel/snake_gold.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/snake/gold_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "3437e0ec31dd33b193ae33f542e16e7ecf17da62ba73d0370b91bcdfcefa023b",
+      "source": "Artwork/Pixel/snake_gold.png",
       "creator": "Desktop Pets project, created with OpenAI image generation",
       "license": "Project-original artwork; no external image incorporated",
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
@@ -759,6 +1839,222 @@
       "style": "pixel",
       "sha256": "5cf681a6b5d06846a8f179a1549b7993f7832a024473d685bb730cfa5cef5d49",
       "source": "Artwork/Pixel/turtle.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/turtle/orange_idle_8fps.gif",
+      "style": "pixel",
+      "sha256": "56efee56d020acda41e2eaa304b9b40ff867a7054f8e348a17ac202fd3042c23",
+      "source": "Artwork/Pixel/turtle_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/turtle/orange_lie_8fps.gif",
+      "style": "pixel",
+      "sha256": "e1dbc701458ee788c600858ad8074289ad92bd7b3aa84cfb4a08bfaf31d9703b",
+      "source": "Artwork/Pixel/turtle_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/turtle/orange_run_8fps.gif",
+      "style": "pixel",
+      "sha256": "7e443494f712b8446afd6ff724acf860a38ab1a5b87c0667c713301934fa1414",
+      "source": "Artwork/Pixel/turtle_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/turtle/orange_swipe_8fps.gif",
+      "style": "pixel",
+      "sha256": "7b50bb3daab98b3c73a282f3c4f87e0ccd6c1d36eb6cfc6eea51203612a668a8",
+      "source": "Artwork/Pixel/turtle_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/turtle/orange_walk_8fps.gif",
+      "style": "pixel",
+      "sha256": "0d3d885695d3f4e1234a621052cb50b5d05b3ee69bc940160343f9d4c3cc8a3b",
+      "source": "Artwork/Pixel/turtle_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/Pixel/turtle/orange_with_ball_8fps.gif",
+      "style": "pixel",
+      "sha256": "3c8851d39ca2fdec044e2fd83cd599187b041bb46590936388af88cb4e362f0b",
+      "source": "Artwork/Pixel/turtle_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/black_idle_8fps.gif",
+      "style": "realistic",
+      "sha256": "06cf505e5bf26f5e469be383e69eb23fef937c351791617f1e4a155fe49d1977",
+      "source": "Artwork/cat_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/black_lie_8fps.gif",
+      "style": "realistic",
+      "sha256": "06e55a9b963fa21250ac94a738599976d42f7ad749cfd921a83dc1ce9ef495be",
+      "source": "Artwork/cat_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/black_run_8fps.gif",
+      "style": "realistic",
+      "sha256": "36b8a2b9104f9161fc85d95dd960ccf08b1d61e399a6403de9a4f52438c548ae",
+      "source": "Artwork/cat_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/black_swipe_8fps.gif",
+      "style": "realistic",
+      "sha256": "193e816baaf0c27b96f5f4eef8d0ffddbad365752995c4bab559c3a2ca79d8f0",
+      "source": "Artwork/cat_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/black_walk_8fps.gif",
+      "style": "realistic",
+      "sha256": "940b9e1189a557687cfc44341b3d46d1fbb28141fb1a54edafd7a4826604f1e3",
+      "source": "Artwork/cat_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/black_with_ball_8fps.gif",
+      "style": "realistic",
+      "sha256": "a14097eb17ae15a4726df64f643f6887e29f5365fdb8eb06ff7f13e22ec5340f",
+      "source": "Artwork/cat_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/gray_idle_8fps.gif",
+      "style": "realistic",
+      "sha256": "a5f59ab1ec6ccd563de4dc1d809a8df1676ed1de2a429f5ab810f67d66458941",
+      "source": "Artwork/cat_gray.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/gray_lie_8fps.gif",
+      "style": "realistic",
+      "sha256": "269aad771cfa1c9caa84675bbe009ddb9cb282242beb4a93297111795a30d315",
+      "source": "Artwork/cat_gray.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/gray_run_8fps.gif",
+      "style": "realistic",
+      "sha256": "02477447589a0c98ca7e0e71458c698bf4cdda1506c04d625e9ba21ec5fa1b88",
+      "source": "Artwork/cat_gray.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/gray_swipe_8fps.gif",
+      "style": "realistic",
+      "sha256": "0a166c2b1edf8a1c3c05c22e9293d29e7fd91b671253dfbd21ed473088a76374",
+      "source": "Artwork/cat_gray.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/gray_walk_8fps.gif",
+      "style": "realistic",
+      "sha256": "683c43f9909aa0d484649b1e26edac4ea373cadaf785a564da63f9de41a76d4d",
+      "source": "Artwork/cat_gray.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/gray_with_ball_8fps.gif",
+      "style": "realistic",
+      "sha256": "f83d5310e5aeeff9cc26ac1a91c1919ce80a9f8cf7e86a90a9410712f92b502f",
+      "source": "Artwork/cat_gray.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/orange_idle_8fps.gif",
+      "style": "realistic",
+      "sha256": "d963a0e266947d1f3d89d42b28b614f60d6786689f94a21044c459f6b2c63693",
+      "source": "Artwork/cat_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/orange_lie_8fps.gif",
+      "style": "realistic",
+      "sha256": "852ed157a8cb216c40899f8a6542d2c60f783d1f582a0be02c4d760300872d44",
+      "source": "Artwork/cat_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/orange_run_8fps.gif",
+      "style": "realistic",
+      "sha256": "e5fb9a1b94c9b58405f6ff2a92342b76a6217203c35bf8961f30b9f16407b5ee",
+      "source": "Artwork/cat_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/orange_swipe_8fps.gif",
+      "style": "realistic",
+      "sha256": "63d7edca9c1da3ff3c656798d597161ad7d2816cbd14a06aa2b58ddbb139724d",
+      "source": "Artwork/cat_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/orange_walk_8fps.gif",
+      "style": "realistic",
+      "sha256": "dafef4f72aba0caa63e95afb75f0020012f93f6ad46859e2424c3758deee2d0e",
+      "source": "Artwork/cat_orange.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/cat/orange_with_ball_8fps.gif",
+      "style": "realistic",
+      "sha256": "ba1ea2861af2590da651b3f2b8dd6cd27f72e057a8eec85ffba9525a43ca6bdc",
+      "source": "Artwork/cat_orange.png",
       "creator": "Desktop Pets project, created with OpenAI image generation",
       "license": "Project-original artwork; no external image incorporated",
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
@@ -1029,6 +2325,114 @@
       "style": "realistic",
       "sha256": "7a8a876265dc01f774a14d06a9a3fa61414d219bcafcc78322e248793754900c",
       "source": "Artwork/crab.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/deer/brown_idle_8fps.gif",
+      "style": "realistic",
+      "sha256": "08d4c49c369756845704e67547d9420814651e00776846cf63fde0d803ef7757",
+      "source": "Artwork/deer_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/deer/brown_lie_8fps.gif",
+      "style": "realistic",
+      "sha256": "d104c1c6708eb2be26c4977683ad4b36c546d5011c49a9fb34b520436640f7bc",
+      "source": "Artwork/deer_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/deer/brown_run_8fps.gif",
+      "style": "realistic",
+      "sha256": "6b2c55718d00ec87dcf32d0f056087eb2466a24f745b0031f386896a54acf15d",
+      "source": "Artwork/deer_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/deer/brown_swipe_8fps.gif",
+      "style": "realistic",
+      "sha256": "f2fbd6429e2bb6265ce640a268919fe236124a8b7d4c4fbd443b8ee4bb7c2064",
+      "source": "Artwork/deer_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/deer/brown_walk_8fps.gif",
+      "style": "realistic",
+      "sha256": "3ea13a7717462d9d6c3708d5aa5bfec31714bdc02a87e4551509ed6810586314",
+      "source": "Artwork/deer_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/deer/brown_with_ball_8fps.gif",
+      "style": "realistic",
+      "sha256": "6c1a01bf0e368b4fa622e4ccfb77567426790464dabd85e6910551a98ee45d18",
+      "source": "Artwork/deer_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/deer/white_idle_8fps.gif",
+      "style": "realistic",
+      "sha256": "a1a8518d13b030928f6a4606d90d7307c4cc5327e99fa31722aeb4ef328a7a8f",
+      "source": "Artwork/deer_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/deer/white_lie_8fps.gif",
+      "style": "realistic",
+      "sha256": "401bc49e9d526577845c6eb5569f3946c3f94f23698ce38d53a5200feb385cef",
+      "source": "Artwork/deer_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/deer/white_run_8fps.gif",
+      "style": "realistic",
+      "sha256": "470c0d65cdcee7ad4410596cf291ce14b03f1d500b8279bb3e343748da705031",
+      "source": "Artwork/deer_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/deer/white_swipe_8fps.gif",
+      "style": "realistic",
+      "sha256": "957d9452fa486b7f3726fc21d9514d09afd5d2cbef64b260171056655d319bf0",
+      "source": "Artwork/deer_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/deer/white_walk_8fps.gif",
+      "style": "realistic",
+      "sha256": "7a840e87e063337d99790ee290d9dcb2c34f276b3908f7711783e5c29dec2faf",
+      "source": "Artwork/deer_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
+    },
+    {
+      "path": "Assets/deer/white_with_ball_8fps.gif",
+      "style": "realistic",
+      "sha256": "abf86cdd22ce3300cd700ce6e8abcb555535e5a8dd16ada7af198d37a43db819",
+      "source": "Artwork/deer_white.png",
       "creator": "Desktop Pets project, created with OpenAI image generation",
       "license": "Project-original artwork; no external image incorporated",
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"

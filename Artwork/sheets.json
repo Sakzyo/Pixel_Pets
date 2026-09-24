@@ -1160,5 +1160,315 @@
         ]
       ]
     ]
+  },
+  {
+    "id": "cat_orange",
+    "style": "realistic",
+    "species": "cat",
+    "variants": [
+      "orange"
+    ],
+    "file": "cat_orange.png",
+    "prompt": "Use case: stylized-concept. Asset: original realistic animal animation sheet for the Desktop Pets game.\nSubject: adult orange tabby domestic cat, tawny orange coat, darker ginger stripes, cream muzzle and chest, green eyes, triangular ears, long curved tail and four paws.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nDetailed natural animal illustration for the app's Realistic style. Recognizable animal anatomy and lifelike proportions, fine coherent fur shading, expressive small eyes, soft volume, clean connected silhouette and selective thin contour. Polished detailed 16-bit game sprite at around 100 logical pixels per animal, considerably more detailed than chunky 32 pixel art. Naturalistic not cartoon baby proportions. Preserve species anatomy in sleeping and running poses. Canvas 1536x768 if possible.",
+    "frames": [
+      [
+        [
+          27,
+          48,
+          413,
+          390
+        ],
+        [
+          474,
+          48,
+          854,
+          390
+        ],
+        [
+          912,
+          50,
+          1300,
+          388
+        ],
+        [
+          1352,
+          59,
+          1747,
+          388
+        ],
+        [
+          24,
+          512,
+          442,
+          801
+        ],
+        [
+          496,
+          475,
+          870,
+          815
+        ],
+        [
+          914,
+          628,
+          1301,
+          796
+        ],
+        [
+          1389,
+          492,
+          1736,
+          797
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "cat_gray",
+    "style": "realistic",
+    "species": "cat",
+    "variants": [
+      "gray"
+    ],
+    "file": "cat_gray.png",
+    "prompt": "Use case: stylized-concept. Asset: original realistic animal animation sheet for the Desktop Pets game.\nSubject: adult silver-gray tabby domestic cat, charcoal stripes, pale muzzle and chest, green eyes, triangular ears, long curved tail and four paws.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nDetailed natural animal illustration for the app's Realistic style. Recognizable animal anatomy and lifelike proportions, fine coherent fur shading, expressive small eyes, soft volume, clean connected silhouette and selective thin contour. Polished detailed 16-bit game sprite at around 100 logical pixels per animal, considerably more detailed than chunky 32 pixel art. Naturalistic not cartoon baby proportions. Preserve species anatomy in sleeping and running poses. Canvas 1536x768 if possible.",
+    "frames": [
+      [
+        [
+          30,
+          55,
+          424,
+          399
+        ],
+        [
+          477,
+          58,
+          865,
+          399
+        ],
+        [
+          912,
+          54,
+          1314,
+          398
+        ],
+        [
+          1362,
+          58,
+          1757,
+          397
+        ],
+        [
+          18,
+          535,
+          446,
+          795
+        ],
+        [
+          489,
+          469,
+          883,
+          818
+        ],
+        [
+          929,
+          599,
+          1330,
+          774
+        ],
+        [
+          1370,
+          484,
+          1753,
+          765
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "cat_black",
+    "style": "realistic",
+    "species": "cat",
+    "variants": [
+      "black"
+    ],
+    "file": "cat_black.png",
+    "prompt": "Use case: stylized-concept. Asset: original realistic animal animation sheet for the Desktop Pets game.\nSubject: adult black domestic cat, near-black fur with blue-gray highlights, golden eyes, triangular ears, long curved tail and four paws.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nDetailed natural animal illustration for the app's Realistic style. Recognizable animal anatomy and lifelike proportions, fine coherent fur shading, expressive small eyes, soft volume, clean connected silhouette and selective thin contour. Polished detailed 16-bit game sprite at around 100 logical pixels per animal, considerably more detailed than chunky 32 pixel art. Naturalistic not cartoon baby proportions. Preserve species anatomy in sleeping and running poses. Canvas 1536x768 if possible.",
+    "frames": [
+      [
+        [
+          42,
+          72,
+          402,
+          409
+        ],
+        [
+          485,
+          71,
+          845,
+          409
+        ],
+        [
+          926,
+          80,
+          1308,
+          407
+        ],
+        [
+          1354,
+          82,
+          1744,
+          405
+        ],
+        [
+          19,
+          548,
+          447,
+          800
+        ],
+        [
+          512,
+          473,
+          882,
+          804
+        ],
+        [
+          945,
+          645,
+          1312,
+          800
+        ],
+        [
+          1356,
+          596,
+          1736,
+          802
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "deer_brown",
+    "style": "realistic",
+    "species": "deer",
+    "variants": [
+      "brown"
+    ],
+    "file": "deer_brown.png",
+    "prompt": "Use case: stylized-concept. Asset: original realistic animal animation sheet for the Desktop Pets game.\nSubject: young adult brown white-tailed deer, graceful long legs ending in small split hooves, tan brown coat, cream throat and white tail underside, large upright ears and small branching antlers.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nDetailed natural animal illustration for the app's Realistic style. Recognizable animal anatomy and lifelike proportions, fine coherent fur shading, expressive small eyes, soft volume, clean connected silhouette and selective thin contour. Polished detailed 16-bit game sprite at around 100 logical pixels per animal, considerably more detailed than chunky 32 pixel art. Naturalistic not cartoon baby proportions. Preserve species anatomy in sleeping and running poses. Canvas 1536x768 if possible.",
+    "frames": [
+      [
+        [
+          48,
+          18,
+          409,
+          414
+        ],
+        [
+          491,
+          18,
+          851,
+          414
+        ],
+        [
+          913,
+          26,
+          1307,
+          413
+        ],
+        [
+          1346,
+          30,
+          1749,
+          413
+        ],
+        [
+          21,
+          481,
+          426,
+          820
+        ],
+        [
+          510,
+          453,
+          854,
+          842
+        ],
+        [
+          919,
+          659,
+          1293,
+          819
+        ],
+        [
+          1353,
+          550,
+          1755,
+          838
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "deer_white",
+    "style": "realistic",
+    "species": "deer",
+    "variants": [
+      "white"
+    ],
+    "file": "deer_white.png",
+    "prompt": "Use case: stylized-concept. Asset: original realistic animal animation sheet for the Desktop Pets game.\nSubject: young adult white deer, ivory white coat with pale gray shading, graceful long legs ending in dark split hooves, pink-gray nose, large upright ears and small tan branching antlers.\nExactly 8 poses of the SAME animal in a clean 4-column, 2-row grid, reading left to right then top to bottom: idle standing, idle blink, walking stride A, walking stride B, running, greeting, natural sleeping pose with eyes closed, holding or nuzzling a small green ball. Every animal faces RIGHT in side view. Anatomically connected head, body and limbs. Consistent scale and baseline across all eight poses, generous 15% transparent gutters between sprites and canvas edges. Whole animal visible including all ears, antlers, legs and tail. Genuine alpha-transparent background. No ground, floor shadows, checkerboard, grid lines, labels, text, letters, Zs, effects, detached decorations, scenery or watermark.\nDetailed natural animal illustration for the app's Realistic style. Recognizable animal anatomy and lifelike proportions, fine coherent fur shading, expressive small eyes, soft volume, clean connected silhouette and selective thin contour. Polished detailed 16-bit game sprite at around 100 logical pixels per animal, considerably more detailed than chunky 32 pixel art. Naturalistic not cartoon baby proportions. Preserve species anatomy in sleeping and running poses. Canvas 1536x768 if possible.",
+    "frames": [
+      [
+        [
+          59,
+          19,
+          410,
+          438
+        ],
+        [
+          468,
+          19,
+          812,
+          438
+        ],
+        [
+          905,
+          24,
+          1280,
+          436
+        ],
+        [
+          1351,
+          22,
+          1741,
+          436
+        ],
+        [
+          58,
+          484,
+          466,
+          841
+        ],
+        [
+          535,
+          455,
+          856,
+          848
+        ],
+        [
+          926,
+          633,
+          1255,
+          809
+        ],
+        [
+          1352,
+          553,
+          1720,
+          809
+        ]
+      ]
+    ]
   }
 ]

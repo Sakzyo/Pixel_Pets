@@ -214,7 +214,7 @@ final class ModelTests: XCTestCase {
         XCTAssertEqual(restored.document.petStyle, .pixel)
         XCTAssertTrue(restored.document.paused)
         XCTAssertEqual(restored.pets, originalPets)
-        XCTAssertEqual(PetCatalog.displayVariant(for: restored.pets[1], style: .pixel), "red")
+        XCTAssertEqual(PetCatalog.displayVariant(for: restored.pets[1], style: .pixel), "white")
         restored.change { $0.petStyle = .realistic }
         XCTAssertEqual(PetStore(url: url).pets, originalPets)
         XCTAssertEqual(PetCatalog.displayVariant(for: restored.pets[1], style: .realistic), "white")
@@ -235,5 +235,36 @@ final class ModelTests: XCTestCase {
                 }
             }
         }
+    }
+
+    @MainActor
+    func testExpandedPixelColorsAndNewSpeciesPersistAcrossStyles() throws {
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString).appendingPathComponent("state.json")
+        defer { try? FileManager.default.removeItem(at: url.deletingLastPathComponent()) }
+        let store = PetStore(url: url)
+        store.change { $0.pets = []; $0.petStyle = .pixel }
+        for entry in PetCatalog.pixelVariants {
+            XCTAssertGreaterThanOrEqual(entry.colors.count, 2, entry.species)
+            for color in entry.colors {
+                store.add(species: entry.species, variant: color, name: "\(color) \(entry.species)")
+            }
+        }
+        XCTAssertEqual(store.pets.count, PetCatalog.variantCount(for: .pixel))
+        let originalPets = store.pets
+        store.change { $0.petStyle = .realistic }
+        let restored = PetStore(url: url)
+        XCTAssertNil(restored.loadError)
+        XCTAssertEqual(restored.pets, originalPets)
+        let crab = try XCTUnwrap(restored.pets.first { $0.species == "crab" && $0.variant == "blue" })
+        XCTAssertEqual(PetCatalog.displayVariant(for: crab, style: .realistic), "red")
+        restored.change { $0.petStyle = .pixel }
+        XCTAssertEqual(PetCatalog.displayVariant(for: crab, style: .pixel), "blue")
+        XCTAssertEqual(PetStore(url: url).pets, originalPets)
+        for style in PetStyle.allCases {
+            for species in ["cat", "deer"] {
+                XCTAssertNotNil(PetCatalog.catalog(for: style).first { $0.species == species })
+            }
+        }
+        XCTAssertFalse(PetCatalog.has(PetRecord(id: UUID(), name: "Invalid", species: "cat", variant: "invalid")))
     }
 }
