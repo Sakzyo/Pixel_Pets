@@ -123,6 +123,57 @@ final class ModelTests: XCTestCase {
     }
 
     @MainActor
+    func testVersion100SavePreservesAllPetsAndSettingsAfterUpgrade() throws {
+        // Fixture encoded by AppDocument from the v1.0.0 release tag.
+        let legacy = Data(#"""
+        {
+          "animationQuality": "low",
+          "appearance": "dark",
+          "bedtime": false,
+          "bedtimeEnd": 7,
+          "bedtimeStart": 21,
+          "clickThrough": true,
+          "displayMode": "selected",
+          "floorOffset": 37,
+          "hideAll": true,
+          "paused": true,
+          "petStyle": "pixel",
+          "pets": [
+            {"hidden":false,"id":"AAAAAAAA-BBBB-CCCC-DDDD-000000000001","name":"Pet 1","species":"dog","variant":"akita"},
+            {"hidden":true,"id":"AAAAAAAA-BBBB-CCCC-DDDD-000000000002","name":"Pet 2","species":"dog","variant":"black"},
+            {"hidden":false,"id":"AAAAAAAA-BBBB-CCCC-DDDD-000000000003","name":"Rex 小狗","species":"dog","variant":"brown"},
+            {"hidden":false,"id":"AAAAAAAA-BBBB-CCCC-DDDD-000000000004","name":"Pet 4","species":"dog","variant":"red"},
+            {"hidden":false,"id":"AAAAAAAA-BBBB-CCCC-DDDD-000000000005","name":"Pet 5","species":"dog","variant":"white"},
+            {"hidden":false,"id":"AAAAAAAA-BBBB-CCCC-DDDD-000000000006","name":"Pet 6","species":"crab","variant":"blue"},
+            {"hidden":false,"id":"AAAAAAAA-BBBB-CCCC-DDDD-000000000007","name":"Pet 7","species":"deer","variant":"white"}
+          ],
+          "selectedDisplays": ["1", "2"],
+          "size": 96,
+          "treats": {"count": 0, "updatedAt": 123456},
+          "version": 1
+        }
+        """#.utf8)
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString).appendingPathComponent("state.json")
+        defer { try? FileManager.default.removeItem(at: url.deletingLastPathComponent()) }
+        try FileManager.default.createDirectory(at: url.deletingLastPathComponent(), withIntermediateDirectories: true)
+        try legacy.write(to: url)
+        let store = PetStore(url: url)
+        XCTAssertNil(store.loadError)
+        XCTAssertEqual(store.pets.count, 7)
+        XCTAssertEqual(store.pets[2].name, "Rex 小狗")
+        XCTAssertEqual(try Data(contentsOf: url), legacy, "Opening the updated app must not rewrite the old save")
+        let originalPets = store.pets
+        store.change { $0.paused = false }
+        let reloaded = PetStore(url: url)
+        XCTAssertNil(reloaded.loadError)
+        XCTAssertEqual(reloaded.pets, originalPets)
+        var expected = try XCTUnwrap(JSONSerialization.jsonObject(with: legacy) as? [String: Any])
+        expected["paused"] = false
+        let actual = try XCTUnwrap(JSONSerialization.jsonObject(with: Data(contentsOf: url)) as? [String: Any])
+        XCTAssertEqual(actual as NSDictionary, expected as NSDictionary, "Saving after an upgrade must retain the roster order, identifiers, coats, visibility, preferences, and legacy treat fields")
+    }
+
+    @MainActor
     func testCorruptFileIsPreserved() throws {
         let url = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString).appendingPathComponent("state.json")
         defer { try? FileManager.default.removeItem(at: url.deletingLastPathComponent()) }

@@ -23,7 +23,7 @@ struct TreatInventory: Codable, Equatable {
 }
 
 struct AppDocument: Codable {
-    var version = 1
+    var version = 1 // Save format version; independent of the app release version.
     var pets: [PetRecord]
     var treats = TreatInventory()
     var hideAll = false
