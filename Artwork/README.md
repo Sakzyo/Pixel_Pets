@@ -30,7 +30,7 @@ as the green ball. GIFs use a reserved transparent index and no dithering.
 Regenerate either original set with Pillow installed:
 
 ```sh
-python3 script/generate_original_sprites.py --style realistic # 150 GIFs
+python3 script/generate_original_sprites.py --style realistic # 174 GIFs
 python3 script/generate_original_sprites.py --style pixel     # 210 GIFs
 python3 script/write_asset_manifest.py
 ./script/test.sh
@@ -40,5 +40,9 @@ The 66 horse GIFs come from Onfe's artwork, adapted by Chris Kent in VS Code Pet
 at commit `2c91214beb922288cca1938cddb607abc5f806b7`; they retain the supplied 80 × 64
 pixel frames and animations. The horse rests using the standing animation. See
 `Assets/horse/license.txt` and `Assets/manifest.json` for credit and exact sources.
-Four dog color sets also retain their original GIF bytes and separate license.
-The packager never overwrites those third-party assets.
+All five Realistic dog coats now use original lifelike artwork: brown and black
+Labradors, a red golden retriever, a white Samoyed, and a tawny Akita. Their eight
+poses retain the existing coat identifiers and six animation filenames, so saved
+dogs remain compatible. Exact built-in generation prompts are recorded in
+`realistic-dog-prompts.json` and `sheets.json`. See the [rendered dog preview](realistic-dogs-preview.png) at 72 and 120 pt. The packager leaves the third-party
+horse assets unchanged.

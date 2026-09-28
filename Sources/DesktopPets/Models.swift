@@ -17,33 +17,9 @@ struct PetRecord: Codable, Identifiable, Equatable {
 }
 
 struct TreatInventory: Codable, Equatable {
-    static let capacity = 10
-    static let interval: TimeInterval = 600
-    var count = capacity
+    // Retained for compatibility with existing saves; feeding is unlimited.
+    var count = 10
     var updatedAt = Date()
-
-    mutating func reconcile(at now: Date) {
-        count = min(max(count, 0), Self.capacity)
-        guard count < Self.capacity else { updatedAt = now; return }
-        let elapsed = now.timeIntervalSince(updatedAt)
-        guard elapsed >= Self.interval else { return }
-        let gained = min(Self.capacity - count, Int(elapsed / Self.interval))
-        count += gained
-        updatedAt = count == Self.capacity ? now : updatedAt.addingTimeInterval(Double(gained) * Self.interval)
-    }
-
-    mutating func consume(at now: Date) -> Bool {
-        reconcile(at: now)
-        guard count > 0 else { return false }
-        if count == Self.capacity { updatedAt = now }
-        count -= 1
-        return true
-    }
-
-    func secondsUntilNext(at now: Date) -> Int {
-        guard count < Self.capacity else { return 0 }
-        return max(0, Int(ceil(Self.interval - max(0, now.timeIntervalSince(updatedAt)))))
-    }
 }
 
 struct AppDocument: Codable {
@@ -105,7 +81,7 @@ enum DisplayID {
 }
 
 enum PetCatalog {
-    // Horses and four dog colors are credited upstream assets; the rest are original artwork.
+    // Horses are credited upstream assets; the rest are original artwork.
     // Miffy and Totoro are replaced by a generic rabbit and forest sprite.
     static let variants: [(species: String, colors: [String])] = [
         ("cat", ["orange", "gray", "black"]),
@@ -198,7 +174,6 @@ final class PetStore: ObservableObject {
                     throw CocoaError(.fileReadCorruptFile)
                 }
                 document = decoded
-                document.treats.reconcile(at: Date())
             } catch {
                 loadError = "Saved pets could not be read: \(error.localizedDescription). The file was left untouched."
                 document = AppDocument(pets: [])
@@ -210,7 +185,6 @@ final class PetStore: ObservableObject {
     }
 
     var pets: [PetRecord] { document.pets }
-    var treats: TreatInventory { document.treats }
 
     func change(_ update: (inout AppDocument) -> Void) {
         guard loadError == nil else { return }
@@ -237,13 +211,9 @@ final class PetStore: ObservableObject {
     }
 
     func feed(_ id: UUID) -> Bool {
-        guard document.pets.contains(where: { $0.id == id && !$0.hidden }), !document.hideAll else { return false }
-        var success = false
-        change { success = $0.treats.consume(at: Date()) }
-        return success
+        loadError == nil && !document.hideAll
+            && document.pets.contains(where: { $0.id == id && !$0.hidden })
     }
-
-    func refreshTreats() { change { $0.treats.reconcile(at: Date()) } }
 
     private func save() {
         guard loadError == nil else { return }

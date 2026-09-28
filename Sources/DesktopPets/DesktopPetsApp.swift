@@ -21,7 +21,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private var overlays: OverlayCoordinator?
     private var statusItem: NSStatusItem?
     private var manager: NSWindow?
-    private var refreshTimer: Timer?
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         NSApp.setActivationPolicy(.accessory)
@@ -37,11 +36,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             self?.rebuildMenu()
             self?.applyAppearance()
         }
-        let timer = Timer(timeInterval: 60, repeats: true) { [weak self] _ in
-            MainActor.assumeIsolated { self?.store.refreshTreats() }
-        }
-        RunLoop.main.add(timer, forMode: .common)
-        refreshTimer = timer
         if ProcessInfo.processInfo.arguments.contains("--show-manager") { showManager() }
     }
 
@@ -58,7 +52,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             item.representedObject = pet.id
             item.target = self
         }
-        feed.isEnabled = !store.document.hideAll && store.treats.count > 0 && !feedMenu.items.isEmpty
+        feed.isEnabled = !store.document.hideAll && store.loadError == nil && !feedMenu.items.isEmpty
         feed.submenu = feedMenu
         menu.addItem(.separator())
         menu.addItem(withTitle: store.document.hideAll ? "Show Pets" : "Hide All", action: #selector(toggleVisibility), keyEquivalent: "")
@@ -66,7 +60,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         let clicks = menu.addItem(withTitle: "Click Through", action: #selector(toggleClickThrough), keyEquivalent: "")
         clicks.state = store.document.clickThrough ? .on : .off
         menu.addItem(.separator())
-        menu.addItem(withTitle: "Treats: \(store.treats.count)/10", action: nil, keyEquivalent: "")
+        menu.addItem(withTitle: "Unlimited treats", action: nil, keyEquivalent: "")
         menu.addItem(withTitle: "Quit Desktop Pets", action: #selector(quit), keyEquivalent: "q")
         for item in menu.items { item.target = self }
         statusItem?.menu = menu

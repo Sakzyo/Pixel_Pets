@@ -2440,8 +2440,8 @@
     {
       "path": "Assets/dog/akita_idle_8fps.gif",
       "style": "realistic",
-      "sha256": "8a2fbd794b8341e165b238724b8a44dda22ac423313c9fb807652f099bb6d76a",
-      "source": "Artwork/akita.png",
+      "sha256": "1047599ae8701b023cd87696338a900758dbd793a975409ccbd390960e4856bf",
+      "source": "Artwork/dog_akita.png",
       "creator": "Desktop Pets project, created with OpenAI image generation",
       "license": "Project-original artwork; no external image incorporated",
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
@@ -2449,8 +2449,8 @@
     {
       "path": "Assets/dog/akita_lie_8fps.gif",
       "style": "realistic",
-      "sha256": "18803888bf1dbf1aeaa3f944d4a7f4ec56be4862fa38731702d28200a5172ce0",
-      "source": "Artwork/akita.png",
+      "sha256": "5997524b19bfc45644d22adf0bc0685b7832bc6347c51db557b2f4166d4421bb",
+      "source": "Artwork/dog_akita.png",
       "creator": "Desktop Pets project, created with OpenAI image generation",
       "license": "Project-original artwork; no external image incorporated",
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
@@ -2458,8 +2458,8 @@
     {
       "path": "Assets/dog/akita_run_8fps.gif",
       "style": "realistic",
-      "sha256": "8ca924571a60db491001a17ba8b02306d2add3f054b7f7e4288a31fd5cad214c",
-      "source": "Artwork/akita.png",
+      "sha256": "a29739a5de6458152f0b0667a7ee81e8d47ba7e9df6b6a695ebcc8d71aea2e24",
+      "source": "Artwork/dog_akita.png",
       "creator": "Desktop Pets project, created with OpenAI image generation",
       "license": "Project-original artwork; no external image incorporated",
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
@@ -2467,8 +2467,8 @@
     {
       "path": "Assets/dog/akita_swipe_8fps.gif",
       "style": "realistic",
-      "sha256": "d0ef49c705111fcde4371c373cf8d1e1bb74f51dc3a89a7dd3f8b26b367c47b2",
-      "source": "Artwork/akita.png",
+      "sha256": "48a3696d2e022195fca46cf4fc7ae81d2626ba4673d335c3c8b6ae75de4bc30b",
+      "source": "Artwork/dog_akita.png",
       "creator": "Desktop Pets project, created with OpenAI image generation",
       "license": "Project-original artwork; no external image incorporated",
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
@@ -2476,8 +2476,8 @@
     {
       "path": "Assets/dog/akita_walk_8fps.gif",
       "style": "realistic",
-      "sha256": "9abf445dcba78634d646c9074b5dd1659fc564aee7b1fa9ccbd6518a6cf6a1a0",
-      "source": "Artwork/akita.png",
+      "sha256": "5863958611b5ad4e4293d5ff3ccb29eb0dccc784bb461f0872a8f7b213d9b555",
+      "source": "Artwork/dog_akita.png",
       "creator": "Desktop Pets project, created with OpenAI image generation",
       "license": "Project-original artwork; no external image incorporated",
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
@@ -2485,8 +2485,8 @@
     {
       "path": "Assets/dog/akita_with_ball_8fps.gif",
       "style": "realistic",
-      "sha256": "871574482d33fe0ad7a54d2787f8a776201d6e3196780e909d6fe3fbbbffb76b",
-      "source": "Artwork/akita.png",
+      "sha256": "87512630789989054862ac33767aa120d805c6c8cc0700af3afbf23790e67247",
+      "source": "Artwork/dog_akita.png",
       "creator": "Desktop Pets project, created with OpenAI image generation",
       "license": "Project-original artwork; no external image incorporated",
       "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
@@ -2494,218 +2494,218 @@
     {
       "path": "Assets/dog/black_idle_8fps.gif",
       "style": "realistic",
-      "sha256": "d39bd1c64e329a156f710f16a29a8b3b05f835679049a9391f5e2f27b86c9133",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/black_idle_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "6d38a22c4ecac8ae0a3eab3977052bcc326f9b568e4f812b98f405f3d3c40e54",
+      "source": "Artwork/dog_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/black_lie_8fps.gif",
       "style": "realistic",
-      "sha256": "8fd7107187401c987bec5431c5d57bfe63c995fce4492e91e31306179cbd462b",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/black_lie_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "2ec4a4ab0b75265a14efff79d44e0418fad3b0faf8430c488415f5f04a756e27",
+      "source": "Artwork/dog_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/black_run_8fps.gif",
       "style": "realistic",
-      "sha256": "6c2fd14a461a4a69dc0ef03fa1841e0f2c11b689566a71557ae13cabfe2c2846",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/black_run_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "ce14a39ab69d4295e223bb0ff75c3a35a3288a313c2452f5f0c1236975638e59",
+      "source": "Artwork/dog_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/black_swipe_8fps.gif",
       "style": "realistic",
-      "sha256": "04f9435fa9fd415fae10ff56f78c7070c71a20ae473614be86c1f25498888a1b",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/black_swipe_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "8caf9fcfa49880336c6f084c189f524b6acfab103ae8670d8954ea02b8914090",
+      "source": "Artwork/dog_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/black_walk_8fps.gif",
       "style": "realistic",
-      "sha256": "b699c139db9b42f97495c0389b109431b9642010d181445bd514054c0da578f3",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/black_walk_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "e73e39fb84959d914a7709b6501667e853d6a30c142f3c4f8647e810817d5b74",
+      "source": "Artwork/dog_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/black_with_ball_8fps.gif",
       "style": "realistic",
-      "sha256": "d9f0481f027ee671639cccdf8fe4e56d74d2ae94650723369dbe206e5560bc60",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/black_with_ball_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "61aa243eddab7f33a7b38398f0e06e6f8788f485d15c732caea18df9d7052f3a",
+      "source": "Artwork/dog_black.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/brown_idle_8fps.gif",
       "style": "realistic",
-      "sha256": "1d4d9d8c6f087099391c2be6e944f5928f050313fdb3df700e45cb877e939fc9",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/brown_idle_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "ccdde72da6e08fda03cbeb9d8bc0e885650c4838b573d4391b4e6b9ad7641abd",
+      "source": "Artwork/dog_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/brown_lie_8fps.gif",
       "style": "realistic",
-      "sha256": "f3922d684fe0d7958a149fba9b4b500f0f666cf183b35e1112ea7c8ee82d63fa",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/brown_lie_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "556ab21d0ec07a86ef00acd804afd684a7a9db69a1f11c9fc5cc75ccb9ee0c40",
+      "source": "Artwork/dog_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/brown_run_8fps.gif",
       "style": "realistic",
-      "sha256": "79e516dce91ed77fe5416f4760fd0477b9cfd996dd12ffb708e2421e471821cc",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/brown_run_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "3aecf020a013e43c008548b5678f9808269b71ce5d816582c8881180ae34e8ad",
+      "source": "Artwork/dog_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/brown_swipe_8fps.gif",
       "style": "realistic",
-      "sha256": "1fec172407b254cfa7524044e69d3f072f547ad957c0da8d8f3046b16f4691a6",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/brown_swipe_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "ca740914f899caa6c257d3129fb8a71e2b1db22619694f8a43f1c3e01bf6c2f6",
+      "source": "Artwork/dog_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/brown_walk_8fps.gif",
       "style": "realistic",
-      "sha256": "58e5964ca5bcc84741262165f1b51089a632b00a96d8854a975af65f5d2eee7f",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/brown_walk_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "7679cd2dfc3255a54691778dab2bb0c2385bd7c4c933287c81fda53d4e940f6a",
+      "source": "Artwork/dog_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/brown_with_ball_8fps.gif",
       "style": "realistic",
-      "sha256": "9a7139240c85b7cccc1dfc330dd664cad3e2eb7c212e48c361a886de196ad2df",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/brown_with_ball_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "4e630d54baad918679078ff2ffa94ed3bf00ea3229d503e625a76e5620ea8b0c",
+      "source": "Artwork/dog_brown.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/red_idle_8fps.gif",
       "style": "realistic",
-      "sha256": "e969a203c272c700ae1a36fbed14008a77bc4de481e53afba96d6f711663dbe9",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/red_idle_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "d602c79d9af183a5ad7752f774db16a782ab5d4be0b6f9513657c06120939b4b",
+      "source": "Artwork/dog_red.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/red_lie_8fps.gif",
       "style": "realistic",
-      "sha256": "3479ed676b63b5920b8bbe2dba708f38513cd4461b036a2e8c10dc78fe7ae2ed",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/red_lie_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "22c572118a76a05ef3ad0b8ca6e3cecf0d2baf50e078dd8d9fc46d5c60353f88",
+      "source": "Artwork/dog_red.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/red_run_8fps.gif",
       "style": "realistic",
-      "sha256": "5ea8acc000bc52c9ed20a3064db1179b0b678109e7ac38e6e2d42480180ec70a",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/red_run_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "652bec654051b8f8211470e41a4224ec99d97810ee3b194247e5a22c57f0ca73",
+      "source": "Artwork/dog_red.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/red_swipe_8fps.gif",
       "style": "realistic",
-      "sha256": "38628f37d044501afb14bc3059a399bcd5afebe54d272f6ed6cff8c69c8509c7",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/red_swipe_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "c17dcd1c53371ce63cbcf53f313510a7a184e1cb34b914124abdbd106b4dd283",
+      "source": "Artwork/dog_red.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/red_walk_8fps.gif",
       "style": "realistic",
-      "sha256": "629e5d7dcf1962af01ee8813e4cb1c949462ea1ad1667e4e32b5e624df11bdd2",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/red_walk_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "f09d19bdd5901ac4c4440a831898c9a9b4ef5315b0fcb00a4e77296655456741",
+      "source": "Artwork/dog_red.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/red_with_ball_8fps.gif",
       "style": "realistic",
-      "sha256": "f52106a12d310932d752232f7599920db572a05567c3ede814790077536dc326",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/red_with_ball_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "0dd5f19572d37a7b2020aa67fae492a79ede94ed4c817943445ff59baa271e8c",
+      "source": "Artwork/dog_red.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/white_idle_8fps.gif",
       "style": "realistic",
-      "sha256": "130abbca341ffc9ec108703a96a1ef4e768bb67ada230a3f18cdf82626b7fca6",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/white_idle_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "b200566e1e63ac35c67e6a4480fa68385a26f34d68bcce5e4226b3b235eb3b72",
+      "source": "Artwork/dog_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/white_lie_8fps.gif",
       "style": "realistic",
-      "sha256": "5a7b8f3acbcdc60e0d62168e29530b49667f84051fef697510448fe632969b54",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/white_lie_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "96c74d53322f3e3477e2406d523ed615f9467e947e7f184e7231bc005626dc5f",
+      "source": "Artwork/dog_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/white_run_8fps.gif",
       "style": "realistic",
-      "sha256": "7b62e8f5c80904360b4eb4435e1527cdf856cef56348f7809138c9a386b77bd3",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/white_run_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "4098e4f7c0c7993a34b42c43f4b25694dbb3c68ca3a1e6c1d08a7e88a9b4d69b",
+      "source": "Artwork/dog_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/white_swipe_8fps.gif",
       "style": "realistic",
-      "sha256": "7c722a4362172f63466647e03a2dabef7f1d9923adeba0ea298dd1e24708c2f0",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/white_swipe_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "4f5e6ec9ba6ca32254cd3dd99cdbafe874e9302449b3fc1a96ede196896218cb",
+      "source": "Artwork/dog_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/white_walk_8fps.gif",
       "style": "realistic",
-      "sha256": "5d5693eb8d4dfe48718cfced954c183e2a197e55321792c533be02f09bb756cb",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/white_walk_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "6192eba570725238b6e68bdf333061f103cfa19bb13239d1e42da595c1981bce",
+      "source": "Artwork/dog_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/dog/white_with_ball_8fps.gif",
       "style": "realistic",
-      "sha256": "0261ed285de815ce8b0f5693d4561529877583b9dc95bd93eda67153c1a02fd6",
-      "source": "https://github.com/tonybaloney/vscode-pets/blob/2c91214beb922288cca1938cddb607abc5f806b7/media/dog/white_with_ball_8fps.gif",
-      "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-      "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-      "modifications": "None; original GIF bytes copied verbatim"
+      "sha256": "5ff0c669ba530354370ad750e79a4f15b3c0e2f075e3c45474793093e3e07c21",
+      "source": "Artwork/dog_white.png",
+      "creator": "Desktop Pets project, created with OpenAI image generation",
+      "license": "Project-original artwork; no external image incorporated",
+      "modifications": "Frame extraction, uniform scale and baseline, shared palette and transparent GIF encoding"
     },
     {
       "path": "Assets/forest_sprite/blue_idle_8fps.gif",

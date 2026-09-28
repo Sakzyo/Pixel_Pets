@@ -54,13 +54,7 @@ struct ManagerView: View {
                 Text("Coat choices are saved when switching styles.")
                     .font(.caption).foregroundStyle(.secondary)
             }
-            HStack {
-                Label("\(store.treats.count)/10 treats", systemImage: "heart.fill")
-                if store.treats.count < 10 {
-                    Text("Next in \(store.treats.secondsUntilNext(at: Date()) / 60 + 1) min")
-                        .foregroundStyle(.secondary)
-                }
-            }
+            Label("Unlimited treats", systemImage: "heart.fill")
             if let error = store.loadError {
                 Text(error).foregroundStyle(.red).textSelection(.enabled)
             }
@@ -196,7 +190,7 @@ struct ManagerView: View {
     private var creditsView: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("Artwork and credits").font(.title2.bold())
-            Text("In Realistic, four dog color sets are unmodified GIFs from VS Code Pets, credited to NVPH Studio under CC BY-ND 4.0. Horse artwork is by Onfe, adapted by Chris Kent, and used with credit under Onfe’s published permission. All Pixel drawings and the other Realistic drawings were created for this project.")
+            Text("Horse artwork is by Onfe, adapted by Chris Kent, and used with credit under Onfe’s published permission. All dog artwork, all Pixel drawings, and the other Realistic drawings were created for this project.")
             Text("Rabbit and forest sprite are generic alternatives to branded characters in the reference extension.")
             Link("VS Code Pets", destination: URL(string: "https://github.com/tonybaloney/vscode-pets")!)
             Link("CC BY-ND 4.0", destination: URL(string: "https://creativecommons.org/licenses/by-nd/4.0/")!)

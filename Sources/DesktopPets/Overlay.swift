@@ -57,11 +57,22 @@ final class PetPanel: NSPanel {
 
 @MainActor
 final class PetSpriteView: NSView {
+    private static let nameFont = NSFont.systemFont(ofSize: 11, weight: .medium)
+    private static let nameHeight: CGFloat = 24
+    var petName = "" {
+        didSet {
+            nameLayer.string = petName
+            setAccessibilityLabel(petName)
+            needsLayout = true
+        }
+    }
     var onFeed: (() -> Void)?
     var onHover: ((Bool) -> Void)?
     var onManage: (() -> Void)?
     var onHide: (() -> Void)?
     private let spriteLayer = CALayer()
+    private let nameBadge = CALayer()
+    private let nameLayer = CATextLayer()
     private let reactionLayer = CATextLayer()
     private var tracking: NSTrackingArea?
     private var animation: SpriteAnimation?
@@ -76,6 +87,15 @@ final class PetSpriteView: NSView {
         spriteLayer.magnificationFilter = .nearest
         spriteLayer.minificationFilter = .nearest
         layer?.addSublayer(spriteLayer)
+        nameBadge.backgroundColor = NSColor.black.withAlphaComponent(0.65).cgColor
+        nameBadge.cornerRadius = 7
+        layer?.addSublayer(nameBadge)
+        nameLayer.font = Self.nameFont
+        nameLayer.fontSize = Self.nameFont.pointSize
+        nameLayer.alignmentMode = .center
+        nameLayer.truncationMode = .end
+        nameLayer.foregroundColor = NSColor.white.cgColor
+        nameBadge.addSublayer(nameLayer)
         reactionLayer.string = "♥"
         reactionLayer.fontSize = 17
         reactionLayer.alignmentMode = .center
@@ -83,6 +103,7 @@ final class PetSpriteView: NSView {
         reactionLayer.contentsScale = NSScreen.main?.backingScaleFactor ?? 2
         reactionLayer.opacity = 0
         layer?.addSublayer(reactionLayer)
+        updateContentsScale()
     }
 
     required init?(coder: NSCoder) { fatalError("init(coder:) is unavailable") }
@@ -91,8 +112,39 @@ final class PetSpriteView: NSView {
 
     override func layout() {
         super.layout()
-        spriteLayer.frame = bounds
-        reactionLayer.frame = CGRect(x: bounds.midX - 12, y: bounds.maxY - 22, width: 24, height: 22)
+        let size = bounds.height - Self.nameHeight
+        CATransaction.begin()
+        CATransaction.setDisableActions(true)
+        spriteLayer.frame = CGRect(x: bounds.midX - size / 2, y: 0, width: size, height: size)
+        let badgeWidth = min(bounds.width, nameWidth)
+        nameBadge.frame = CGRect(x: bounds.midX - badgeWidth / 2, y: size + 4, width: badgeWidth, height: 20)
+        nameLayer.frame = CGRect(x: 8, y: 3, width: badgeWidth - 16, height: 14)
+        reactionLayer.frame = CGRect(x: bounds.midX - 12, y: size - 22, width: 24, height: 22)
+        CATransaction.commit()
+    }
+
+    private var nameWidth: CGFloat {
+        min(220, ceil((petName as NSString).size(withAttributes: [.font: Self.nameFont]).width) + 16)
+    }
+
+    func preferredSize(spriteSize: CGFloat) -> NSSize {
+        NSSize(width: max(spriteSize, nameWidth), height: spriteSize + Self.nameHeight)
+    }
+
+    override func viewDidChangeBackingProperties() {
+        super.viewDidChangeBackingProperties()
+        updateContentsScale()
+    }
+
+    override func viewDidMoveToWindow() {
+        super.viewDidMoveToWindow()
+        updateContentsScale()
+    }
+
+    private func updateContentsScale() {
+        let scale = window?.backingScaleFactor ?? NSScreen.main?.backingScaleFactor ?? 2
+        nameLayer.contentsScale = scale
+        reactionLayer.contentsScale = scale
     }
 
     override func updateTrackingAreas() {
@@ -169,10 +221,14 @@ final class PetProjection {
     var behavior = PetBehaviorEngine(now: ProcessInfo.processInfo.systemUptime)
     var currentAnimationURL: URL?
 
-    init(petID: UUID, size: CGFloat, x: CGFloat) {
-        self.petID = petID
+    init(pet: PetRecord, size: CGFloat, x: CGFloat) {
+        self.petID = pet.id
         self.x = x
-        panel = PetPanel(contentRect: NSRect(x: 0, y: 0, width: size, height: size),
+        view = PetSpriteView(frame: .zero)
+        view.petName = pet.name
+        let frame = NSRect(origin: .zero, size: view.preferredSize(spriteSize: size))
+        view.frame = frame
+        panel = PetPanel(contentRect: frame,
                          styleMask: [.borderless, .nonactivatingPanel], backing: .buffered, defer: false)
         panel.backgroundColor = .clear
         panel.isOpaque = false
@@ -182,7 +238,6 @@ final class PetProjection {
         panel.collectionBehavior = [.canJoinAllSpaces, .fullScreenAuxiliary, .ignoresCycle, .stationary]
         if #available(macOS 15.0, *) { panel.collectionBehavior.insert(.canJoinAllApplications) }
         panel.animationBehavior = .none
-        view = PetSpriteView(frame: NSRect(x: 0, y: 0, width: size, height: size))
         panel.contentView = view
     }
 
@@ -287,7 +342,7 @@ final class OverlayCoordinator: NSObject {
             for (index, pet) in visible.enumerated() where shown[pet.id] == nil {
                 let span = max(1, screen.visibleFrame.width - store.document.size)
                 let x = screen.visibleFrame.minX + CGFloat(index + 1) * span / CGFloat(visible.count + 1)
-                let projection = PetProjection(petID: pet.id, size: store.document.size, x: x)
+                let projection = PetProjection(pet: pet, size: store.document.size, x: x)
                 projection.view.onFeed = { [weak self] in self?.feed(pet.id) }
                 projection.view.onHover = { [weak projection] hovered in
                     projection?.behavior.hover(hovered, at: ProcessInfo.processInfo.systemUptime)
@@ -301,12 +356,14 @@ final class OverlayCoordinator: NSObject {
                 shown[pet.id] = projection
                 projection.panel.orderFrontRegardless()
             }
-            for projection in shown.values {
+            for pet in visible {
+                guard let projection = shown[pet.id] else { continue }
+                projection.view.petName = pet.name
                 projection.panel.ignoresMouseEvents = store.document.clickThrough
-                let size = CGFloat(store.document.size)
-                projection.x = DisplayGeometry(visibleFrame: screen.visibleFrame).clamp(x: projection.x, size: size)
+                let size = projection.view.preferredSize(spriteSize: store.document.size)
+                projection.x = DisplayGeometry(visibleFrame: screen.visibleFrame).clamp(x: projection.x, size: size.width)
                 let frame = NSRect(x: projection.x, y: screen.visibleFrame.minY + store.document.floorOffset,
-                                   width: size, height: size)
+                                   width: size.width, height: size.height)
                 projection.panel.setFrame(frame, display: true)
             }
             projections[id] = shown
@@ -395,7 +452,7 @@ final class OverlayCoordinator: NSObject {
                         let a = list[i], b = list[j]
                         guard (a.behavior.phase == .walking || a.behavior.phase == .idle),
                               (b.behavior.phase == .walking || b.behavior.phase == .idle),
-                              abs(a.x - b.x) < 60,
+                              abs(a.panel.frame.midX - b.panel.frame.midX) < 60,
                               tracker.shouldGreet(a.petID, b.petID, now: uptime) else { continue }
                         a.behavior.greet(at: uptime)
                         b.behavior.greet(at: uptime)
@@ -407,7 +464,7 @@ final class OverlayCoordinator: NSObject {
                 let positions = group.values.map { projection in
                     (id: projection.petID,
                      center: Double(projection.x + projection.panel.frame.width / 2),
-                     halfWidth: Double(projection.panel.frame.width / 2))
+                     halfWidth: store.document.size / 2)
                 }
                 if let winner = BallCollision.winner(positions, ballX: Double(ball.x)),
                    let projection = group[winner] {
@@ -438,8 +495,7 @@ final class OverlayCoordinator: NSObject {
                     }
                 }
                 projection.view.advance(now: uptime)
-                let fixedDogDirection = pet.species == "dog" && store.document.petStyle == .realistic
-                projection.view.face(left: fixedDogDirection ? false : projection.behavior.facingLeft)
+                projection.view.face(left: projection.behavior.facingLeft)
             }
         }
         schedule()

@@ -5,39 +5,43 @@ import XCTest
 @testable import DesktopPets
 
 final class ModelTests: XCTestCase {
-    func testTreatRechargeAndCapacity() {
-        let start = Date(timeIntervalSince1970: 1_000)
-        var inventory = TreatInventory(count: 4, updatedAt: start)
-        inventory.reconcile(at: start.addingTimeInterval(1_250))
-        XCTAssertEqual(inventory.count, 6)
-        XCTAssertEqual(inventory.updatedAt, start.addingTimeInterval(1_200))
-        inventory.reconcile(at: start.addingTimeInterval(20_000))
-        XCTAssertEqual(inventory.count, 10)
-        XCTAssertEqual(inventory.updatedAt, start.addingTimeInterval(20_000))
-        XCTAssertTrue(inventory.consume(at: start.addingTimeInterval(20_000)))
-        XCTAssertEqual(inventory.count, 9)
-        XCTAssertEqual(inventory.secondsUntilNext(at: start.addingTimeInterval(20_100)), 500)
+    @MainActor
+    func testUnlimitedFeedingFromExhaustedLegacySave() throws {
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString).appendingPathComponent("state.json")
+        defer { try? FileManager.default.removeItem(at: url.deletingLastPathComponent()) }
+        try FileManager.default.createDirectory(at: url.deletingLastPathComponent(), withIntermediateDirectories: true)
+        let legacy = Data(#"{"version":1,"pets":[{"id":"AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE","name":"Snow","species":"cat","variant":"gray","hidden":false}],"treats":{"count":0,"updatedAt":0},"petStyle":"pixel"}"#.utf8)
+        try legacy.write(to: url)
+        let store = PetStore(url: url)
+        XCTAssertNil(store.loadError)
+        let pet = try XCTUnwrap(store.pets.first)
+        for _ in 0..<1_000 { XCTAssertTrue(store.feed(pet.id)) }
+        XCTAssertEqual(try Data(contentsOf: url), legacy)
+        XCTAssertEqual(store.pets, [pet])
+        XCTAssertEqual(store.document.petStyle, .pixel)
+        store.change { $0.pets[0].name = "Snowball" }
+        let reloaded = PetStore(url: url)
+        XCTAssertEqual(reloaded.pets[0].id, pet.id)
+        XCTAssertEqual(reloaded.pets[0].name, "Snowball")
+        XCTAssertEqual(reloaded.document.treats, TreatInventory(count: 0, updatedAt: Date(timeIntervalSinceReferenceDate: 0)))
+        XCTAssertTrue(reloaded.feed(pet.id))
     }
 
-    func testTreatClockRollbackAndRepeatedConsumption() {
-        let start = Date(timeIntervalSince1970: 10_000)
-        var inventory = TreatInventory(count: 2, updatedAt: start)
-        inventory.reconcile(at: start.addingTimeInterval(-3_600))
-        XCTAssertEqual(inventory.count, 2)
-        XCTAssertTrue(inventory.consume(at: start))
-        XCTAssertTrue(inventory.consume(at: start))
-        XCTAssertFalse(inventory.consume(at: start))
-        XCTAssertEqual(inventory.count, 0)
-    }
-
-    func testTreatCountIsClampedAfterLoading() {
-        let now = Date(timeIntervalSince1970: 1_000)
-        var tooMany = TreatInventory(count: 99, updatedAt: now)
-        tooMany.reconcile(at: now)
-        XCTAssertEqual(tooMany.count, 10)
-        var negative = TreatInventory(count: -3, updatedAt: now)
-        negative.reconcile(at: now)
-        XCTAssertEqual(negative.count, 0)
+    @MainActor
+    func testUnlimitedFeedingRespectsVisibilityAndIdentity() {
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString).appendingPathComponent("state.json")
+        defer { try? FileManager.default.removeItem(at: url.deletingLastPathComponent()) }
+        let store = PetStore(url: url)
+        let id = store.pets[0].id
+        XCTAssertFalse(store.feed(UUID()))
+        store.change { $0.pets[0].hidden = true }
+        XCTAssertFalse(store.feed(id))
+        store.change { $0.pets[0].hidden = false; $0.hideAll = true }
+        XCTAssertFalse(store.feed(id))
+        store.change { $0.hideAll = false; $0.clickThrough = true; $0.paused = true }
+        for _ in 0..<100 { XCTAssertTrue(store.feed(id)) }
+        _ = store.remove(id)
+        XCTAssertFalse(store.feed(id))
     }
 
     func testSleepScheduleAcrossMidnight() {

@@ -19,15 +19,7 @@ items = []
 for path in sorted(ASSETS.rglob("*.gif")):
     relative = path.relative_to(ROOT).as_posix()
     style = "pixel" if path.relative_to(ASSETS).parts[0] == "Pixel" else "realistic"
-    upstream_dog = style == "realistic" and path.parent.name == "dog" and not path.name.startswith("akita_")
-    if upstream_dog:
-        info = {
-            "source": f"https://github.com/tonybaloney/vscode-pets/blob/{UPSTREAM_COMMIT}/media/dog/{path.name}",
-            "creator": "NVPH Studio (credited for dog artwork in upstream README)",
-            "license": "CC BY-ND 4.0 (upstream media/dog/license.txt)",
-            "modifications": "None; original GIF bytes copied verbatim",
-        }
-    elif style == "realistic" and path.parent.name == "horse":
+    if style == "realistic" and path.parent.name == "horse":
         source_name = path.name.replace("_lie_", "_stand_")
         info = {
             "source": f"https://github.com/tonybaloney/vscode-pets/blob/{UPSTREAM_COMMIT}/media/horse/{source_name}",

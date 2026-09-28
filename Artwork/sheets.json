@@ -400,68 +400,6 @@
     ]
   },
   {
-    "id": "akita",
-    "species": "dog",
-    "variants": [
-      "akita"
-    ],
-    "description": "one realistic Akita dog, rich tawny fawn coat, creamy urajiro muzzle/chest/legs, small triangular ears, broad canine head, dark nose, strong connected quadruped body, tightly curled furry tail over its back. Greeting lifted front paw, sleeping curled with head on paws, ball in mouth.",
-    "prompt": "Use case: stylized-concept. Asset: original production pixel-art animal animation sprite sheet.\nSubject: one realistic Akita dog, rich tawny fawn coat, creamy urajiro muzzle/chest/legs, small triangular ears, broad canine head, dark nose, strong connected quadruped body, tightly curled furry tail over its back. Greeting lifted front paw, sleeping curled with head on paws, ball in mouth.\nStyle: polished 16-bit game pixel illustration with realistic species-specific proportions, naturally connected organic silhouettes, coherent 12-24-color shading, warm light above left and cool shadows, subtle selective outline. Each animal should read clearly at 72 pixels. NOT assembled from detached geometric color blocks. No photorealism, airbrush, blur, or noisy texture.\nLayout: exactly 4 equal-width columns and 2 equal-height rows. Read the 8 poses left to right across the first row then second row. Each sprite MUST stay wholly within its cell with at least 10% empty gutter on every side; no overlap between adjacent cells. Same animal scale and body proportions for every pose, fixed ground baseline. Entire head, feet, tail visible. Side profile facing RIGHT throughout.\n8 poses in order: 1 idle standing; 2 idle with blink and subtle tail/ear movement; 3 walking near foreleg forward; 4 walking opposite stride; 5 running extended stride appropriate to the species; 6 greeting with lifted forepaw/wing/head; 7 sleeping in a natural species-specific pose; 8 holding or nuzzling a small lime-green ball.\nGenuinely TRANSPARENT alpha background, no ground, no drop shadows, no scenery, no text, no labels, no grid, no checkerboard.\nCanvas 1024x768.",
-    "file": "akita.png",
-    "frames": [
-      [
-        [
-          28,
-          178,
-          361,
-          505
-        ],
-        [
-          386,
-          180,
-          711,
-          505
-        ],
-        [
-          727,
-          190,
-          1064,
-          503
-        ],
-        [
-          1082,
-          199,
-          1429,
-          502
-        ],
-        [
-          13,
-          673,
-          385,
-          919
-        ],
-        [
-          419,
-          606,
-          716,
-          941
-        ],
-        [
-          733,
-          764,
-          1062,
-          932
-        ],
-        [
-          1096,
-          635,
-          1428,
-          941
-        ]
-      ]
-    ]
-  },
-  {
     "id": "rabbit",
     "species": "rabbit",
     "variants": [
@@ -1467,6 +1405,321 @@
           553,
           1720,
           809
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "dog_brown",
+    "style": "realistic",
+    "species": "dog",
+    "variants": [
+      "brown"
+    ],
+    "file": "dog_brown.png",
+    "description": "Adult chocolate-brown Labrador retriever. Rich warm brown short fur, floppy ears, broad realistic muzzle, strong but lean body, natural straight tapered tail.",
+    "prompt": "Use case: photorealistic-natural.\nAsset type: original lifelike dog animation sprite sheet for a native macOS desktop pet.\nRender the same adult dog in exactly eight poses in four equal columns and two equal rows, reading left to right. Poses: 1 standing idle, 2 standing idle with eyes closed in a blink, 3 walking with near foreleg forward, 4 walking with opposite stride, 5 running with extended stride, 6 friendly greeting with one forepaw lifted, 7 lying asleep with head on paws, 8 standing holding a small lime-green ball in its mouth.\nAll poses face RIGHT in a strict side view. Consistent breed, fur markings, body proportions and scale across every cell. Real canine anatomy: connected shoulders and hips, believable muzzle, small natural eyes, four correctly jointed legs and paws, a single attached tail. Use photographic realism with detailed natural fur, soft neutral daylight and smoothly shaded volume. Readable silhouette when reduced to a small 128px sprite. No pixel art, no pixel blocks, no cartoon proportions, no outlines.\nWide landscape sheet, about 2048x1024. Each entire dog stays inside its own grid cell with generous clear gutters and 12% padding. Whole ears, paws and tail visible. Genuinely transparent alpha background. No ground, no floor shadows, no grids, no labels, no text, no watermarks, no decorations.\nSubject: Adult chocolate-brown Labrador retriever. Rich warm brown short fur, floppy ears, broad realistic muzzle, strong but lean body, natural straight tapered tail.",
+    "frames": [
+      [
+        [
+          14,
+          114,
+          426,
+          390
+        ],
+        [
+          453,
+          114,
+          868,
+          390
+        ],
+        [
+          894,
+          138,
+          1305,
+          385
+        ],
+        [
+          1339,
+          138,
+          1745,
+          385
+        ],
+        [
+          14,
+          550,
+          444,
+          785
+        ],
+        [
+          458,
+          501,
+          879,
+          796
+        ],
+        [
+          924,
+          663,
+          1314,
+          783
+        ],
+        [
+          1339,
+          522,
+          1750,
+          796
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "dog_black",
+    "style": "realistic",
+    "species": "dog",
+    "variants": [
+      "black"
+    ],
+    "file": "dog_black.png",
+    "description": "Adult black Labrador retriever. Deep black short fur with subtle charcoal highlights, floppy ears, broad realistic muzzle, strong but lean body, natural straight tapered tail.",
+    "prompt": "Use case: photorealistic-natural.\nAsset type: original lifelike dog animation sprite sheet for a native macOS desktop pet.\nRender the same adult dog in exactly eight poses in four equal columns and two equal rows, reading left to right. Poses: 1 standing idle, 2 standing idle with eyes closed in a blink, 3 walking with near foreleg forward, 4 walking with opposite stride, 5 running with extended stride, 6 friendly greeting with one forepaw lifted, 7 lying asleep with head on paws, 8 standing holding a small lime-green ball in its mouth.\nAll poses face RIGHT in a strict side view. Consistent breed, fur markings, body proportions and scale across every cell. Real canine anatomy: connected shoulders and hips, believable muzzle, small natural eyes, four correctly jointed legs and paws, a single attached tail. Use photographic realism with detailed natural fur, soft neutral daylight and smoothly shaded volume. Readable silhouette when reduced to a small 128px sprite. No pixel art, no pixel blocks, no cartoon proportions, no outlines.\nWide landscape sheet, about 2048x1024. Each entire dog stays inside its own grid cell with generous clear gutters and 12% padding. Whole ears, paws and tail visible. Genuinely transparent alpha background. No ground, no floor shadows, no grids, no labels, no text, no watermarks, no decorations.\nSubject: Adult black Labrador retriever. Deep black short fur with subtle charcoal highlights, floppy ears, broad realistic muzzle, strong but lean body, natural straight tapered tail.",
+    "frames": [
+      [
+        [
+          11,
+          100,
+          403,
+          374
+        ],
+        [
+          455,
+          99,
+          849,
+          374
+        ],
+        [
+          902,
+          106,
+          1317,
+          368
+        ],
+        [
+          1345,
+          109,
+          1758,
+          371
+        ],
+        [
+          12,
+          547,
+          436,
+          773
+        ],
+        [
+          460,
+          501,
+          857,
+          793
+        ],
+        [
+          920,
+          655,
+          1298,
+          777
+        ],
+        [
+          1343,
+          517,
+          1758,
+          792
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "dog_red",
+    "style": "realistic",
+    "species": "dog",
+    "variants": [
+      "red"
+    ],
+    "file": "dog_red.png",
+    "description": "Adult red golden retriever. Rich reddish-golden medium-length fur, feathered tail and legs, floppy ears, long natural muzzle, athletic adult proportions.",
+    "prompt": "Use case: photorealistic-natural.\nAsset type: original lifelike dog animation sprite sheet for a native macOS desktop pet.\nRender the same adult dog in exactly eight poses in four equal columns and two equal rows, reading left to right. Poses: 1 standing idle, 2 standing idle with eyes closed in a blink, 3 walking with near foreleg forward, 4 walking with opposite stride, 5 running with extended stride, 6 friendly greeting with one forepaw lifted, 7 lying asleep with head on paws, 8 standing holding a small lime-green ball in its mouth.\nAll poses face RIGHT in a strict side view. Consistent breed, fur markings, body proportions and scale across every cell. Real canine anatomy: connected shoulders and hips, believable muzzle, small natural eyes, four correctly jointed legs and paws, a single attached tail. Use photographic realism with detailed natural fur, soft neutral daylight and smoothly shaded volume. Readable silhouette when reduced to a small 128px sprite. No pixel art, no pixel blocks, no cartoon proportions, no outlines.\nWide landscape sheet, about 2048x1024. Each entire dog stays inside its own grid cell with generous clear gutters and 12% padding. Whole ears, paws and tail visible. Genuinely transparent alpha background. No ground, no floor shadows, no grids, no labels, no text, no watermarks, no decorations.\nSubject: Adult red golden retriever. Rich reddish-golden medium-length fur, feathered tail and legs, floppy ears, long natural muzzle, athletic adult proportions.",
+    "frames": [
+      [
+        [
+          22,
+          105,
+          428,
+          397
+        ],
+        [
+          461,
+          106,
+          865,
+          397
+        ],
+        [
+          888,
+          121,
+          1307,
+          393
+        ],
+        [
+          1335,
+          116,
+          1752,
+          394
+        ],
+        [
+          22,
+          536,
+          454,
+          773
+        ],
+        [
+          479,
+          482,
+          873,
+          800
+        ],
+        [
+          908,
+          642,
+          1318,
+          796
+        ],
+        [
+          1340,
+          514,
+          1745,
+          804
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "dog_white",
+    "style": "realistic",
+    "species": "dog",
+    "variants": [
+      "white"
+    ],
+    "file": "dog_white.png",
+    "description": "Adult white Samoyed dog. Fluffy pure white fur with soft cream and gray shading, small upright triangular ears, realistic black nose, full plume tail curving over the back, natural adult proportions.",
+    "prompt": "Use case: photorealistic-natural.\nAsset type: original lifelike dog animation sprite sheet for a native macOS desktop pet.\nRender the same adult dog in exactly eight poses in four equal columns and two equal rows, reading left to right. Poses: 1 standing idle, 2 standing idle with eyes closed in a blink, 3 walking with near foreleg forward, 4 walking with opposite stride, 5 running with extended stride, 6 friendly greeting with one forepaw lifted, 7 lying asleep with head on paws, 8 standing holding a small lime-green ball in its mouth.\nAll poses face RIGHT in a strict side view. Consistent breed, fur markings, body proportions and scale across every cell. Real canine anatomy: connected shoulders and hips, believable muzzle, small natural eyes, four correctly jointed legs and paws, a single attached tail. Use photographic realism with detailed natural fur, soft neutral daylight and smoothly shaded volume. Readable silhouette when reduced to a small 128px sprite. No pixel art, no pixel blocks, no cartoon proportions, no outlines.\nWide landscape sheet, about 2048x1024. Each entire dog stays inside its own grid cell with generous clear gutters and 12% padding. Whole ears, paws and tail visible. Genuinely transparent alpha background. No ground, no floor shadows, no grids, no labels, no text, no watermarks, no decorations.\nSubject: Adult white Samoyed dog. Fluffy pure white fur with soft cream and gray shading, small upright triangular ears, realistic black nose, full plume tail curving over the back, natural adult proportions.",
+    "frames": [
+      [
+        [
+          50,
+          82,
+          397,
+          396
+        ],
+        [
+          497,
+          82,
+          846,
+          395
+        ],
+        [
+          913,
+          89,
+          1290,
+          390
+        ],
+        [
+          1348,
+          83,
+          1743,
+          391
+        ],
+        [
+          19,
+          521,
+          461,
+          786
+        ],
+        [
+          509,
+          490,
+          869,
+          827
+        ],
+        [
+          914,
+          654,
+          1307,
+          819
+        ],
+        [
+          1387,
+          516,
+          1738,
+          829
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "dog_akita",
+    "style": "realistic",
+    "species": "dog",
+    "variants": [
+      "akita"
+    ],
+    "file": "dog_akita.png",
+    "description": "Adult Japanese Akita dog. Rich tawny fawn fur, cream-white urajiro muzzle, cheeks, chest and lower legs, upright triangular ears, broad natural head, sturdy adult body, thick curled tail over the back.",
+    "prompt": "Use case: photorealistic-natural.\nAsset type: original lifelike dog animation sprite sheet for a native macOS desktop pet.\nRender the same adult dog in exactly eight poses in four equal columns and two equal rows, reading left to right. Poses: 1 standing idle, 2 standing idle with eyes closed in a blink, 3 walking with near foreleg forward, 4 walking with opposite stride, 5 running with extended stride, 6 friendly greeting with one forepaw lifted, 7 lying asleep with head on paws, 8 standing holding a small lime-green ball in its mouth.\nAll poses face RIGHT in a strict side view. Consistent breed, fur markings, body proportions and scale across every cell. Real canine anatomy: connected shoulders and hips, believable muzzle, small natural eyes, four correctly jointed legs and paws, a single attached tail. Use photographic realism with detailed natural fur, soft neutral daylight and smoothly shaded volume. Readable silhouette when reduced to a small 128px sprite. No pixel art, no pixel blocks, no cartoon proportions, no outlines.\nWide landscape sheet, about 2048x1024. Each entire dog stays inside its own grid cell with generous clear gutters and 12% padding. Whole ears, paws and tail visible. Genuinely transparent alpha background. No ground, no floor shadows, no grids, no labels, no text, no watermarks, no decorations.\nSubject: Adult Japanese Akita dog. Rich tawny fawn fur, cream-white urajiro muzzle, cheeks, chest and lower legs, upright triangular ears, broad natural head, sturdy adult body, thick curled tail over the back.",
+    "frames": [
+      [
+        [
+          45,
+          59,
+          394,
+          393
+        ],
+        [
+          489,
+          58,
+          838,
+          393
+        ],
+        [
+          901,
+          77,
+          1288,
+          386
+        ],
+        [
+          1346,
+          78,
+          1746,
+          385
+        ],
+        [
+          6,
+          525,
+          449,
+          786
+        ],
+        [
+          500,
+          474,
+          856,
+          834
+        ],
+        [
+          919,
+          636,
+          1303,
+          785
+        ],
+        [
+          1372,
+          491,
+          1734,
+          829
         ]
       ]
     ]
